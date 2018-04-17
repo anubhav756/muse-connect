@@ -1,0 +1,159 @@
+@import '../../styles/variables/colors.scss';
+@import '../../styles/variables/breakpoints.scss';
+
+.MainCardTitleLearn {
+    font-family: proxima_novasemibold;
+    font-size: 18px;
+    color: $darkGrey;
+    margin-bottom: 14px;
+}
+.MainCardSubTitleLearn {
+    font-size: 16px;
+    color: $mediumGrey;
+    margin-bottom: 64px;
+    @media only screen and (max-width: $break-point-xs) {
+        margin-bottom: 200px;
+    }
+}
+.AuthorContainerLearn {
+    display: inline-block;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+.MainAuthorContainerLearn {
+    @extend .AuthorContainerLearn;
+    bottom: 40px;
+    left: 40px;
+    @media only screen and (max-width: $break-point-sm) and (min-width: $break-point-xs + 1) {
+        display: none;
+    }
+    @media only screen and (max-width: $break-point-xs) {
+        bottom: 170px;
+    }
+}
+.MainArticleContentContainerLearn {
+    padding: 40px;
+    width: calc(50% - 80px);
+    min-height: 220px;
+    @media only screen and (max-width: $break-point-xs) {
+        width: calc(100% - 80px);
+    }
+}
+.MainArticleImageContainerLearn {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 50%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    overflow: hidden;
+
+    @media only screen and (max-width: $break-point-xs) {
+        top: calc(100% - 150px);
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        border-radius: 0px;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+}
+.DropdownLabelLearn {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    margin: 16px 10px 0px 0px;
+}
+.DropdownContainerLearn {
+    display: inline-block;
+    width: 200px;
+    margin-right: 30px;
+    @media only screen and (max-width: $break-point-xs) {
+        display: block;
+        margin-top: -18px;
+    }
+}
+.ArticleContentContainerLearn {
+    padding: 25px;
+    height: 310px;
+}
+.ArticleImageContainerLearn {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 150px;
+}
+.CardTitleLearn {
+    font-family: proxima_novasemibold;
+    font-size: 18px;
+    color: $darkGrey;
+    margin-top: 154px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    line-height: 21px;
+    max-height: 105px;
+}
+.ArticleColorStripLearn {
+    height: 5px;
+    background: $purple;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.ArticleCategoryLabel {
+    position: absolute;
+    z-index: 2;
+    top: 16px;
+    right: 10px;
+    color: $lightestGrey;
+    font-family: proxima_novabold;
+    font-size: 11px;
+    background: $purple;
+    border-radius: 20px;
+    padding: 7px 14px;
+}
+.MainArticleCategoryLabel {
+    @extend .ArticleCategoryLabel;
+    top: 25px;
+    right: 25px;
+    @media only screen and (max-width: $break-point-sm) {
+      top: 16px;
+      right: 10px;
+    }
+}
+.MainCardSubTitleLearn a {
+    color: $teal;
+    text-decoration: none;
+    cursor: pointer;
+}
+.OtherArticlesContainerLearn {
+    margin-top: 80px;
+    @media only screen and (max-width: $break-point-sm) {
+        margin-top: 58px;
+    }
+}
+.ArticleCardContainerLearn {
+    margin: 0px 12px 12px 0px;
+    display: inline-block;
+    width: calc(33.33% - 12px);
+    vertical-align: top;
+    @media only screen and (max-width: $break-point-sm) {
+        width: calc(50% - 12px);
+    }
+    @media only screen and (max-width: $break-point-xs) {
+        width: 100%;
+    }
+}
+.NoPostsLearn {
+    text-align: center;
+    color: $lightGrey;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 20px;
+}

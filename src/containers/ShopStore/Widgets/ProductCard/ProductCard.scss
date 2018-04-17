@@ -1,0 +1,315 @@
+@import '../../variables.scss';
+@import '../../ShopStore.scss';
+
+.containerMainProduct {
+  padding: 22px 27px 24px;
+  background-color: $white !important;
+  position: relative !important;
+  margin: 15px 5px;
+}
+
+.containerAccessoryProduct {
+  padding: 20px 10px;
+  background-color: $white !important;
+  position: relative !important;
+  margin: 15px 5px;
+}
+
+.carouselContainerProduct {
+  overflow: hidden;
+}
+
+.colorSwitcherProduct {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   margin: 12px 0px 0px 12px;
+}
+
+.containerMainProduct .carouselImageProduct {
+  width: 240px;
+  height: 240px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.containerAccessoryProduct .carouselImageProduct {
+  width: 153px;
+  height: 170px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.containerMainProduct .bodySectionProduct {
+   margin-top: 10px;
+   min-height: 88px;
+}
+
+.containerAccessoryProduct .bodySectionProduct {
+  margin: 10px 0 0 0;
+  line-height: 1;
+}
+
+.subtitleContainerProduct .viewDetailsProduct {
+  color: teal;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 12px; 
+  float: right;
+}
+
+.detailContainerProduct .viewDetailsProduct {
+  color: teal;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.titleContainerProduct .pricedetailsProduct {
+  color: teal;
+  float: right;
+  font-size: 20px;
+  font-family: proxima_novasemibold;
+  letter-spacing: .3px;
+}
+
+.containerMainProduct .titleProduct {
+  display: inline-block;
+  font-family: proxima_novabold;
+  font-size: 20px;
+  color: $darkGrey;
+  width: 70%;
+  cursor: pointer;
+} 
+
+.containerAccessoryProduct .titleProduct {
+  display: inline-block;
+  font-family: proxima_novabold;
+  font-size: 16px;
+  color: $mediumGrey;
+  width: 100%;
+  cursor: pointer;
+}
+
+.containerMainProduct .actionContainerProduct {
+  margin-top: 13px; 
+}
+
+.containerAccessoryProduct .actionContainerProduct {
+  @extend .clearfix;
+  margin-top: 13px;
+}
+
+.containerAccessoryProduct .actionContainerProduct .actionItemProduct {
+  float: left;
+  padding-top: 9px;
+}
+
+.actionItemProduct {
+  display: inline-block;
+}
+
+.mainCartActionProduct {
+  display: inline-block;
+  height: 35px;
+  width: 144px;
+  float: right;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.accessoryCartActionProduct {
+  display: inline-block;
+  height: 35px;
+  width: 134px;
+  float: right;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.counterLabelProduct {
+  font-size: 12px;
+  font-family: proxima_novasemibold;
+  letter-spacing: 0.9px;
+  color: $mediumGrey;
+  margin-right: 15px;
+}
+
+.counterItemProduct {
+  width: 98px;
+  height: 26px;
+  display: inline-block;
+  vertical-align: middle;
+  border: solid 1px $lightGrey; 
+  border-radius: 3px;
+  position: relative;
+  padding: 3px 23px 3px 3px;
+}
+
+.containerMainProduct .actionContainerProduct .pricedetailsProduct {
+  color: teal;
+  font-size: 20px;
+  margin-top: 5px;
+  font-family: proxima_novasemibold;
+  letter-spacing: .3px;
+}
+
+.containerAccessoryProduct .actionContainerProduct .pricedetailsProduct {
+  color: teal;
+  font-size: 18px;
+  font-family: proxima_novasemibold;
+  letter-spacing: .3px;
+}
+
+.detailsProduct {
+  margin-top: 23px;
+}
+
+.titleContainerProduct { 
+  &:after {
+    clear: both;
+  }
+}
+
+.detailContainerProduct {
+   &:after {
+    clear: both;
+  }
+}
+
+.detailItemProduct {
+  display: inline-block;
+}
+
+.subtitleContainerProduct { 
+  height: 20px;
+  &:after {
+    clear: both;
+  }
+}
+
+.containerMainProduct .detailContainerProduct .pricedetailsProduct {
+  display: none;
+}
+
+.containerMainProduct .subtitleProduct {
+  display: inline-block;
+  font-size: 16px;
+  color: $mediumGrey;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 70%;
+  cursor: pointer;
+}
+
+.containerAccessoryProduct .subtitleProduct {
+  display: inline-block;
+  color: $mediumGrey;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.detailsProduct { 
+  clear: both;
+}
+
+.counterLabelResponsiveProduct {
+  display: none;
+}
+
+@media only screen and (max-width: 1220px) {
+  .counterItemProduct {
+    width: 51px;
+    height: 26px;
+    display: inline-block;
+    vertical-align: middle;
+    border: solid 1px $lightGrey; 
+    border-radius: 3px;
+    position: relative;
+    padding: 3px 23px 3px 3px;
+  }
+
+  .counterLabelProduct {
+    display: none;
+  }
+
+  .counterLabelResponsiveProduct {
+    display: inline-block;
+    font-size: 12px;
+    font-family: proxima_novasemibold;
+    letter-spacing: 0.9px;
+    color: $mediumGrey;
+    margin-right: 9px;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: $break-point-sm) {
+  
+  .colorSwitcherProduct {
+   margin: 4px 0px 0px 4px;
+  }
+
+  .accessoryCartActionProduct {
+    width: 115px;
+  }
+
+}
+
+@media only screen and (max-width: $break-point-sm) {
+
+  .containerAccessoryProduct {
+    padding: 50px 27px 24px;
+    background-color: $white !important;
+    position: relative !important;
+    margin: 15px 5px;
+  }
+
+  .titleContainerProduct .pricedetailsProduct {
+    display: none;
+  }
+
+  .containerMainProduct .titleProduct {
+    width: 100%;
+  } 
+
+  .containerMainProduct .subtitleProduct {
+    width: 100%
+  }
+
+  .subtitleContainerProduct .viewDetailsProduct {
+    display: none;
+  }
+
+  .containerMainProduct .detailContainerProduct {
+    display: block;
+    padding-top: 10px;
+  }
+
+  .containerMainProduct .detailContainerProduct .pricedetailsProduct {
+    color: teal;
+    font-size: 20px;
+    font-family: proxima_novasemibold;
+    float: right;
+    display: block;
+  }
+
+  .mainCartActionProduct {
+    width: 134px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .mainCartActionProduct {
+    width: 124px;
+  }
+
+  .accessoryCartActionProduct {
+    width: 124px;
+  }
+}

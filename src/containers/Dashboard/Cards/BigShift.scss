@@ -1,0 +1,16 @@
+@import './Style.scss';
+
+.NormalTextLightBigShiftDashboard {
+  font-size: 14px;
+  color: $mediumGrey;
+}
+
+.containerBigShiftDashboard {
+  padding: 30px;
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .containerBigShiftDashboard {
+    padding: 10px;
+  }
+}

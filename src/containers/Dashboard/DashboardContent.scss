@@ -1,0 +1,40 @@
+@import '../../styles/variables/colors.scss';
+@import '../../styles/variables/breakpoints.scss';
+
+.titleDashboard {
+  margin-left: -30px;
+  margin-right: -30px; 
+}
+
+.titleDashboard button {
+  margin-left: 14px !important;
+}
+
+.addButtonDashBoard {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.addButtonDashBoard button {
+  width: 23px !important;
+  height: 23px !important;
+}
+
+.cardWrapperDashboard {
+   margin-top: 10px;
+}
+
+.CardContainerDashboard {
+  padding: 20px 10px 0px 10px;
+}
+
+.CardItemsDashboard {
+  padding: 30px 10px 0px 10px;
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .titleDashboard {
+    margin-left: 0px;
+    margin-right: 0px; 
+  }
+}

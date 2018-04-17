@@ -1,0 +1,67 @@
+@import '../../styles/variables/colors.scss';
+@import '../../styles/variables/breakpoints.scss';
+@import '../../layout/Professional/CommonStyle.scss';
+
+.UserNameAccount {
+    @extend .UserName;
+}
+
+.DetailsAccount {
+    @extend .Details;
+    @media only screen and (max-width: $break-point-sm) {
+        margin-top: 0px;
+    }
+}
+
+.labelAccount {
+  font-size: 14px;
+  color: $mediumGrey;
+}
+
+.labelValue {
+  color: $darkGrey;
+  font-family: 'proxima_novaregular';
+  font-size: 18px;
+  margin-top: 7px;
+}
+
+.FormGroupHeaderAccount {
+    font-family: 'proxima_novasemibold';
+    font-size: 16px;
+    color: $darkGrey;
+    margin-top: 40px;
+    @media only screen and (max-width: $break-point-sm) {
+        font-size: 15px;
+        padding: 0px 35px;
+        margin: 18px 0px 16px;
+    }
+}
+.FormGroupSubheaderAccount {
+    font-size: 16px;
+    color: $mediumGrey;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    @media only screen and (max-width: $break-point-sm) {
+        font-size: 13px;
+        background: white;
+        padding: 10px 35px 30px 35px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: $break-point-sm) {
+    .FormGroupPaddingAccount {
+        height: 50px;
+        background: white;
+    }
+}
+.TopbarAccount {
+    background: white;
+    padding: 15px 35px;
+}
+.TopbarAccount:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}

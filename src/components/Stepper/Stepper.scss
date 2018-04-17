@@ -1,0 +1,63 @@
+@import '../../styles/variables/breakpoints.scss';
+@import '../../styles/variables/colors.scss';
+
+.stepperHeader {
+  top: 0px;
+  z-index: 9999; 
+  position: fixed;
+  width: 100%;
+  background-color: $white;
+  min-height: 64px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.stepperFooter {
+  bottom: 0px;
+  z-index: 9999; 
+  position: fixed;
+  width: 100%;
+  background-color: $white;
+  min-height: 50px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+}
+
+.actionLabel {
+  vertical-align: middle;
+}
+
+.actionItem {
+  text-align: right;
+}
+
+.stepperStatus {
+  font-size: 14px;
+  text-align: center;
+}
+
+.stepperItem {
+  display: inline-block;
+}
+
+.stepperItems {
+  text-align: center;
+}
+
+@media only screen and (max-width: $break-point-sm) {
+  .onlyDesktop {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .exceptMobile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: $break-point-sm) {
+  .exceptDesktop {
+    display: none;
+  }
+}

@@ -1,0 +1,60 @@
+@import 'variables.scss';
+
+.containerStore {
+  padding: 30px 25px 49px;
+}
+
+.sideBarStore {
+  background-color: #FFFFFF;
+  height: 100vh;
+  width: 270px;
+  position: absolute;
+}
+
+.detailsProductStore {
+  padding: 0px;
+}
+
+.storeText {
+  margin: 30px 5px;
+  p {
+    line-height: 1.45;
+  }
+  a {
+    text-decoration: none;
+    color: $teal;
+  }
+}
+
+@media only screen and (max-width: $break-point-md) {
+  .titleHeaderProductDetails .titleButtonProductDetails {
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width: $break-point-sm) {
+  .sideBarStore {
+    display: none;
+  }
+
+  .storeText,
+  .storeTitle {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .containerStore {
+    padding: 25px;
+  }
+
+  .detailsProductStore {
+    padding: 0px;
+  }
+  
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .containerStore {
+    padding: 3px;
+  }
+}

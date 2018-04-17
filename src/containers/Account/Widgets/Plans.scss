@@ -1,0 +1,65 @@
+@import '../CommonStyle.scss';
+
+.containerYourPlanAccount {
+  padding: 30px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.detailsYourPlanAccount {
+  display: inline-block;
+}
+
+.actionWrapPlanAccount {
+  display: inline-block;
+  float: right;
+  margin-top: 5px;
+}
+
+.subscriptionWrapperPlans {
+  margin-top: 15px; 
+}
+
+.subHeadingPlans {
+  @extend .FormGroupSubheaderAccount;
+  margin-bottom: 0px;
+}
+
+// .actionIconPlanAccount {
+//   margin-right: 10px;
+// }
+
+.actionTextPlanAccount {
+  vertical-align: middle;
+  color: $mediumGrey;
+}
+
+@media only screen and (max-width: $break-point-sm) {
+  .subHeadingPlans {
+    padding-bottom: 10px;
+  }
+
+  .subscriptionWrapperPlans {
+    padding: 0px 15px; 
+  }
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .actionWrapPlanAccount {
+    width: 130px;
+  }
+
+  // .actionIconPlanAccount {
+  //   margin-right: 5px;
+  //   width: 20px !important;
+  //   height: 20px !important;
+  // }
+
+  .actionTextPlanAccount {
+    font-size: 14px;
+  }
+
+  .subscriptionWrapperPlans {
+    padding: 0px 8px; 
+  }
+}

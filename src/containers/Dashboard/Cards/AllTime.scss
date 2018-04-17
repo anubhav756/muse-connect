@@ -1,0 +1,42 @@
+@import './Style.scss';
+
+.containterAllTime {
+  padding: 20px;
+  position: relative;
+}
+
+.titleAllTime {
+  font-size: 18px;
+}
+
+.detailsAllTime {
+  padding: 25px;
+  text-align:center;
+}
+
+.detailItemAllTime {
+  margin-left: 10px;
+}
+
+.emptyDetailsAllTime {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .detailsAllTime {
+    padding: 25px 5px;
+  }
+
+  .containterAllTime {
+    padding: 10px;
+  }
+
+  .detailItemAllTime {
+    margin-left: 8px;
+  }
+
+  .emptyDetailsAllTime {
+    font-size: 14px;
+  }
+}

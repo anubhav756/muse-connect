@@ -1,0 +1,60 @@
+@import '../../styles/variables/colors.scss';
+@import '../../styles/variables/breakpoints.scss';
+
+.RightContainerEditableLabel {
+    float: right;
+    margin-top: 5px;
+}
+.RightMultiContainerEditableLabel {
+    @extend .RightContainerEditableLabel;
+    margin-top: -14px;
+}
+.LeftContainerEditableLabel {
+    width: auto;
+    overflow: hidden;
+}
+.LabelTitleContainerEditableLabel {
+    float: left;
+    width: 33%;
+}
+.LabelEditableLabel {
+    font-size: 14px;
+    color: $mediumGrey;
+}
+.InputEditableLabel {
+    font-size: 18px;
+    color: $darkGrey;
+    font-family: 'proxima_novaregular';
+    font-size: 18px;
+    margin-top: 5px;
+    padding: 0px;
+    outline: none;
+    border: 0;
+    width: 100%;
+    background: transparent;
+    text-overflow: ellipsis;
+    @media only screen and (max-width: $break-point-sm) {
+        font-size: 16px;
+    }
+}
+.InputEditableLabel-edit {
+    @extend .InputEditableLabel;
+    position: absolute;
+    width: calc(100% - 60px);
+    top: 0;
+    left: 0;
+    height: 21px;
+    padding: 52px 30px 30px 30px;
+    margin-top: 0px;
+    z-index: 99;
+}
+.ExtraLabelEditableLabel {
+    font-family: 'proxima_novasemibold';
+    font-size: 16px;
+    color: $mediumGrey;
+    display: inline;
+    margin-right: 80px;
+    @media only screen and (max-width: $break-point-sm) {
+        margin-right: 20px;
+    }
+}

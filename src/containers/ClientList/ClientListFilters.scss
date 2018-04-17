@@ -1,0 +1,23 @@
+@import '../../styles/variables/breakpoints.scss';
+
+.selectActionClientList {
+  margin-left: 65px;
+}
+
+.dropDownClientList button svg {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .bulkActionClientList {
+    display: none;
+  }
+
+  .selectActionClientList {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,2384 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddClient /> disables button while submitting 1`] = `
+<Connect(AddClient)>
+  <AddClient
+    addClient={[Function]}
+    clientList={
+      Object {
+        "addingClient": true,
+      }
+    }
+    iconStyle={Object {}}
+    mini={false}
+    show={true}
+    style={null}
+    windowDimension={Object {}}
+    zDepth={1}
+  >
+    <div>
+      <FloatingActionButton
+        disabled={false}
+        mini={false}
+        onClick={[Function]}
+        secondary={false}
+        style={null}
+        zDepth={1}
+      >
+        <Paper
+          circle={true}
+          className={undefined}
+          rounded={true}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "display": "inline-block",
+              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+            }
+          }
+          transitionEnabled={true}
+          zDepth={1}
+        >
+          <div
+            className={undefined}
+            style={
+              Object {
+                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                "backgroundColor": "transparent",
+                "borderRadius": "50%",
+                "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                       0 1px 4px rgba(0, 0, 0, 0.12)",
+                "boxSizing": "border-box",
+                "color": "rgba(0, 0, 0, 0.87)",
+                "display": "inline-block",
+                "fontFamily": "Roboto, sans-serif",
+                "muiPrepared": true,
+                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              }
+            }
+          >
+            <EnhancedButton
+              containerElement="button"
+              disabled={false}
+              focusRippleColor="#ffffff"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onKeyboardFocus={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#00bcd4",
+                  "borderRadius": "50%",
+                  "height": 56,
+                  "overflow": "hidden",
+                  "padding": 0,
+                  "textAlign": "center",
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "verticalAlign": "bottom",
+                  "width": 56,
+                }
+              }
+              tabIndex={0}
+              touchRippleColor="#ffffff"
+              type="button"
+            >
+              <button
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                    "backgroundColor": "#00bcd4",
+                    "border": 10,
+                    "borderRadius": "50%",
+                    "boxSizing": "border-box",
+                    "cursor": "pointer",
+                    "display": "inline-block",
+                    "fontFamily": "Roboto, sans-serif",
+                    "fontSize": "inherit",
+                    "fontWeight": "inherit",
+                    "height": 56,
+                    "margin": 0,
+                    "muiPrepared": true,
+                    "outline": "none",
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "relative",
+                    "textAlign": "center",
+                    "textDecoration": "none",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "verticalAlign": "bottom",
+                    "width": 56,
+                  }
+                }
+                tabIndex={0}
+                type="button"
+              >
+                <TouchRipple
+                  abortOnScroll={true}
+                  centerRipple={undefined}
+                  color="#ffffff"
+                  key="touchRipple"
+                  opacity={undefined}
+                >
+                  <div
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "muiPrepared": true,
+                          "top": 0,
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        }
+                      }
+                    >
+                      <ContentAdd
+                        key=".0"
+                        style={
+                          Object {
+                            "color": "#ffffff",
+                            "fill": "#ffffff",
+                            "height": 56,
+                            "lineHeight": "56px",
+                          }
+                        }
+                      >
+                        <ContentAdd
+                          style={
+                            Object {
+                              "color": "#ffffff",
+                              "fill": "#ffffff",
+                              "height": 56,
+                              "lineHeight": "56px",
+                            }
+                          }
+                        >
+                          <SvgIcon
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            style={
+                              Object {
+                                "color": "#ffffff",
+                                "fill": "#ffffff",
+                                "height": 56,
+                                "lineHeight": "56px",
+                              }
+                            }
+                            viewBox="0 0 24 24"
+                          >
+                            <svg
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              style={
+                                Object {
+                                  "color": "#ffffff",
+                                  "display": "inline-block",
+                                  "fill": "#ffffff",
+                                  "height": 56,
+                                  "lineHeight": "56px",
+                                  "muiPrepared": true,
+                                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  "userSelect": "none",
+                                  "width": 24,
+                                }
+                              }
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              />
+                            </svg>
+                          </SvgIcon>
+                        </ContentAdd>
+                      </ContentAdd>
+                    </div>
+                  </div>
+                </TouchRipple>
+              </button>
+            </EnhancedButton>
+          </div>
+        </Paper>
+      </FloatingActionButton>
+    </div>
+  </AddClient>
+</Connect(AddClient)>
+`;
+
+exports[`<AddClient /> opens modal correctly 1`] = `
+<Connect(AddClient)>
+  <AddClient
+    addClient={[Function]}
+    clientList={
+      Object {
+        "addingClient": true,
+      }
+    }
+    iconStyle={Object {}}
+    mini={false}
+    show={true}
+    style={null}
+    windowDimension={Object {}}
+    zDepth={1}
+  >
+    <div>
+      <FloatingActionButton
+        disabled={false}
+        mini={false}
+        onClick={[Function]}
+        secondary={false}
+        style={null}
+        zDepth={1}
+      >
+        <Paper
+          circle={true}
+          className={undefined}
+          rounded={true}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "display": "inline-block",
+              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+            }
+          }
+          transitionEnabled={true}
+          zDepth={1}
+        >
+          <div
+            className={undefined}
+            style={
+              Object {
+                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                "backgroundColor": "transparent",
+                "borderRadius": "50%",
+                "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                       0 1px 4px rgba(0, 0, 0, 0.12)",
+                "boxSizing": "border-box",
+                "color": "rgba(0, 0, 0, 0.87)",
+                "display": "inline-block",
+                "fontFamily": "Roboto, sans-serif",
+                "muiPrepared": true,
+                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              }
+            }
+          >
+            <EnhancedButton
+              containerElement="button"
+              disabled={false}
+              focusRippleColor="#ffffff"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onKeyboardFocus={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#00bcd4",
+                  "borderRadius": "50%",
+                  "height": 56,
+                  "overflow": "hidden",
+                  "padding": 0,
+                  "textAlign": "center",
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "verticalAlign": "bottom",
+                  "width": 56,
+                }
+              }
+              tabIndex={0}
+              touchRippleColor="#ffffff"
+              type="button"
+            >
+              <button
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                    "backgroundColor": "#00bcd4",
+                    "border": 10,
+                    "borderRadius": "50%",
+                    "boxSizing": "border-box",
+                    "cursor": "pointer",
+                    "display": "inline-block",
+                    "fontFamily": "Roboto, sans-serif",
+                    "fontSize": "inherit",
+                    "fontWeight": "inherit",
+                    "height": 56,
+                    "margin": 0,
+                    "muiPrepared": true,
+                    "outline": "none",
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "relative",
+                    "textAlign": "center",
+                    "textDecoration": "none",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "verticalAlign": "bottom",
+                    "width": 56,
+                  }
+                }
+                tabIndex={0}
+                type="button"
+              >
+                <TouchRipple
+                  abortOnScroll={true}
+                  centerRipple={undefined}
+                  color="#ffffff"
+                  key="touchRipple"
+                  opacity={undefined}
+                >
+                  <div
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "muiPrepared": true,
+                          "top": 0,
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        }
+                      }
+                    >
+                      <ContentAdd
+                        key=".0"
+                        style={
+                          Object {
+                            "color": "#ffffff",
+                            "fill": "#ffffff",
+                            "height": 56,
+                            "lineHeight": "56px",
+                          }
+                        }
+                      >
+                        <ContentAdd
+                          style={
+                            Object {
+                              "color": "#ffffff",
+                              "fill": "#ffffff",
+                              "height": 56,
+                              "lineHeight": "56px",
+                            }
+                          }
+                        >
+                          <SvgIcon
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            style={
+                              Object {
+                                "color": "#ffffff",
+                                "fill": "#ffffff",
+                                "height": 56,
+                                "lineHeight": "56px",
+                              }
+                            }
+                            viewBox="0 0 24 24"
+                          >
+                            <svg
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              style={
+                                Object {
+                                  "color": "#ffffff",
+                                  "display": "inline-block",
+                                  "fill": "#ffffff",
+                                  "height": 56,
+                                  "lineHeight": "56px",
+                                  "muiPrepared": true,
+                                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  "userSelect": "none",
+                                  "width": 24,
+                                }
+                              }
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              />
+                            </svg>
+                          </SvgIcon>
+                        </ContentAdd>
+                      </ContentAdd>
+                    </div>
+                  </div>
+                </TouchRipple>
+              </button>
+            </EnhancedButton>
+          </div>
+        </Paper>
+      </FloatingActionButton>
+    </div>
+  </AddClient>
+</Connect(AddClient)>
+`;
+
+exports[`<AddClient /> renders correctly 1`] = `
+<Connect(AddClient)>
+  <AddClient
+    addClient={[Function]}
+    clientList={
+      Object {
+        "addingClient": false,
+      }
+    }
+    iconStyle={Object {}}
+    mini={false}
+    show={true}
+    style={null}
+    windowDimension={Object {}}
+    zDepth={1}
+  >
+    <div>
+      <FloatingActionButton
+        disabled={false}
+        mini={false}
+        onClick={[Function]}
+        secondary={false}
+        style={null}
+        zDepth={1}
+      >
+        <Paper
+          circle={true}
+          className={undefined}
+          rounded={true}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "display": "inline-block",
+              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+            }
+          }
+          transitionEnabled={true}
+          zDepth={1}
+        >
+          <div
+            className={undefined}
+            style={
+              Object {
+                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                "backgroundColor": "transparent",
+                "borderRadius": "50%",
+                "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                       0 1px 4px rgba(0, 0, 0, 0.12)",
+                "boxSizing": "border-box",
+                "color": "rgba(0, 0, 0, 0.87)",
+                "display": "inline-block",
+                "fontFamily": "Roboto, sans-serif",
+                "muiPrepared": true,
+                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              }
+            }
+          >
+            <EnhancedButton
+              containerElement="button"
+              disabled={false}
+              focusRippleColor="#ffffff"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onKeyboardFocus={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#00bcd4",
+                  "borderRadius": "50%",
+                  "height": 56,
+                  "overflow": "hidden",
+                  "padding": 0,
+                  "textAlign": "center",
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "verticalAlign": "bottom",
+                  "width": 56,
+                }
+              }
+              tabIndex={0}
+              touchRippleColor="#ffffff"
+              type="button"
+            >
+              <button
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                    "backgroundColor": "#00bcd4",
+                    "border": 10,
+                    "borderRadius": "50%",
+                    "boxSizing": "border-box",
+                    "cursor": "pointer",
+                    "display": "inline-block",
+                    "fontFamily": "Roboto, sans-serif",
+                    "fontSize": "inherit",
+                    "fontWeight": "inherit",
+                    "height": 56,
+                    "margin": 0,
+                    "muiPrepared": true,
+                    "outline": "none",
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "relative",
+                    "textAlign": "center",
+                    "textDecoration": "none",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "verticalAlign": "bottom",
+                    "width": 56,
+                  }
+                }
+                tabIndex={0}
+                type="button"
+              >
+                <TouchRipple
+                  abortOnScroll={true}
+                  centerRipple={undefined}
+                  color="#ffffff"
+                  key="touchRipple"
+                  opacity={undefined}
+                >
+                  <div
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "muiPrepared": true,
+                          "top": 0,
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        }
+                      }
+                    >
+                      <ContentAdd
+                        key=".0"
+                        style={
+                          Object {
+                            "color": "#ffffff",
+                            "fill": "#ffffff",
+                            "height": 56,
+                            "lineHeight": "56px",
+                          }
+                        }
+                      >
+                        <ContentAdd
+                          style={
+                            Object {
+                              "color": "#ffffff",
+                              "fill": "#ffffff",
+                              "height": 56,
+                              "lineHeight": "56px",
+                            }
+                          }
+                        >
+                          <SvgIcon
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            style={
+                              Object {
+                                "color": "#ffffff",
+                                "fill": "#ffffff",
+                                "height": 56,
+                                "lineHeight": "56px",
+                              }
+                            }
+                            viewBox="0 0 24 24"
+                          >
+                            <svg
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              style={
+                                Object {
+                                  "color": "#ffffff",
+                                  "display": "inline-block",
+                                  "fill": "#ffffff",
+                                  "height": 56,
+                                  "lineHeight": "56px",
+                                  "muiPrepared": true,
+                                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  "userSelect": "none",
+                                  "width": 24,
+                                }
+                              }
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              />
+                            </svg>
+                          </SvgIcon>
+                        </ContentAdd>
+                      </ContentAdd>
+                    </div>
+                  </div>
+                </TouchRipple>
+              </button>
+            </EnhancedButton>
+          </div>
+        </Paper>
+      </FloatingActionButton>
+    </div>
+  </AddClient>
+</Connect(AddClient)>
+`;
+
+exports[`<AddClient /> renders correctly for mobile devices 1`] = `
+<Connect(AddClient)>
+  <AddClient
+    addClient={[Function]}
+    clientList={
+      Object {
+        "addingClient": false,
+      }
+    }
+    iconStyle={Object {}}
+    mini={false}
+    show={true}
+    style={null}
+    windowDimension={
+      Object {
+        "innerWidth": 320,
+      }
+    }
+    zDepth={1}
+  >
+    <div>
+      <FloatingActionButton
+        disabled={false}
+        mini={false}
+        onClick={[Function]}
+        secondary={false}
+        style={null}
+        zDepth={1}
+      >
+        <Paper
+          circle={true}
+          className={undefined}
+          rounded={true}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "display": "inline-block",
+              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+            }
+          }
+          transitionEnabled={true}
+          zDepth={1}
+        >
+          <div
+            className={undefined}
+            style={
+              Object {
+                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                "backgroundColor": "transparent",
+                "borderRadius": "50%",
+                "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                       0 1px 4px rgba(0, 0, 0, 0.12)",
+                "boxSizing": "border-box",
+                "color": "rgba(0, 0, 0, 0.87)",
+                "display": "inline-block",
+                "fontFamily": "Roboto, sans-serif",
+                "muiPrepared": true,
+                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              }
+            }
+          >
+            <EnhancedButton
+              containerElement="button"
+              disabled={false}
+              focusRippleColor="#ffffff"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onKeyboardFocus={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#00bcd4",
+                  "borderRadius": "50%",
+                  "height": 56,
+                  "overflow": "hidden",
+                  "padding": 0,
+                  "textAlign": "center",
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "verticalAlign": "bottom",
+                  "width": 56,
+                }
+              }
+              tabIndex={0}
+              touchRippleColor="#ffffff"
+              type="button"
+            >
+              <button
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                    "backgroundColor": "#00bcd4",
+                    "border": 10,
+                    "borderRadius": "50%",
+                    "boxSizing": "border-box",
+                    "cursor": "pointer",
+                    "display": "inline-block",
+                    "fontFamily": "Roboto, sans-serif",
+                    "fontSize": "inherit",
+                    "fontWeight": "inherit",
+                    "height": 56,
+                    "margin": 0,
+                    "muiPrepared": true,
+                    "outline": "none",
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "relative",
+                    "textAlign": "center",
+                    "textDecoration": "none",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "verticalAlign": "bottom",
+                    "width": 56,
+                  }
+                }
+                tabIndex={0}
+                type="button"
+              >
+                <TouchRipple
+                  abortOnScroll={true}
+                  centerRipple={undefined}
+                  color="#ffffff"
+                  key="touchRipple"
+                  opacity={undefined}
+                >
+                  <div
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "muiPrepared": true,
+                          "top": 0,
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        }
+                      }
+                    >
+                      <ContentAdd
+                        key=".0"
+                        style={
+                          Object {
+                            "color": "#ffffff",
+                            "fill": "#ffffff",
+                            "height": 56,
+                            "lineHeight": "56px",
+                          }
+                        }
+                      >
+                        <ContentAdd
+                          style={
+                            Object {
+                              "color": "#ffffff",
+                              "fill": "#ffffff",
+                              "height": 56,
+                              "lineHeight": "56px",
+                            }
+                          }
+                        >
+                          <SvgIcon
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            style={
+                              Object {
+                                "color": "#ffffff",
+                                "fill": "#ffffff",
+                                "height": 56,
+                                "lineHeight": "56px",
+                              }
+                            }
+                            viewBox="0 0 24 24"
+                          >
+                            <svg
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              style={
+                                Object {
+                                  "color": "#ffffff",
+                                  "display": "inline-block",
+                                  "fill": "#ffffff",
+                                  "height": 56,
+                                  "lineHeight": "56px",
+                                  "muiPrepared": true,
+                                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  "userSelect": "none",
+                                  "width": 24,
+                                }
+                              }
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              />
+                            </svg>
+                          </SvgIcon>
+                        </ContentAdd>
+                      </ContentAdd>
+                    </div>
+                  </div>
+                </TouchRipple>
+              </button>
+            </EnhancedButton>
+          </div>
+        </Paper>
+      </FloatingActionButton>
+    </div>
+  </AddClient>
+</Connect(AddClient)>
+`;
+
+exports[`<AddClient /> renders modal correctly 1`] = `
+<Connect(AddClient)>
+  <AddClient
+    addClient={[Function]}
+    clientList={
+      Object {
+        "addingClient": false,
+      }
+    }
+    iconStyle={Object {}}
+    mini={false}
+    show={true}
+    style={null}
+    windowDimension={Object {}}
+    zDepth={1}
+  >
+    <div>
+      <FloatingActionButton
+        disabled={false}
+        mini={false}
+        onClick={[Function]}
+        secondary={false}
+        style={null}
+        zDepth={1}
+      >
+        <Paper
+          circle={true}
+          className={undefined}
+          rounded={true}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "display": "inline-block",
+              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+            }
+          }
+          transitionEnabled={true}
+          zDepth={1}
+        >
+          <div
+            className={undefined}
+            style={
+              Object {
+                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                "backgroundColor": "transparent",
+                "borderRadius": "50%",
+                "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                       0 1px 4px rgba(0, 0, 0, 0.12)",
+                "boxSizing": "border-box",
+                "color": "rgba(0, 0, 0, 0.87)",
+                "display": "inline-block",
+                "fontFamily": "Roboto, sans-serif",
+                "muiPrepared": true,
+                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              }
+            }
+          >
+            <EnhancedButton
+              containerElement="button"
+              disabled={false}
+              focusRippleColor="#ffffff"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onKeyboardFocus={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#00bcd4",
+                  "borderRadius": "50%",
+                  "height": 56,
+                  "overflow": "hidden",
+                  "padding": 0,
+                  "textAlign": "center",
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "verticalAlign": "bottom",
+                  "width": 56,
+                }
+              }
+              tabIndex={0}
+              touchRippleColor="#ffffff"
+              type="button"
+            >
+              <button
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                    "backgroundColor": "#00bcd4",
+                    "border": 10,
+                    "borderRadius": "50%",
+                    "boxSizing": "border-box",
+                    "cursor": "pointer",
+                    "display": "inline-block",
+                    "fontFamily": "Roboto, sans-serif",
+                    "fontSize": "inherit",
+                    "fontWeight": "inherit",
+                    "height": 56,
+                    "margin": 0,
+                    "muiPrepared": true,
+                    "outline": "none",
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "relative",
+                    "textAlign": "center",
+                    "textDecoration": "none",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "verticalAlign": "bottom",
+                    "width": 56,
+                  }
+                }
+                tabIndex={0}
+                type="button"
+              >
+                <TouchRipple
+                  abortOnScroll={true}
+                  centerRipple={undefined}
+                  color="#ffffff"
+                  key="touchRipple"
+                  opacity={undefined}
+                >
+                  <div
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "muiPrepared": true,
+                          "top": 0,
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        }
+                      }
+                    >
+                      <ContentAdd
+                        key=".0"
+                        style={
+                          Object {
+                            "color": "#ffffff",
+                            "fill": "#ffffff",
+                            "height": 56,
+                            "lineHeight": "56px",
+                          }
+                        }
+                      >
+                        <ContentAdd
+                          style={
+                            Object {
+                              "color": "#ffffff",
+                              "fill": "#ffffff",
+                              "height": 56,
+                              "lineHeight": "56px",
+                            }
+                          }
+                        >
+                          <SvgIcon
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            style={
+                              Object {
+                                "color": "#ffffff",
+                                "fill": "#ffffff",
+                                "height": 56,
+                                "lineHeight": "56px",
+                              }
+                            }
+                            viewBox="0 0 24 24"
+                          >
+                            <svg
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              style={
+                                Object {
+                                  "color": "#ffffff",
+                                  "display": "inline-block",
+                                  "fill": "#ffffff",
+                                  "height": 56,
+                                  "lineHeight": "56px",
+                                  "muiPrepared": true,
+                                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  "userSelect": "none",
+                                  "width": 24,
+                                }
+                              }
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              />
+                            </svg>
+                          </SvgIcon>
+                        </ContentAdd>
+                      </ContentAdd>
+                    </div>
+                  </div>
+                </TouchRipple>
+              </button>
+            </EnhancedButton>
+          </div>
+        </Paper>
+      </FloatingActionButton>
+    </div>
+  </AddClient>
+</Connect(AddClient)>
+`;
+
+exports[`<AddClient /> submits form correctly 1`] = `
+<Connect(AddClient)>
+  <AddClient
+    addClient={[Function]}
+    clientList={
+      Object {
+        "addingClient": true,
+      }
+    }
+    iconStyle={Object {}}
+    mini={false}
+    show={true}
+    style={null}
+    windowDimension={Object {}}
+    zDepth={1}
+  >
+    <div>
+      <FloatingActionButton
+        disabled={false}
+        mini={false}
+        onClick={[Function]}
+        secondary={false}
+        style={null}
+        zDepth={1}
+      >
+        <Paper
+          circle={true}
+          className={undefined}
+          rounded={true}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "display": "inline-block",
+              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+            }
+          }
+          transitionEnabled={true}
+          zDepth={1}
+        >
+          <div
+            className={undefined}
+            style={
+              Object {
+                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                "backgroundColor": "transparent",
+                "borderRadius": "50%",
+                "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                       0 1px 4px rgba(0, 0, 0, 0.12)",
+                "boxSizing": "border-box",
+                "color": "rgba(0, 0, 0, 0.87)",
+                "display": "inline-block",
+                "fontFamily": "Roboto, sans-serif",
+                "muiPrepared": true,
+                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              }
+            }
+          >
+            <EnhancedButton
+              containerElement="button"
+              disabled={false}
+              focusRippleColor="#ffffff"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onKeyboardFocus={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#00bcd4",
+                  "borderRadius": "50%",
+                  "height": 56,
+                  "overflow": "hidden",
+                  "padding": 0,
+                  "textAlign": "center",
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "verticalAlign": "bottom",
+                  "width": 56,
+                }
+              }
+              tabIndex={0}
+              touchRippleColor="#ffffff"
+              type="button"
+            >
+              <button
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                    "backgroundColor": "#00bcd4",
+                    "border": 10,
+                    "borderRadius": "50%",
+                    "boxSizing": "border-box",
+                    "cursor": "pointer",
+                    "display": "inline-block",
+                    "fontFamily": "Roboto, sans-serif",
+                    "fontSize": "inherit",
+                    "fontWeight": "inherit",
+                    "height": 56,
+                    "margin": 0,
+                    "muiPrepared": true,
+                    "outline": "none",
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "relative",
+                    "textAlign": "center",
+                    "textDecoration": "none",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "verticalAlign": "bottom",
+                    "width": 56,
+                  }
+                }
+                tabIndex={0}
+                type="button"
+              >
+                <TouchRipple
+                  abortOnScroll={true}
+                  centerRipple={undefined}
+                  color="#ffffff"
+                  key="touchRipple"
+                  opacity={undefined}
+                >
+                  <div
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "muiPrepared": true,
+                          "top": 0,
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        }
+                      }
+                    >
+                      <ContentAdd
+                        key=".0"
+                        style={
+                          Object {
+                            "color": "#ffffff",
+                            "fill": "#ffffff",
+                            "height": 56,
+                            "lineHeight": "56px",
+                          }
+                        }
+                      >
+                        <ContentAdd
+                          style={
+                            Object {
+                              "color": "#ffffff",
+                              "fill": "#ffffff",
+                              "height": 56,
+                              "lineHeight": "56px",
+                            }
+                          }
+                        >
+                          <SvgIcon
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            style={
+                              Object {
+                                "color": "#ffffff",
+                                "fill": "#ffffff",
+                                "height": 56,
+                                "lineHeight": "56px",
+                              }
+                            }
+                            viewBox="0 0 24 24"
+                          >
+                            <svg
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              style={
+                                Object {
+                                  "color": "#ffffff",
+                                  "display": "inline-block",
+                                  "fill": "#ffffff",
+                                  "height": 56,
+                                  "lineHeight": "56px",
+                                  "muiPrepared": true,
+                                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  "userSelect": "none",
+                                  "width": 24,
+                                }
+                              }
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              />
+                            </svg>
+                          </SvgIcon>
+                        </ContentAdd>
+                      </ContentAdd>
+                    </div>
+                  </div>
+                </TouchRipple>
+              </button>
+            </EnhancedButton>
+          </div>
+        </Paper>
+      </FloatingActionButton>
+      <ReduxForm
+        addClient={[Function]}
+        addingClient={true}
+        isMobile={false}
+        open={true}
+        toggleModal={[Function]}
+      >
+        <Connect(Form(AddClientModal))
+          addClient={[Function]}
+          addingClient={true}
+          destroyOnUnmount={true}
+          enableReinitialize={false}
+          forceUnregisterOnUnmount={false}
+          form="addClient"
+          getFormState={[Function]}
+          initialValues={undefined}
+          isMobile={false}
+          keepDirtyOnReinitialize={false}
+          open={true}
+          persistentSubmitErrors={false}
+          pure={true}
+          shouldAsyncValidate={[Function]}
+          shouldError={[Function]}
+          shouldValidate={[Function]}
+          shouldWarn={[Function]}
+          toggleModal={[Function]}
+          touchOnBlur={true}
+          touchOnChange={false}
+          updateUnregisteredFields={false}
+          validate={[Function]}
+        >
+          <Form(AddClientModal)
+            addClient={[Function]}
+            addingClient={true}
+            anyTouched={false}
+            array={
+              Object {
+                "insert": [Function],
+                "move": [Function],
+                "pop": [Function],
+                "push": [Function],
+                "remove": [Function],
+                "removeAll": [Function],
+                "shift": [Function],
+                "splice": [Function],
+                "swap": [Function],
+                "unshift": [Function],
+              }
+            }
+            arrayInsert={[Function]}
+            arrayMove={[Function]}
+            arrayPop={[Function]}
+            arrayPush={[Function]}
+            arrayRemove={[Function]}
+            arrayRemoveAll={[Function]}
+            arrayShift={[Function]}
+            arraySplice={[Function]}
+            arraySwap={[Function]}
+            arrayUnshift={[Function]}
+            asyncErrors={undefined}
+            asyncValidating={false}
+            autofill={[Function]}
+            blur={[Function]}
+            change={[Function]}
+            clearAsyncError={[Function]}
+            clearFields={[Function]}
+            clearSubmit={[Function]}
+            clearSubmitErrors={[Function]}
+            destroy={[Function]}
+            destroyOnUnmount={true}
+            dirty={false}
+            dispatch={[Function]}
+            enableReinitialize={false}
+            error={undefined}
+            focus={[Function]}
+            forceUnregisterOnUnmount={false}
+            form="addClient"
+            getFormState={[Function]}
+            initialValues={undefined}
+            initialize={[Function]}
+            initialized={false}
+            invalid={false}
+            isMobile={false}
+            keepDirtyOnReinitialize={false}
+            open={true}
+            persistentSubmitErrors={false}
+            pristine={true}
+            pure={true}
+            registerField={[Function]}
+            registeredFields={undefined}
+            reset={[Function]}
+            setSubmitFailed={[Function]}
+            setSubmitSucceeded={[Function]}
+            shouldAsyncValidate={[Function]}
+            shouldError={[Function]}
+            shouldValidate={[Function]}
+            shouldWarn={[Function]}
+            startAsyncValidation={[Function]}
+            startSubmit={[Function]}
+            stopAsyncValidation={[Function]}
+            stopSubmit={[Function]}
+            submit={[Function]}
+            submitFailed={false}
+            submitSucceeded={false}
+            submitting={false}
+            syncErrors={Object {}}
+            syncWarnings={Object {}}
+            toggleModal={[Function]}
+            touch={[Function]}
+            touchOnBlur={true}
+            touchOnChange={false}
+            triggerSubmit={undefined}
+            unregisterField={[Function]}
+            untouch={[Function]}
+            updateSyncErrors={[Function]}
+            updateSyncWarnings={[Function]}
+            updateUnregisteredFields={false}
+            valid={true}
+            validExceptSubmit={true}
+            validate={[Function]}
+            values={Object {}}
+            warning={undefined}
+          >
+            <AddClientModal
+              addClient={[Function]}
+              addingClient={true}
+              anyTouched={false}
+              array={
+                Object {
+                  "insert": [Function],
+                  "move": [Function],
+                  "pop": [Function],
+                  "push": [Function],
+                  "remove": [Function],
+                  "removeAll": [Function],
+                  "shift": [Function],
+                  "splice": [Function],
+                  "swap": [Function],
+                  "unshift": [Function],
+                }
+              }
+              asyncValidate={[Function]}
+              asyncValidating={false}
+              autofill={[Function]}
+              blur={[Function]}
+              change={[Function]}
+              clearAsyncError={[Function]}
+              clearFields={[Function]}
+              clearSubmit={[Function]}
+              clearSubmitErrors={[Function]}
+              destroy={[Function]}
+              dirty={false}
+              dispatch={[Function]}
+              error={undefined}
+              form="addClient"
+              handleSubmit={[Function]}
+              initialValues={undefined}
+              initialize={[Function]}
+              initialized={false}
+              invalid={false}
+              isMobile={false}
+              open={true}
+              pristine={true}
+              pure={true}
+              reset={[Function]}
+              submit={[Function]}
+              submitFailed={false}
+              submitSucceeded={false}
+              submitting={false}
+              toggleModal={[Function]}
+              touch={[Function]}
+              triggerSubmit={undefined}
+              untouch={[Function]}
+              valid={true}
+              validate={[Function]}
+              warning={undefined}
+            >
+              <Modal
+                actions={
+                  Array [
+                    <RaisedButton
+                      buttonStyle={
+                          Object {
+                              "borderRadius": "10px",
+                            }
+                      }
+                      disabled={true}
+                      fullWidth={false}
+                      label="Please wait..."
+                      labelPosition="after"
+                      labelStyle={
+                          Object {
+                              "fontFamily": "proxima_novasemibold",
+                            }
+                      }
+                      onClick={[Function]}
+                      overlayStyle={
+                          Object {
+                              "borderRadius": "10px",
+                            }
+                      }
+                      primary={true}
+                      secondary={false}
+                      style={
+                          Object {
+                              "borderRadius": "10px",
+                              "marginBottom": 20,
+                              "marginRight": "34px",
+                            }
+                      }
+                  />,
+                  ]
+                }
+                autoScrollBodyContent={false}
+                childrenClassName="contentAddClient"
+                childrenStyle={
+                  Object {
+                    "overflowY": "auto",
+                    "paddingLeft": "42px",
+                    "paddingRight": "42px",
+                  }
+                }
+                containerStyle={Object {}}
+                contentClassName=""
+                iconName="x-grey-icon"
+                iconStyle={Object {}}
+                open={true}
+                showCross={true}
+                style={
+                  Object {
+                    "maxWidth": 600,
+                  }
+                }
+                subTitle="Separate each email address with a comma"
+                subTitleStyle={
+                  Object {
+                    "color": undefined,
+                    "fontFamily": "proxima_novaregular",
+                    "fontSize": "18px",
+                  }
+                }
+                title="Invite Client(s)"
+                titleStyle={
+                  Object {
+                    "color": undefined,
+                    "fontFamily": "proxima_novasemibold",
+                    "fontSize": "26px",
+                    "lineHeight": "32px",
+                    "paddingLeft": "42px",
+                    "paddingRight": "42px",
+                  }
+                }
+                toggleModal={[Function]}
+              >
+                <Dialog
+                  actions={
+                    Array [
+                      <RaisedButton
+                        buttonStyle={
+                            Object {
+                                "borderRadius": "10px",
+                              }
+                        }
+                        disabled={true}
+                        fullWidth={false}
+                        label="Please wait..."
+                        labelPosition="after"
+                        labelStyle={
+                            Object {
+                                "fontFamily": "proxima_novasemibold",
+                              }
+                        }
+                        onClick={[Function]}
+                        overlayStyle={
+                            Object {
+                                "borderRadius": "10px",
+                              }
+                        }
+                        primary={true}
+                        secondary={false}
+                        style={
+                            Object {
+                                "borderRadius": "10px",
+                                "marginBottom": 20,
+                                "marginRight": "34px",
+                              }
+                        }
+                    />,
+                    ]
+                  }
+                  autoDetectWindowHeight={true}
+                  autoScrollBodyContent={false}
+                  bodyClassName="scrollbarModal contentAddClient"
+                  bodyStyle={
+                    Object {
+                      "marginRight": 16,
+                      "overflowY": "auto",
+                      "paddingLeft": "42px",
+                      "paddingRight": "42px",
+                    }
+                  }
+                  contentClassName=""
+                  contentStyle={
+                    Object {
+                      "maxWidth": 600,
+                    }
+                  }
+                  modal={false}
+                  onRequestClose={[Function]}
+                  open={true}
+                  overlayStyle={
+                    Object {
+                      "backgroundColor": "rgba(255,255,255,0.8)",
+                    }
+                  }
+                  repositionOnUpdate={true}
+                  style={
+                    Object {
+                      "zIndex": 10001,
+                    }
+                  }
+                  title={
+                    <div
+                      style={
+                        Object {
+                          "marginRight": "0px",
+                        }
+                      }
+                    >
+                      Invite Client(s)
+                      <div
+                        style={
+                          Object {
+                            "color": undefined,
+                            "fontFamily": "proxima_novaregular",
+                            "fontSize": "18px",
+                          }
+                        }
+                      >
+                        Separate each email address with a comma
+                      </div>
+                      <IconButton
+                        disableTouchRipple={false}
+                        disabled={false}
+                        iconStyle={
+                          Object {
+                            "height": 16,
+                            "width": 16,
+                          }
+                        }
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "position": "absolute",
+                            "right": 12,
+                            "top": 12,
+                          }
+                        }
+                        tooltipPosition="bottom-center"
+                        touch={false}
+                      >
+                        <Icon
+                          name="x-grey-icon"
+                          style={
+                            Object {
+                              "height": 16,
+                              "width": 16,
+                            }
+                          }
+                        />
+                      </IconButton>
+                    </div>
+                  }
+                  titleStyle={
+                    Object {
+                      "color": undefined,
+                      "fontFamily": "proxima_novasemibold",
+                      "fontSize": "26px",
+                      "lineHeight": "32px",
+                      "paddingLeft": "42px",
+                      "paddingRight": "42px",
+                    }
+                  }
+                >
+                  <RenderToLayer
+                    open={true}
+                    render={[Function]}
+                    useLayerForClickAway={false}
+                  />
+                </Dialog>
+              </Modal>
+            </AddClientModal>
+          </Form(AddClientModal)>
+        </Connect(Form(AddClientModal))>
+      </ReduxForm>
+    </div>
+  </AddClient>
+</Connect(AddClient)>
+`;
+
+exports[`<AddClient /> submits form correctly 2`] = `
+<Connect(AddClient)>
+  <AddClient
+    addClient={[Function]}
+    clientList={
+      Object {
+        "addingClient": true,
+      }
+    }
+    iconStyle={Object {}}
+    mini={false}
+    show={true}
+    style={null}
+    windowDimension={Object {}}
+    zDepth={1}
+  >
+    <div>
+      <FloatingActionButton
+        disabled={false}
+        mini={false}
+        onClick={[Function]}
+        secondary={false}
+        style={null}
+        zDepth={1}
+      >
+        <Paper
+          circle={true}
+          className={undefined}
+          rounded={true}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "display": "inline-block",
+              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+            }
+          }
+          transitionEnabled={true}
+          zDepth={1}
+        >
+          <div
+            className={undefined}
+            style={
+              Object {
+                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                "backgroundColor": "transparent",
+                "borderRadius": "50%",
+                "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                       0 1px 4px rgba(0, 0, 0, 0.12)",
+                "boxSizing": "border-box",
+                "color": "rgba(0, 0, 0, 0.87)",
+                "display": "inline-block",
+                "fontFamily": "Roboto, sans-serif",
+                "muiPrepared": true,
+                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              }
+            }
+          >
+            <EnhancedButton
+              containerElement="button"
+              disabled={false}
+              focusRippleColor="#ffffff"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onKeyboardFocus={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#00bcd4",
+                  "borderRadius": "50%",
+                  "height": 56,
+                  "overflow": "hidden",
+                  "padding": 0,
+                  "textAlign": "center",
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "verticalAlign": "bottom",
+                  "width": 56,
+                }
+              }
+              tabIndex={0}
+              touchRippleColor="#ffffff"
+              type="button"
+            >
+              <button
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                    "backgroundColor": "#00bcd4",
+                    "border": 10,
+                    "borderRadius": "50%",
+                    "boxSizing": "border-box",
+                    "cursor": "pointer",
+                    "display": "inline-block",
+                    "fontFamily": "Roboto, sans-serif",
+                    "fontSize": "inherit",
+                    "fontWeight": "inherit",
+                    "height": 56,
+                    "margin": 0,
+                    "muiPrepared": true,
+                    "outline": "none",
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "relative",
+                    "textAlign": "center",
+                    "textDecoration": "none",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "verticalAlign": "bottom",
+                    "width": 56,
+                  }
+                }
+                tabIndex={0}
+                type="button"
+              >
+                <TouchRipple
+                  abortOnScroll={true}
+                  centerRipple={undefined}
+                  color="#ffffff"
+                  key="touchRipple"
+                  opacity={undefined}
+                >
+                  <div
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "muiPrepared": true,
+                          "top": 0,
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        }
+                      }
+                    >
+                      <ContentAdd
+                        key=".0"
+                        style={
+                          Object {
+                            "color": "#ffffff",
+                            "fill": "#ffffff",
+                            "height": 56,
+                            "lineHeight": "56px",
+                          }
+                        }
+                      >
+                        <ContentAdd
+                          style={
+                            Object {
+                              "color": "#ffffff",
+                              "fill": "#ffffff",
+                              "height": 56,
+                              "lineHeight": "56px",
+                            }
+                          }
+                        >
+                          <SvgIcon
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            style={
+                              Object {
+                                "color": "#ffffff",
+                                "fill": "#ffffff",
+                                "height": 56,
+                                "lineHeight": "56px",
+                              }
+                            }
+                            viewBox="0 0 24 24"
+                          >
+                            <svg
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              style={
+                                Object {
+                                  "color": "#ffffff",
+                                  "display": "inline-block",
+                                  "fill": "#ffffff",
+                                  "height": 56,
+                                  "lineHeight": "56px",
+                                  "muiPrepared": true,
+                                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  "userSelect": "none",
+                                  "width": 24,
+                                }
+                              }
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              />
+                            </svg>
+                          </SvgIcon>
+                        </ContentAdd>
+                      </ContentAdd>
+                    </div>
+                  </div>
+                </TouchRipple>
+              </button>
+            </EnhancedButton>
+          </div>
+        </Paper>
+      </FloatingActionButton>
+      <ReduxForm
+        addClient={[Function]}
+        addingClient={true}
+        isMobile={false}
+        open={true}
+        toggleModal={[Function]}
+      >
+        <Connect(Form(AddClientModal))
+          addClient={[Function]}
+          addingClient={true}
+          destroyOnUnmount={true}
+          enableReinitialize={false}
+          forceUnregisterOnUnmount={false}
+          form="addClient"
+          getFormState={[Function]}
+          initialValues={undefined}
+          isMobile={false}
+          keepDirtyOnReinitialize={false}
+          open={true}
+          persistentSubmitErrors={false}
+          pure={true}
+          shouldAsyncValidate={[Function]}
+          shouldError={[Function]}
+          shouldValidate={[Function]}
+          shouldWarn={[Function]}
+          toggleModal={[Function]}
+          touchOnBlur={true}
+          touchOnChange={false}
+          updateUnregisteredFields={false}
+          validate={[Function]}
+        >
+          <Form(AddClientModal)
+            addClient={[Function]}
+            addingClient={true}
+            anyTouched={false}
+            array={
+              Object {
+                "insert": [Function],
+                "move": [Function],
+                "pop": [Function],
+                "push": [Function],
+                "remove": [Function],
+                "removeAll": [Function],
+                "shift": [Function],
+                "splice": [Function],
+                "swap": [Function],
+                "unshift": [Function],
+              }
+            }
+            arrayInsert={[Function]}
+            arrayMove={[Function]}
+            arrayPop={[Function]}
+            arrayPush={[Function]}
+            arrayRemove={[Function]}
+            arrayRemoveAll={[Function]}
+            arrayShift={[Function]}
+            arraySplice={[Function]}
+            arraySwap={[Function]}
+            arrayUnshift={[Function]}
+            asyncErrors={undefined}
+            asyncValidating={false}
+            autofill={[Function]}
+            blur={[Function]}
+            change={[Function]}
+            clearAsyncError={[Function]}
+            clearFields={[Function]}
+            clearSubmit={[Function]}
+            clearSubmitErrors={[Function]}
+            destroy={[Function]}
+            destroyOnUnmount={true}
+            dirty={false}
+            dispatch={[Function]}
+            enableReinitialize={false}
+            error={undefined}
+            focus={[Function]}
+            forceUnregisterOnUnmount={false}
+            form="addClient"
+            getFormState={[Function]}
+            initialValues={undefined}
+            initialize={[Function]}
+            initialized={false}
+            invalid={false}
+            isMobile={false}
+            keepDirtyOnReinitialize={false}
+            open={true}
+            persistentSubmitErrors={false}
+            pristine={true}
+            pure={true}
+            registerField={[Function]}
+            registeredFields={undefined}
+            reset={[Function]}
+            setSubmitFailed={[Function]}
+            setSubmitSucceeded={[Function]}
+            shouldAsyncValidate={[Function]}
+            shouldError={[Function]}
+            shouldValidate={[Function]}
+            shouldWarn={[Function]}
+            startAsyncValidation={[Function]}
+            startSubmit={[Function]}
+            stopAsyncValidation={[Function]}
+            stopSubmit={[Function]}
+            submit={[Function]}
+            submitFailed={false}
+            submitSucceeded={false}
+            submitting={false}
+            syncErrors={Object {}}
+            syncWarnings={Object {}}
+            toggleModal={[Function]}
+            touch={[Function]}
+            touchOnBlur={true}
+            touchOnChange={false}
+            triggerSubmit={undefined}
+            unregisterField={[Function]}
+            untouch={[Function]}
+            updateSyncErrors={[Function]}
+            updateSyncWarnings={[Function]}
+            updateUnregisteredFields={false}
+            valid={true}
+            validExceptSubmit={true}
+            validate={[Function]}
+            values={Object {}}
+            warning={undefined}
+          >
+            <AddClientModal
+              addClient={[Function]}
+              addingClient={true}
+              anyTouched={false}
+              array={
+                Object {
+                  "insert": [Function],
+                  "move": [Function],
+                  "pop": [Function],
+                  "push": [Function],
+                  "remove": [Function],
+                  "removeAll": [Function],
+                  "shift": [Function],
+                  "splice": [Function],
+                  "swap": [Function],
+                  "unshift": [Function],
+                }
+              }
+              asyncValidate={[Function]}
+              asyncValidating={false}
+              autofill={[Function]}
+              blur={[Function]}
+              change={[Function]}
+              clearAsyncError={[Function]}
+              clearFields={[Function]}
+              clearSubmit={[Function]}
+              clearSubmitErrors={[Function]}
+              destroy={[Function]}
+              dirty={false}
+              dispatch={[Function]}
+              error={undefined}
+              form="addClient"
+              handleSubmit={[Function]}
+              initialValues={undefined}
+              initialize={[Function]}
+              initialized={false}
+              invalid={false}
+              isMobile={false}
+              open={true}
+              pristine={true}
+              pure={true}
+              reset={[Function]}
+              submit={[Function]}
+              submitFailed={false}
+              submitSucceeded={false}
+              submitting={false}
+              toggleModal={[Function]}
+              touch={[Function]}
+              triggerSubmit={undefined}
+              untouch={[Function]}
+              valid={true}
+              validate={[Function]}
+              warning={undefined}
+            >
+              <Modal
+                actions={
+                  Array [
+                    <RaisedButton
+                      buttonStyle={
+                          Object {
+                              "borderRadius": "10px",
+                            }
+                      }
+                      disabled={true}
+                      fullWidth={false}
+                      label="Please wait..."
+                      labelPosition="after"
+                      labelStyle={
+                          Object {
+                              "fontFamily": "proxima_novasemibold",
+                            }
+                      }
+                      onClick={[Function]}
+                      overlayStyle={
+                          Object {
+                              "borderRadius": "10px",
+                            }
+                      }
+                      primary={true}
+                      secondary={false}
+                      style={
+                          Object {
+                              "borderRadius": "10px",
+                              "marginBottom": 20,
+                              "marginRight": "34px",
+                            }
+                      }
+                  />,
+                  ]
+                }
+                autoScrollBodyContent={false}
+                childrenClassName="contentAddClient"
+                childrenStyle={
+                  Object {
+                    "overflowY": "auto",
+                    "paddingLeft": "42px",
+                    "paddingRight": "42px",
+                  }
+                }
+                containerStyle={Object {}}
+                contentClassName=""
+                iconName="x-grey-icon"
+                iconStyle={Object {}}
+                open={true}
+                showCross={true}
+                style={
+                  Object {
+                    "maxWidth": 600,
+                  }
+                }
+                subTitle="Separate each email address with a comma"
+                subTitleStyle={
+                  Object {
+                    "color": undefined,
+                    "fontFamily": "proxima_novaregular",
+                    "fontSize": "18px",
+                  }
+                }
+                title="Invite Client(s)"
+                titleStyle={
+                  Object {
+                    "color": undefined,
+                    "fontFamily": "proxima_novasemibold",
+                    "fontSize": "26px",
+                    "lineHeight": "32px",
+                    "paddingLeft": "42px",
+                    "paddingRight": "42px",
+                  }
+                }
+                toggleModal={[Function]}
+              >
+                <Dialog
+                  actions={
+                    Array [
+                      <RaisedButton
+                        buttonStyle={
+                            Object {
+                                "borderRadius": "10px",
+                              }
+                        }
+                        disabled={true}
+                        fullWidth={false}
+                        label="Please wait..."
+                        labelPosition="after"
+                        labelStyle={
+                            Object {
+                                "fontFamily": "proxima_novasemibold",
+                              }
+                        }
+                        onClick={[Function]}
+                        overlayStyle={
+                            Object {
+                                "borderRadius": "10px",
+                              }
+                        }
+                        primary={true}
+                        secondary={false}
+                        style={
+                            Object {
+                                "borderRadius": "10px",
+                                "marginBottom": 20,
+                                "marginRight": "34px",
+                              }
+                        }
+                    />,
+                    ]
+                  }
+                  autoDetectWindowHeight={true}
+                  autoScrollBodyContent={false}
+                  bodyClassName="scrollbarModal contentAddClient"
+                  bodyStyle={
+                    Object {
+                      "marginRight": 16,
+                      "overflowY": "auto",
+                      "paddingLeft": "42px",
+                      "paddingRight": "42px",
+                    }
+                  }
+                  contentClassName=""
+                  contentStyle={
+                    Object {
+                      "maxWidth": 600,
+                    }
+                  }
+                  modal={false}
+                  onRequestClose={[Function]}
+                  open={true}
+                  overlayStyle={
+                    Object {
+                      "backgroundColor": "rgba(255,255,255,0.8)",
+                    }
+                  }
+                  repositionOnUpdate={true}
+                  style={
+                    Object {
+                      "zIndex": 10001,
+                    }
+                  }
+                  title={
+                    <div
+                      style={
+                        Object {
+                          "marginRight": "0px",
+                        }
+                      }
+                    >
+                      Invite Client(s)
+                      <div
+                        style={
+                          Object {
+                            "color": undefined,
+                            "fontFamily": "proxima_novaregular",
+                            "fontSize": "18px",
+                          }
+                        }
+                      >
+                        Separate each email address with a comma
+                      </div>
+                      <IconButton
+                        disableTouchRipple={false}
+                        disabled={false}
+                        iconStyle={
+                          Object {
+                            "height": 16,
+                            "width": 16,
+                          }
+                        }
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "position": "absolute",
+                            "right": 12,
+                            "top": 12,
+                          }
+                        }
+                        tooltipPosition="bottom-center"
+                        touch={false}
+                      >
+                        <Icon
+                          name="x-grey-icon"
+                          style={
+                            Object {
+                              "height": 16,
+                              "width": 16,
+                            }
+                          }
+                        />
+                      </IconButton>
+                    </div>
+                  }
+                  titleStyle={
+                    Object {
+                      "color": undefined,
+                      "fontFamily": "proxima_novasemibold",
+                      "fontSize": "26px",
+                      "lineHeight": "32px",
+                      "paddingLeft": "42px",
+                      "paddingRight": "42px",
+                    }
+                  }
+                >
+                  <RenderToLayer
+                    open={true}
+                    render={[Function]}
+                    useLayerForClickAway={false}
+                  />
+                </Dialog>
+              </Modal>
+            </AddClientModal>
+          </Form(AddClientModal)>
+        </Connect(Form(AddClientModal))>
+      </ReduxForm>
+    </div>
+  </AddClient>
+</Connect(AddClient)>
+`;

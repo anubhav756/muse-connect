@@ -1,0 +1,32 @@
+@import '../../layout/Default/CommonStyle.scss';
+
+.checkboxContainerBasicInfo {
+  margin-right: 30px;
+}
+
+.sideImageBasicInfo {
+  @extend .sideImage;
+  background-image: url("/images/basic-information.jpg");
+  background-position: top left;
+  @media only screen and (max-width: $break-point-sm) {
+    background-position: top center;
+    min-height: 50vh;
+  }
+  @media only screen and (max-width: $break-point-xs) {
+    display: none;
+  }
+}
+
+.radioGroupBasicInfo {
+  display: inline-block;
+}
+
+.hyperTextBasicInfo {
+  @extend .hyperText;
+  margin-bottom: 50px;
+}
+
+.emailOptInOptional {
+  color: rgb(125, 125, 125);
+  font-size: 12px;
+}

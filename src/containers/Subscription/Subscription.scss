@@ -1,0 +1,22 @@
+@import '../../layout/Default/CommonStyle.scss';
+
+.containerSubscription {
+  padding: 0px 10px;
+}
+
+.infoSubOnboard {
+  margin-top: 20px;
+}
+
+.headingSubOnboard {
+  @extend .heading;
+}
+
+.descriptionSubOnBoard {
+  @extend .description;
+  color: $darkGrey;
+}
+
+strong {
+  font-family: proxima_novabold;
+}

@@ -1,0 +1,15 @@
+@import '../../styles/variables/colors.scss';
+
+.ContainerErrorMessage {
+  font-size: 18px;
+  color: $mediumGrey;
+}
+.ContainerErrorMessage a {
+  color: $teal;
+  cursor: pointer;
+}
+.hyperLinkErrorMessage {
+  color: $teal;
+  text-decoration:none;
+  cursor: pointer;
+}

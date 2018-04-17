@@ -1,0 +1,311 @@
+@import './variables.scss';
+@import './ShopStore.scss';
+
+.mainSectionProductDetails {
+  @extend .clearfix;
+  background-color: $white;
+  padding: 55px;
+}
+
+.imageContainerProductDetails {
+   width: 63%;
+   display: inline-block;
+}
+
+.infoProductDetails {
+   width: 37%;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.carouselImageProdDetails {
+  width: 240px;
+  height: 350px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.carouselContainerProdDetails {
+  overflow: hidden;
+}
+
+.colorSwitchProductDetails { 
+   position: absolute;
+   top: 0px;
+   left: 0px;
+}
+
+.titleProductDetails {
+  font-family: proxima_novabold;
+  font-size: 20px;
+  color: $darkGrey;
+}
+
+.titleContainerProdDetails {
+  @extend .clearfix;
+}
+
+.subtitleContainerProdDetails {
+  @extend .clearfix;
+}
+
+.subtitleProductDetails {
+  display: inline-block;
+  font-size: 16px;
+  color: $mediumGrey;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 60%
+}
+
+.priceProductDetails {
+  color: $teal;
+  float: right;
+  font-size: 20px;
+  font-family: proxima_novasemibold;
+  letter-spacing: .3px;
+}
+
+.priceRespProductDetails {
+  display: none;
+}
+
+.actionContainerProductDetails {
+  margin-top: 35px;
+  @extend .clearfix;
+}
+
+.actionContainerMobProductDetails {
+  display: none;
+}
+
+.countContainerProdDetails {
+  display: inline-block;
+}
+
+.countLabelProductDetails {
+  font-size: 12px;
+  font-family: proxima_novasemibold;
+  letter-spacing: 0.9px;
+  color: $mediumGrey;
+  margin-right: 15px;
+}
+
+.countLabelResProductDetails {
+  display: none;
+}
+
+.countItemProductDetails {
+  width: 51px;
+  height: 26px;
+  display: inline-block;
+  vertical-align: middle;
+  border: solid 1px $lightGrey; 
+  border-radius: 3px;
+  position: relative;
+  padding: 3px 23px 3px 3px;
+}
+
+.cartActionProductDetails {
+  display: inline-block;
+  height: 35px;
+  width: 134px;
+  float: right;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.metafieldsProductDetails {
+  margin-top: 42px;
+}
+
+.otherItemSection {
+  padding: 50px;
+}
+
+.othItemTitleProductDetails {
+  font-family: proxima_novalight;
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: -0.1px;
+  color: $darkGrey;
+}
+
+.othItemsProductDetails {
+  margin-top: 17px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .imageContainerProductDetails {
+    width: 60%;
+    display: inline-block;
+  }
+
+  .infoProductDetails {
+    width: 40%;
+  }
+  .countLabelProductDetails {
+    display: none;
+  }
+
+  .countLabelResProductDetails {
+    font-size: 12px;
+    font-family: proxima_novasemibold;
+    letter-spacing: 0.9px;
+    color: $mediumGrey;
+    margin-right: 15px;
+    display: inline;
+  }
+
+  .cartActionProductDetails {
+    width: 127px;
+  }
+
+  .otherItemSection {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: $break-point-sm) {
+  .mainSectionProductDetails {
+    padding: 54px;
+  }
+
+  .imageContainerProductDetails {
+    display: block;
+    width: 100%;
+  }
+
+  .infoProductDetails {
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+  }
+
+  .infoActionsProductDetails {
+    width: 40%;
+    display: inline-block;
+  }
+
+  .subtitleProductDetails {
+    display: block;
+    width: 100%
+  }
+
+  .priceProductDetails {
+    float: left;
+    margin-top: 10px;
+  }
+
+  .actionContainerProductDetails {
+    margin-top: 19px; 
+  }
+
+  .countContainerProdDetails {
+    display: block;
+  }
+
+  .cartActionProductDetails {
+    width: 144px;
+    float: left;
+    margin-top: 19px;
+  }
+
+  .metafieldsProductDetails {
+    width: 50%;
+    display: inline-block;
+    float: right;
+    margin-top: 0px;
+  }
+
+  .otherItemSection {
+    padding: 40px 32px;
+  }
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .mainSectionProductDetails {
+    padding: 26px 26px 48px 26px;
+  }
+
+  .carouselImageProdDetails {
+    width: 230px;
+    height: 230px;
+  }
+
+  .infoProductDetails {
+    margin-top: 35px;
+  }
+
+  .titleProductDetails {
+    display: inline-block;
+    width: 60%;
+  }
+
+  .subtitleProductDetails {
+    display: inline-block;
+    width: 60%;
+    white-space: inherit;
+  }
+
+  .priceProductDetails {
+    display: none;
+  }
+
+  .priceRespProductDetails {
+    color: $teal;
+    float: right;
+    font-size: 20px;
+    font-family: proxima_novasemibold;
+    letter-spacing: .3px;
+    display: inline;
+  }
+
+  .infoActionsProductDetails {
+    width: 100%;
+    display: block;
+  }
+
+  .actionContainerProductDetails {
+    display: none;
+  }
+
+  .metafieldsProductDetails {
+    width: 100%;
+    display: block;
+    float: none;
+    margin-top: 27px;
+  }
+
+  .actionContainerMobProductDetails {
+    display: block;
+  }
+
+  .countContainerProdDetails {
+    text-align: center;
+    margin-top: 36px;
+  }
+
+  .cartActionContainerProductDetails {
+    text-align: center;
+  }
+
+  .cartActionProductDetails {
+    float: none;
+  }
+
+  .otherItemSection {
+    padding: 32px 20px;
+  }
+
+  .othItemTitleProductDetails {
+    padding: 0 7px;
+  }
+
+  .othItemsProductDetails {
+    margin-top: 2px;
+  }
+}

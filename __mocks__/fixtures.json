@@ -1,0 +1,756 @@
+{
+    "clientList": {
+        "other_clients": [
+            {
+                "date": "2017-08-01T15:23:43.835530+00:00",
+                "status": "INVITED",
+                "id": "9d1d9d61b54e42ec98b49c60e0142feb",
+                "email": "nathan.brown@mailinator.com"
+            },
+            {
+                "date": "2017-08-01T15:51:19.822560+00:00",
+                "status": "STOPPED",
+                "id": "d3bb4502d2b64378bc6bfa333faca405",
+                "email": "anju+3@interaxon.ca"
+            },
+            {
+                "date": "2017-07-25T16:24:26.844210+00:00",
+                "status": "STOPPED",
+                "id": "50834ae951e34e878460553e27e17ff8",
+                "email": "chris_ixmc@mailinator.com"
+            },
+            {
+                "date": "2018-01-19T13:32:29.395700+00:00",
+                "status": "INVITED",
+                "nonMuser": true,
+                "id": "4630860211421184",
+                "email": "random13@mailinator.com"
+            },
+            {
+                "date": "2018-01-19T07:21:22.554170+00:00",
+                "status": "INVITED",
+                "nonMuser": true,
+                "id": "4930451829948416",
+                "email": "random6@mailinator.com"
+            }
+        ],
+        "active_clients": [
+            {
+                "first_name": "Gilbert",
+                "last_name": "Blythe",
+                "weekly_shift": 300,
+                "last_session": "2017-08-01T11:36:39+00:00",
+                "sessions_last_week": [
+                    {
+                        "date": "2017-08-01T15:36:39+00:00",
+                        "length": 300
+                    },
+                    {
+                        "date": "2017-07-30T16:53:14+00:00",
+                        "length": 300
+                    },
+                    {
+                        "date": "2017-07-28T09:55:26+00:00",
+                        "length": 420
+                    }
+                ],
+                "muser_since": "2017-07-18T18:18:09.413150+00:00",
+                "avatar": "",
+                "id": "66384d5ec52942a4b2a105119b20d250",
+                "last_viewed_date": "2017-08-01T19:29:30.963030+00:00",
+                "email": "ixmc1@mailinator.com",
+                "accepted_date": "2017-07-24T21:46:51.443180+00:00"
+            },
+            {
+                "first_name": "Anthony Juan",
+                "last_name": "Lopez",
+                "weekly_shift": 875,
+                "last_session": "2017-08-02T11:50:55+00:00",
+                "sessions_last_week": [
+                    {
+                        "date": "2017-08-02T15:50:55+00:00",
+                        "length": 21
+                    },
+                    {
+                        "date": "2017-08-02T15:42:46+00:00",
+                        "length": 63
+                    },
+                    {
+                        "date": "2017-08-01T16:28:00+00:00",
+                        "length": 191
+                    },
+                    {
+                        "date": "2017-07-31T15:05:55+00:00",
+                        "length": 420
+                    },
+                    {
+                        "date": "2017-07-31T01:10:15+00:00",
+                        "length": 180
+                    },
+                    {
+                        "date": "2017-07-29T13:51:48+00:00",
+                        "length": 420
+                    },
+                    {
+                        "date": "2017-07-28T07:42:55+00:00",
+                        "length": 300
+                    },
+                    {
+                        "date": "2017-07-27T21:39:11+00:00",
+                        "length": 1200
+                    }
+                ],
+                "muser_since": "2017-05-16T17:55:26.655120+00:00",
+                "avatar": "",
+                "id": "027fc43cabc247069b1ef952c9dacff7",
+                "last_viewed_date": "2017-08-01T13:31:30.983960+00:00",
+                "email": "anju@interaxon.ca",
+                "accepted_date": "2017-01-25T23:04:36.655870+00:00"
+            },
+            {
+                "first_name": "Maria",
+                "last_name": "Chandler",
+                "weekly_shift": 1500,
+                "last_session": "2017-07-30T20:43:26+00:00",
+                "sessions_last_week": [
+                    {
+                        "date": "2017-07-31T00:43:26+00:00",
+                        "length": 300
+                    },
+                    {
+                        "date": "2017-07-29T12:18:30+00:00",
+                        "length": 300
+                    },
+                    {
+                        "date": "2017-07-28T14:50:48+00:00",
+                        "length": 180
+                    },
+                    {
+                        "date": "2017-07-28T13:00:20+00:00",
+                        "length": 720
+                    }
+                ],
+                "muser_since": "2017-02-06T06:25:12.278360+00:00",
+                "avatar": "",
+                "id": "6eb6efb374274481859c5bdb5fac7a30",
+                "last_viewed_date": "2017-07-30T15:26:15.985160+00:00",
+                "email": "mcschan@gmail.com",
+                "accepted_date": "2017-01-24T18:06:04.859970+00:00"
+            },
+            {
+                "first_name": "Anne",
+                "last_name": "Shirley",
+                "weekly_shift": -647,
+                "last_session": "2017-08-02T14:49:45+00:00",
+                "sessions_last_week": [
+                    {
+                        "date": "2017-08-02T18:49:45+00:00",
+                        "length": 1
+                    },
+                    {
+                        "date": "2017-08-01T16:18:00+00:00",
+                        "length": 46
+                    },
+                    {
+                        "date": "2017-08-01T16:12:45+00:00",
+                        "length": 180
+                    },
+                    {
+                        "date": "2017-08-01T13:50:05+00:00",
+                        "length": 180
+                    },
+                    {
+                        "date": "2017-07-31T22:41:09+00:00",
+                        "length": 300
+                    },
+                    {
+                        "date": "2017-07-30T15:26:37+00:00",
+                        "length": 180
+                    },
+                    {
+                        "date": "2017-07-30T11:24:17+00:00",
+                        "length": 720
+                    },
+                    {
+                        "date": "2017-07-28T09:18:56+00:00",
+                        "length": 600
+                    }
+                ],
+                "muser_since": "2017-03-21T00:00:52.152970+00:00",
+                "avatar": "",
+                "id": "dac7b556a6c2474a8e4077def41de7cd",
+                "last_viewed_date": "2017-08-03T03:41:59.614550+00:00",
+                "email": "anju.2@hotmail.com",
+                "accepted_date": "2016-07-28T16:59:40.475560+00:00"
+            },
+            {
+                "first_name": "Laura",
+                "last_name": "Sniderman",
+                "weekly_shift": 0,
+                "last_session": "2017-07-17T14:26:01+00:00",
+                "sessions_last_week": [],
+                "muser_since": "2017-01-30T19:37:41.930090+00:00",
+                "avatar": "",
+                "id": "5cd694e5a4a944428f779ecfe0c2a08c",
+                "last_viewed_date": "2017-07-27T20:33:34.508970+00:00",
+                "email": "laura@interaxon.ca",
+                "accepted_date": "2017-01-24T18:06:26.642440+00:00"
+            },
+            {
+                "first_name": "Kaitlyn",
+                "last_name": "Labow",
+                "weekly_shift": 0,
+                "last_session": null,
+                "sessions_last_week": [],
+                "muser_since": "2017-07-24T17:23:16.158780+00:00",
+                "avatar": "",
+                "id": "7eeff6334ce74a3caa9eb4bcf1804207",
+                "last_viewed_date": "2017-08-02T21:45:59.019580+00:00",
+                "email": "kaitlyn.labow@gmail.com",
+                "accepted_date": "2017-07-28T00:38:13.873950+00:00"
+            }
+        ],
+        "clients_count": 11,
+        "archived_clients": [
+            {
+                "status": "ARCHIVED",
+                "first_name": "Paul",
+                "last_name": "Baranowski",
+                "id": "8fd9e0c24b4b4d2aa5bb87e427cf4540",
+                "archived_date": "2017-07-26T13:55:02.615360+00:00",
+                "avatar": "",
+                "email": "paul@interaxon.ca"
+            },
+            {
+                "status": "ARCHIVED",
+                "first_name": "Kim",
+                "last_name": "Yee",
+                "id": "cd843014c2964d14b46a20dec91045d1",
+                "archived_date": "2017-07-26T13:30:37.600240+00:00",
+                "avatar": "http://lh3.googleusercontent.com/ITrjTnqOHaXzT0ouuAXiSSoYVCxikpHzCCux06Al75FoETTL0gsxPlOq39JvjdaDPEOYdKZ5igd0JbK1dtSsmWKa-Oo",
+                "email": "kim@interaxon.ca"
+            }
+        ]
+    },
+    "productStore": {
+        "products": [
+            {
+                "handle": "muse-the-brain-sensing-headband-single-headband",
+                "template_suffix": null,
+                "product_type": "Technology",
+                "published_scope": "global",
+                "title": "Muse : the brain sensing headband (Reg. $249)",
+                "created_at": "2015-07-14T09:09:04-07:00",
+                "tags": "",
+                "body_html": ": the brain sensing headband - Single Unit",
+                "updated_at": "2017-03-28T10:12:23-07:00",
+                "published_at": "2015-07-14T10:38:00-07:00",
+                "options": [
+                    {
+                        "position": 1,
+                        "values": [
+                            "black",
+                            "white"
+                        ],
+                        "id": 1962122115,
+                        "name": "Color",
+                        "product_id": 1619813571
+                    }
+                ],
+                "image": {
+                    "src": "https://cdn.shopify.com/s/files/1/0658/7695/products/black_headband_store_grande_c6d8d2c5-ae7a-4cd6-b9ac-de37533f2011.png?v=1436890145",
+                    "product_id": 1619813571,
+                    "created_at": "2015-07-14T09:09:05-07:00",
+                    "updated_at": "2015-07-14T09:09:05-07:00",
+                    "variant_ids": [
+                        4799276675
+                    ],
+                    "position": 1,
+                    "id": 3330670531
+                },
+                "images": [
+                    {
+                        "src": "https://cdn.shopify.com/s/files/1/0658/7695/products/black_headband_store_grande_c6d8d2c5-ae7a-4cd6-b9ac-de37533f2011.png?v=1436890145",
+                        "product_id": 1619813571,
+                        "created_at": "2015-07-14T09:09:05-07:00",
+                        "updated_at": "2015-07-14T09:09:05-07:00",
+                        "variant_ids": [
+                            4799276675
+                        ],
+                        "position": 1,
+                        "id": 3330670531
+                    },
+                    {
+                        "src": "https://cdn.shopify.com/s/files/1/0658/7695/products/white_headband_store_grande_d834352e-8e07-4237-9398-c1c4a24be3ad.png?v=1447708024",
+                        "product_id": 1619813571,
+                        "created_at": "2015-11-16T13:07:04-08:00",
+                        "updated_at": "2015-11-16T13:07:04-08:00",
+                        "variant_ids": [
+                            11015537091
+                        ],
+                        "position": 2,
+                        "id": 7652093891
+                    }
+                ],
+                "vendor": "Muse Professionals Portal",
+                "variants": [
+                    {
+                        "weight": 1,
+                        "requires_shipping": true,
+                        "updated_at": "2017-04-13T07:44:35-07:00",
+                        "inventory_quantity": -1184,
+                        "compare_at_price": null,
+                        "id": 4799276675,
+                        "sku": "MU-02-BK-EN",
+                        "title": "black",
+                        "inventory_policy": "deny",
+                        "inventory_management": null,
+                        "fulfillment_service": "shipwire-app",
+                        "option2": null,
+                        "option3": null,
+                        "weight_unit": "lb",
+                        "option1": "black",
+                        "price": "211.65",
+                        "barcode": "",
+                        "image_id": 3330670531,
+                        "taxable": true,
+                        "old_inventory_quantity": -1184,
+                        "grams": 454,
+                        "product_id": 1619813571,
+                        "created_at": "2015-07-14T09:09:04-07:00",
+                        "position": 1
+                    },
+                    {
+                        "weight": 1,
+                        "requires_shipping": true,
+                        "updated_at": "2017-03-28T10:12:23-07:00",
+                        "inventory_quantity": -243,
+                        "compare_at_price": null,
+                        "id": 11015537091,
+                        "sku": "MU-02-WH-EN",
+                        "title": "white",
+                        "inventory_policy": "deny",
+                        "inventory_management": null,
+                        "fulfillment_service": "shipwire-app",
+                        "option2": null,
+                        "option3": null,
+                        "weight_unit": "lb",
+                        "option1": "white",
+                        "price": "211.65",
+                        "barcode": "",
+                        "image_id": 7652093891,
+                        "taxable": true,
+                        "old_inventory_quantity": -243,
+                        "grams": 454,
+                        "product_id": 1619813571,
+                        "created_at": "2015-11-16T13:07:20-08:00",
+                        "position": 2
+                    }
+                ],
+                "id": 1619813571
+            },
+            {
+                "handle": "muse-case-pack-6x",
+                "template_suffix": null,
+                "product_type": "Technology",
+                "published_scope": "global",
+                "title": "Muse : the Brain Sensing Headband - 6 Pack",
+                "created_at": "2014-11-07T13:28:57-08:00",
+                "tags": "",
+                "body_html": "",
+                "updated_at": "2017-03-20T06:46:42-07:00",
+                "published_at": "2014-11-07T13:27:00-08:00",
+                "options": [
+                    {
+                        "position": 1,
+                        "values": [
+                            "black",
+                            "white"
+                        ],
+                        "id": 475015251,
+                        "name": "Color",
+                        "product_id": 403017675
+                    }
+                ],
+                "image": {
+                    "src": "https://cdn.shopify.com/s/files/1/0658/7695/products/black_headband_store.png?v=1426258420",
+                    "product_id": 403017675,
+                    "created_at": "2015-03-13T07:53:36-07:00",
+                    "updated_at": "2015-03-13T07:53:40-07:00",
+                    "variant_ids": [
+                        950546311
+                    ],
+                    "position": 1,
+                    "id": 1238768147
+                },
+                "images": [
+                    {
+                        "src": "https://cdn.shopify.com/s/files/1/0658/7695/products/black_headband_store.png?v=1426258420",
+                        "product_id": 403017675,
+                        "created_at": "2015-03-13T07:53:36-07:00",
+                        "updated_at": "2015-03-13T07:53:40-07:00",
+                        "variant_ids": [
+                            950546311
+                        ],
+                        "position": 1,
+                        "id": 1238768147
+                    },
+                    {
+                        "src": "https://cdn.shopify.com/s/files/1/0658/7695/products/white_headband_store_grande_fb6f7a48-e382-4252-931b-3b43c9ca6d40.png?v=1447707969",
+                        "product_id": 403017675,
+                        "created_at": "2015-11-16T13:06:09-08:00",
+                        "updated_at": "2015-11-16T13:06:09-08:00",
+                        "variant_ids": [
+                            11015496643
+                        ],
+                        "position": 2,
+                        "id": 7652083075
+                    }
+                ],
+                "vendor": "Muse Professionals Portal",
+                "variants": [
+                    {
+                        "weight": 6,
+                        "requires_shipping": true,
+                        "updated_at": "2017-04-06T12:53:30-07:00",
+                        "inventory_quantity": -304,
+                        "compare_at_price": null,
+                        "id": 950546311,
+                        "sku": "MU-02-BK-EN-MC",
+                        "title": "black",
+                        "inventory_policy": "deny",
+                        "inventory_management": null,
+                        "fulfillment_service": "shipwire-app",
+                        "option2": null,
+                        "option3": null,
+                        "weight_unit": "lb",
+                        "option1": "black",
+                        "price": "1140.00",
+                        "barcode": "",
+                        "image_id": 1238768147,
+                        "taxable": true,
+                        "old_inventory_quantity": -304,
+                        "grams": 2722,
+                        "product_id": 403017675,
+                        "created_at": "2014-11-07T13:28:57-08:00",
+                        "position": 1
+                    },
+                    {
+                        "weight": 6,
+                        "requires_shipping": true,
+                        "updated_at": "2017-04-06T12:53:30-07:00",
+                        "inventory_quantity": -112,
+                        "compare_at_price": null,
+                        "id": 11015496643,
+                        "sku": "MU-02-WH-EN-MC",
+                        "title": "white",
+                        "inventory_policy": "deny",
+                        "inventory_management": null,
+                        "fulfillment_service": "shipwire-app",
+                        "option2": null,
+                        "option3": null,
+                        "weight_unit": "lb",
+                        "option1": "white",
+                        "price": "1140.00",
+                        "barcode": "",
+                        "image_id": 7652083075,
+                        "taxable": true,
+                        "old_inventory_quantity": -112,
+                        "grams": 2722,
+                        "product_id": 403017675,
+                        "created_at": "2015-11-16T13:05:49-08:00",
+                        "position": 2
+                    }
+                ],
+                "id": 403017675
+            },
+            {
+                "handle": "muse-hard-carrying-case-single",
+                "template_suffix": null,
+                "product_type": "Technology",
+                "published_scope": "global",
+                "title": "Muse Hard Carrying Case (Reg. $39.99)",
+                "created_at": "2015-09-28T07:21:47-07:00",
+                "tags": "",
+                "body_html": "",
+                "updated_at": "2017-03-16T11:43:58-07:00",
+                "published_at": "2015-09-28T07:21:00-07:00",
+                "options": [
+                    {
+                        "position": 1,
+                        "values": [
+                            "Default Title"
+                        ],
+                        "id": 3410284035,
+                        "name": "Title",
+                        "product_id": 2829604803
+                    }
+                ],
+                "image": {
+                    "src": "https://cdn.shopify.com/s/files/1/0658/7695/products/case_open_store_grande_86d0b6a6-786d-4664-90ba-60619db79343.jpg?v=1443450108",
+                    "product_id": 2829604803,
+                    "created_at": "2015-09-28T07:21:48-07:00",
+                    "updated_at": "2015-09-28T07:21:48-07:00",
+                    "variant_ids": [],
+                    "position": 1,
+                    "id": 5801446019
+                },
+                "images": [
+                    {
+                        "src": "https://cdn.shopify.com/s/files/1/0658/7695/products/case_open_store_grande_86d0b6a6-786d-4664-90ba-60619db79343.jpg?v=1443450108",
+                        "product_id": 2829604803,
+                        "created_at": "2015-09-28T07:21:48-07:00",
+                        "updated_at": "2015-09-28T07:21:48-07:00",
+                        "variant_ids": [],
+                        "position": 1,
+                        "id": 5801446019
+                    }
+                ],
+                "vendor": "Muse Professionals Portal",
+                "variants": [
+                    {
+                        "weight": 0.20000000000000001,
+                        "requires_shipping": true,
+                        "updated_at": "2017-04-13T07:44:35-07:00",
+                        "inventory_quantity": -1492,
+                        "compare_at_price": null,
+                        "id": 8287454787,
+                        "sku": "MUSE1815AA",
+                        "title": "Default Title",
+                        "inventory_policy": "deny",
+                        "inventory_management": null,
+                        "fulfillment_service": "shipwire-app",
+                        "option2": null,
+                        "option3": null,
+                        "weight_unit": "kg",
+                        "option1": "Default Title",
+                        "price": "25.00",
+                        "barcode": "",
+                        "image_id": null,
+                        "taxable": true,
+                        "old_inventory_quantity": -1492,
+                        "grams": 200,
+                        "product_id": 2829604803,
+                        "created_at": "2015-09-28T07:21:47-07:00",
+                        "position": 1
+                    }
+                ],
+                "id": 2829604803
+            }
+        ]
+    },
+    "learn": {
+        "latestPost": {
+            "authorDetails": {
+                "name": "Muse Team",
+                "slug": "anju",
+                "description": "",
+                "avatar_urls": {
+                    "24": "http://2.gravatar.com/avatar/eab88c55c24aeddb2436f212543eded4?s=24&d=mm&r=g",
+                    "48": "http://2.gravatar.com/avatar/eab88c55c24aeddb2436f212543eded4?s=48&d=mm&r=g"
+                }
+            },
+            "featuredMedia": {
+                "source_url": "https://museconnectblog.choosemuse.com/wp-content/uploads/2017/07/Screen-Shot-2017-07-27-at-4.28.34-PM.png"
+            },
+            "postDetails": {
+                "slug": "muse-professionals-handbook",
+                "title": {
+                    "rendered": "Professional&#8217;s Handbook"
+                }
+            }    
+        },
+        "categories": {
+            "id": 1,
+            "count": 0,
+            "description": "",
+            "link": "https:\/\/museconnectblog.choosemuse.com\/category\/uncategorized\/",
+            "name": "uncategorized",
+            "slug": "uncategorized",
+            "taxonomy": "category",
+            "parent": 0,
+            "meta": [
+            
+            ],
+            "_links": {
+            "self": [
+                {
+                "href": "https:\/\/museconnectblog.choosemuse.com\/wp-json\/wp\/v2\/categories\/1"
+                }
+            ],
+            "collection": [
+                {
+                "href": "https:\/\/museconnectblog.choosemuse.com\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                "href": "https:\/\/museconnectblog.choosemuse.com\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                "href": "https:\/\/museconnectblog.choosemuse.com\/wp-json\/wp\/v2\/posts?categories=1"
+                }
+            ],
+            "curies": [
+                {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+                }
+            ]
+            }
+        }
+    },
+    "user": {
+        "isFetching": false,
+        "isError": false,
+        "info": {
+            "wasSubscriber": true,
+            "currentMuser": null,
+            "muserSince": "2014-09-23T21:46:25.221270",
+            "email": "jasna@interaxon.com",
+            "businessType": "Multi-Location Clinic",
+            "subscriptions": [
+                {
+                    "planName": "Monthly Plan",
+                    "startDate": null,
+                    "endDate": null,
+                    "currency": "usd",
+                    "amount": 39.0,
+                    "billingCycle": "monthly",
+                    "renewalDate": "2018-07-24T10:59:05",
+                    "inTrial": true
+                },
+                {
+                    "planName": "Annual Plan",
+                    "startDate": null,
+                    "endDate": "2018-07-24T10:59:05",
+                    "currency": "usd",
+                    "amount": 399.0,
+                    "billingCycle": "annual",
+                    "renewalDate": null,
+                    "inTrial": null
+                }
+            ],
+            "planFeatures": [],
+            "museConnecterSince": "2016-09-14T19:21:00.276270",
+            "emailOptIn": null,
+            "phone": null,
+            "certificationBody": "Athletic Trainer",
+            "businessName": "Clinic",
+            "displayName": "Dr. Tx.",
+            "firstName": "Jasna",
+            "lastName": "Todro.",
+            "displayEmail": "jt@interaxon.ca",
+            "avatar": "http://lh3.googleusercontent.com/mFtHlEA_VvqaCNRpXLSM3eNdC-LaeyJZxAXV-5jwegot3bFTd8WlEm_gXn-x4ri5KWYGxju_6N78nauG0uYW33_fsrJY",
+            "proID": "36c7a169b0684826a71c4b63dfff50af",
+            "country": "CA"
+        }
+    },
+    "nonMuserInvites":{
+        "total": 2,
+        "invites": [
+            {
+                "createDate": "2018-01-19T13:32:29.395700+00:00",
+                "id": "4630860211421184",
+                "email": "random13@mailinator.com"
+            },
+            {
+                "createDate": "2018-01-19T07:21:22.554170+00:00",
+                "id": "4930451829948416",
+                "email": "random6@mailinator.com"
+            }
+        ]
+    },
+    "plansAccount": {
+      "taxRate": 0.0,
+      "plans": [
+        {
+          "activeDate": null,
+          "total": 39.0,
+          "features": [
+            
+          ],
+          "title": "Monthly Plan",
+          "promoID": null,
+          "recommendedText": null,
+          "tax": 0.0,
+          "currentPlan": false,
+          "planID": "mcp_m_usd_1",
+          "otherInfoHTML": [
+            "<strong>Preferred</strong> Practice Pricing",
+            "Manage up to <strong>50 Clients</strong>",
+            "<strong>Exclusive</strong> Client Referral Pricing"
+          ],
+          "currency": "USD",
+          "recommended": false,
+          "frequency": "monthly",
+          "stoppedDate": null,
+          "defaultInfoHTML": [
+            "Billed <strong>Monthly</strong>"
+          ],
+          "amount": 39,
+          "purID": null,
+          "trialDays": 0,
+          "upcomingPlan": false,
+          "description": "For professionals who are already using Muse first hand as a therapy tool and want to further connect with their clients"
+        },
+        {
+          "activeDate": null,
+          "total": 399.0,
+          "features": [
+            
+          ],
+          "title": "Annual Plan",
+          "promoID": null,
+          "recommendedText": null,
+          "tax": 0.0,
+          "currentPlan": false,
+          "planID": "mcp_a_usd_1",
+          "otherInfoHTML": [
+            "<strong>Preferred</strong> Practice Pricing",
+            "Manage up to <strong>50 Clients</strong>",
+            "<strong>Exclusive</strong> Client Referral Pricing",
+            "Billed <strong>Annually</strong>"
+          ],
+          "currency": "USD",
+          "recommended": true,
+          "frequency": "annual",
+          "stoppedDate": null,
+          "defaultInfoHTML": [
+            "<strong>1 Year Subscription</strong> to Muse Connect"
+          ],
+          "amount": 399,
+          "purID": null,
+          "trialDays": 0,
+          "upcomingPlan": false,
+          "description": "For professionals who want to cultivate a meditation practice through a shared experience"
+        }
+      ],
+      "key": "pk_test_ovxGRaOhNaOZZ2gtKHWpJqUv"
+    },
+    "notes": [{
+                "id": "note_id_1",
+                "clientID": "abc123",
+                "title": "This is the note's title",
+                "content": "This is a note that is very useful",
+                "contentType": "text/plain",
+                "createdAt": "2018-01-29T14:23:55Z"
+            }, {
+                "id": "note_id_2",
+                "clientID": "abc124",
+                "title": "This is the note's title",
+                "content": "This is a note that is very useful",
+                "contentType": "text/plain",
+                "createdAt": "2018-01-29T14:23:55Z"
+            }, {
+                "id": "note_id_3",
+                "clientID": "abc125",
+                "title": "This is the note's title",
+                "content": "This is a note that is very useful",
+                "contentType": "text/plain",
+                "createdAt": "2018-01-29T14:23:55Z"
+            }]
+}

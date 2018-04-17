@@ -1,0 +1,68 @@
+@import '../../layout/Default/CommonStyle.scss';
+
+.BProCertificationModal {
+  max-width: 600px !important;
+}
+.BProCertificationModal > div {
+  background-color: white !important;
+}
+
+.sideImageBProCertification {
+  @extend .sideImage;
+  background-image: url("/images/business-and-profession.jpg");
+  @media only screen and (max-width: $break-point-sm) {
+    background-position: top center;
+    min-height: 50vh;
+  }
+  @media only screen and (max-width: $break-point-xs) {
+    display: none;
+  }
+}
+
+.fieldHeadingBProCertification {
+  color: $mediumGrey;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.smallDescriptionBProCertification {
+  color: $mediumGrey;
+  font-size: 12px;
+}
+
+.stepBProCertification {
+  margin-top: 10px;
+}
+
+.descriptionBProCertification {
+  @extend .description;
+  @media only screen and (max-width: $break-point-xs) {
+    font-size: 12px;
+    background-color: $background;
+    margin-left: -22px;
+    margin-right: -22px;
+    padding: 8px 22px;
+    padding-right: 50px;
+  }
+}
+
+.contentWrapBProCertification {
+  @extend .contentWrap;
+}
+
+.checkboxContainerBProCertification {
+  margin-right: 30px;
+}
+
+.actionButtonBProCertification {
+  margin-top: 40px;
+  @media only screen and (max-width: $break-point-sm) {
+    text-align: center;
+  }
+}
+
+.checkEligibility {
+  padding-top: 6px;
+  display: inline-block;
+}

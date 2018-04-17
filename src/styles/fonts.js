@@ -1,0 +1,7 @@
+import './fonts/proximanova_bold_macroman/stylesheet.css'
+import './fonts/proximanova_regular_macroman/stylesheet.css'
+import './fonts/proximanova_semibold_macroman/stylesheet.css'
+import './fonts/proximanova_bolditalic_macroman/stylesheet.css'
+import './fonts/proximanova_light_macroman/stylesheet.css'
+import './fonts/proximanova_medium_macroman/stylesheet.css'
+import './fonts/proximanova_mediumitalic_macroman/stylesheet.css'

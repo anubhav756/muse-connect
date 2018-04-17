@@ -1,0 +1,132 @@
+@import '../../styles/variables/breakpoints.scss';
+@import '../../styles/variables/colors.scss';
+
+.mobileOnly {
+  display: none;
+}
+
+.heading {
+  font-size: 30px;
+  font-family: 'proxima_novalight';
+  margin-top: 43px;
+  font-weight: 300;
+}
+
+.description {
+  color: $mediumGrey;
+  margin-top: 11px;
+  font-size: 16px;
+}
+
+.helperText {
+  color: $mediumGrey;
+  margin-top: 11px;
+  font-size: 12px;
+}
+
+.reCaptcha {
+  margin-top: 37px;
+}
+
+.actionButton {
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+.hyperText {
+  color: $mediumGrey;
+  margin-top: 20px;
+  font-size: 12px;
+  margin-bottom: 17px;
+}
+
+.hyperLink {
+  color: $teal;
+  text-decoration:none;
+  cursor: pointer;
+  outline: none;
+}
+
+.sideImage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  min-height: calc(100vh - 64px);
+}
+
+@media only screen and (max-width: $break-point-sm) {
+  .contentWrap {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  
+  .contentFieldLeft {
+    padding-right: 22px;
+  }
+
+  .contentFieldRight {
+    padding-left: 22px;
+  }
+
+  .sideImage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    min-height: 50vh; 
+    flex-basis: 100%;
+    margin-top: 52px;
+  }
+
+  .hyperText {
+    margin-top: 30px;
+    font-size: 12px;
+  }
+
+  .actionButton {
+    margin-top: 45px;
+  }
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .mobileOnly {
+    display: inline;
+  }
+
+  .exceptMobile {
+    display: none;
+  }
+
+  .contentFieldLeft {
+    padding-right: 0.5rem;
+  }
+
+  .contentFieldRight {
+    padding-left: 0.5rem;
+  }
+
+  .contentWrap {
+    padding: 0px 22px;
+  }
+
+  .sideImage {
+    display: none;
+  }
+  
+  .actionButton {
+    margin-top: 17px;
+    text-align: center;
+  }
+  
+  .hyperText {
+    margin-top: 20px;
+    margin-bottom: 74px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .reCaptcha {
+    text-align: center;
+  }
+}

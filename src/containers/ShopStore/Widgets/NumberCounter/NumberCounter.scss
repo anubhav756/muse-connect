@@ -1,0 +1,36 @@
+@import '../../variables.scss';
+
+.inputContainerCounter {
+  padding: 0 10px;
+  height: 26px;
+}
+
+.inputItemCounter {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: $darkGrey;
+  font-family: proxima_novasemibold;
+  font-size: 12px;
+}
+
+.upbuttonCounter {
+   position: absolute;
+   width: 20%;
+   height: 15px;
+   top: 0px;
+   right: 0px;
+   border-left: solid 1px $lightGrey;
+   border-bottom: solid 1px $lightGrey;
+}
+
+.downbuttonCounter {
+   position: absolute;
+   width: 20%;
+   height: 16px;
+   bottom: 0px;
+   right: 0px;
+   border-left: solid 1px $lightGrey;
+}

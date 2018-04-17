@@ -1,0 +1,40 @@
+@import './variables/colors.scss';
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: proxima_novaregular, Arial, Helvetica Neue, Helvetica, sans-serif;
+	color: $darkGrey;
+	background-color: $background;
+}
+
+.scrollbarModal::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: $lightestGrey;
+	margin: 16px
+}
+.scrollbarModal::-webkit-scrollbar {
+	width: 5px;
+}
+.scrollbarModal::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: $teal;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+}
+
+.Popover-tip {
+  fill: white;
+}
+
+// fix issue with image positions happening in internet explorer browsers only  
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   img {
+			display: inline-block !important;
+		}
+}

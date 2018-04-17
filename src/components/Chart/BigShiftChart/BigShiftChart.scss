@@ -1,0 +1,21 @@
+@import '../../../styles/variables/colors.scss';
+
+.LabelBigShift {
+    font-size: 12px;
+    color: $mediumGrey;
+    margin-top: 10px;
+}
+.ClientLabelBigShift {
+    @extend .LabelBigShift;
+    display: inline-block;
+    vertical-align: top;
+    margin: 4px 6px;
+}
+.EmptyLabelBigShiftChart {
+    color: $lightGrey;
+    position: absolute;
+    font-size: 22px;
+    margin: 0px 20px;
+    text-align: center;
+    top: 116px;
+}

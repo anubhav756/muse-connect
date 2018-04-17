@@ -1,0 +1,76 @@
+@import '../../styles/variables/colors.scss';
+@import '../../styles/variables/breakpoints.scss';
+
+abbr[title] {
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none !important;
+}
+
+.clientListText {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+  color: $darkGrey;
+}
+
+.clientListTextMain {
+  @extend .clientListText;
+  margin-top: 8px;
+  overflow: hidden;
+  width: calc(100% - 60px);
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+.clientListTextMainLight {
+  @extend .clientListTextMain;
+  color: $mediumGrey;
+}
+
+.clientListTextMainSmall {
+  @extend .clientListTextMain;
+  font-size: 16px;
+  margin-top: 0px
+}
+
+.clientListTextSmall {
+  @extend .clientListText;
+  font-size: 14px;
+}
+
+.clientListTextSmallLight {
+  @extend .clientListTextSmall;
+  color: $mediumGrey
+}
+
+.clientListTextSmallerLight {
+  @extend .clientListTextSmallLight;
+  font-size: 12px;
+}
+
+.hyperTextClientList {
+  @extend .clientListTextSmallerLight;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hyperLinkClientList {
+  color: $teal;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.ActionsContainerClientList {
+  float: left;
+  width: auto;
+  max-width: calc(100% - 30px);
+}
+
+@media only screen and (max-width: $break-point-sm) {
+  .desktopOnly {
+    display: none;
+  }
+}

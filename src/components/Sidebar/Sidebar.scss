@@ -1,0 +1,45 @@
+@import '../../styles/variables/breakpoints.scss';
+@import '../../styles/variables/colors.scss';
+
+.WrapperSidebar {
+    margin-left: -8px;
+    margin-right: -8px;
+    position: relative;
+}
+.ContentInsideSidebar {
+    width: 252px;
+    background-color: white;
+    padding-left: 18px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-height: 100%;
+    @media only screen and (max-width: $break-point-sm) {
+        display: none;
+  }
+}
+.ContentOutsideSidebar {
+    min-height: calc(100vh - 64px);
+    margin-left: 270px;
+    @media only screen and (max-width: $break-point-sm) {
+        margin-left: 0px;
+    }
+}
+.TitleStyleSidebar {
+    color: $darkGrey;
+    font-family: 'proxima_novasemibold';
+    font-size: 14px;
+    margin-top: 34px;
+    letter-spacing: 1px;
+}
+.UserNameSidebar {
+    font-size: 20px;
+    font-family: 'proxima_novasemibold';
+    color: $darkGrey;
+    margin-top: 15px;
+}
+.DetailsSidebar {
+    font-size: 12px;
+    color: $mediumGrey;
+    margin-top: 4px;
+}

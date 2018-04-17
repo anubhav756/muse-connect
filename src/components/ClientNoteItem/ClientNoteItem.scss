@@ -1,0 +1,70 @@
+@import '../../styles/variables/breakpoints.scss';
+
+.dateClientNoteItem {
+  display: inline-block;
+  width: 160px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+.containerNoteItem {
+  display: inline-block;
+  position: relative;
+  width: calc(100% - 160px);
+}
+.buttonContainerNoteItem {
+  display: inline-block;
+  margin-top: -6px;
+}
+.headerClientNoteItem {
+  width: calc(100% - 186px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  font-family: proxima_novasemibold;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+.headerExpandClientNoteItem {
+  @extend .headerClientNoteItem;
+  overflow: none;
+  word-break: break-all;
+  white-space: normal;
+}
+.bodyExpandClientNoteItem {
+  overflow: hidden;
+  margin-bottom: 10px;
+  word-break: break-all;
+}
+.bodyClientNoteItem {
+  @extend .bodyExpandClientNoteItem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-height: 20px;
+  max-height: 60px;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+
+@media screen and (max-width: $break-point-xs) {
+  .dateClientNoteItem {
+    width: 82px;
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+  .containerNoteItem {
+    width: calc(100% - 92px);
+  }
+  .buttonContainerNoteItem {
+    position: absolute;
+    right: 12px;
+    bottom: -6px;
+  }
+  .headerExpandClientNoteItem {
+    display: block;
+    width: 100%;
+    margin-top: 0px;
+  }
+}

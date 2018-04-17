@@ -1,0 +1,16 @@
+@import '../../styles/variables/colors';
+
+.categoryFAQsItem {
+  font-size: 16px;
+  color: $teal;
+  letter-spacing: 1.3px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.containerFAQItemWrap a {
+  color: $teal;
+  text-decoration:none;
+  cursor: pointer;
+  word-break: break-all;
+}

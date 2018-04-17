@@ -1,0 +1,50 @@
+@import '../../styles/variables/breakpoints.scss';
+
+.TitleContainerClientList {
+  padding: 34px 0 0 38px;
+}
+
+.TitleStyleClientList {
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'proxima_novasemibold';
+  letter-spacing: 1px;
+}
+
+.FilterContainerClientList {
+  padding: 4px 0 0 38px;
+}
+
+.ListContainerClientList {
+  padding: 25px 38px;
+}
+
+.dividerClientList {
+  display: none;
+}
+
+@media only screen and (max-width: $break-point-sm) {
+  .ListContainerClientList {
+    padding: 18px 22px;
+  }
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .TitleContainerClientList {
+    padding: 32px 0 0 27px;
+  }
+
+  .dividerClientList {
+    display: block;
+    padding-top: 12px;
+    margin: 0px -8px;
+  }
+
+  .FilterContainerClientList {
+    padding: 0 0 0 26px;
+  }
+
+  .ListContainerClientList {
+    padding: 22px 10px;
+  }
+}

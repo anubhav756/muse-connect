@@ -1,0 +1,61 @@
+@import '../../styles/variables/colors.scss';
+
+.titleArticleDetails {
+  font-family: proxima_novaSemibold;
+  font-size: 20px;
+  color: #4a4a4a;
+  margin-top: 30px;
+}
+
+.categoryLabelArticleDetails {
+  position: absolute;
+  z-index: 2;
+  color: $lightestGrey;
+  font-family: proxima_novabold;
+  font-size: 11px;
+  background: $purple;
+  border-radius: 20px;
+  padding: 7px 14px;
+  top: 25px;
+  right: 25px;
+}
+
+.imageContainerLearnArticleDetails {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    overflow: hidden;
+}
+
+.featuredImageArticleDetails {
+  margin-top: 35px;
+  position: relative;
+  height: 300px
+}
+
+.authorDetailsArticleDetails {
+  margin-top: 32px;
+}
+
+.printArticle {
+  vertical-align: middle;
+  margin-left: 11px;
+}
+
+.pageTitleArticleDetails {
+  margin-left: 50px;
+  margin-right: 50px
+}
+@media only screen and (max-width: 767px) {
+  .printArticle {
+    display: none;
+  }
+  .pageTitleArticleDetails {
+    margin-left: 30px;
+    margin-right: 30px
+  }
+}

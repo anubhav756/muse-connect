@@ -1,0 +1,32 @@
+@import '../DashboardContent.scss';
+
+.CardTextDashBoardCards {
+  font-size: 40px;
+  font-family: 'proxima_novalight';
+  color: $darkGrey;
+  color: $teal
+}
+
+.NormalTextLightDashboard {
+  font-size: 14px;
+  color: $mediumGrey;
+  max-width: 110px;
+}
+
+.AggregateChartContainerDashboard {
+  margin: 0px 10px;
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .CardTextDashBoardCards {
+    font-size: 16px;
+  }
+
+  .NormalTextLightDashboard {
+    font-size: 12px;
+    max-width: 95px;
+  }
+  .AggregateChartContainerDashboard {
+    margin: 0px 20px;
+  }
+}

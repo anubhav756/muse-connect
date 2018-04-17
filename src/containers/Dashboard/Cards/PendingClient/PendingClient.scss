@@ -1,0 +1,87 @@
+@import '../Style.scss';
+@import '../../../../styles/variables/colors.scss';
+
+.actionPendingClient {
+  padding: 0px 8px 0px 8px;
+}
+
+.headingPendingClients {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 31px;
+  font-size: 18px;
+  color: $darkGrey;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.titlePendingClient {
+  overflow-wrap: break-word;
+  width: 250px;
+}
+
+.wrapPendingClient {
+  height: 348px;
+  overflow-y: auto;
+  position: relative;
+
+  padding: 0 30px 0 30px;
+}
+
+.emptyClientsTextPendingClients {
+  margin-top: 30px;
+  font-size: 18px;
+  color: $mediumGrey;
+}
+
+.addClientPendingClients {
+  display: inline-block;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.listItemWrap {
+  padding-top: 25px;
+}
+.scrollbarPendingClient::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: $lightestGrey;
+}
+.scrollbarPendingClient::-webkit-scrollbar {
+	width: 5px;
+}
+.scrollbarPendingClient::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: $teal;
+}
+
+@media only screen and (max-width: 1165px) {
+  .titlePendingClient {
+    width: 210px;
+  }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 1023px) {
+  .titlePendingClient {
+    width: 170px;
+  }
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .headingPendingClients {
+    padding-top: 10px;
+    padding-left: 10px;
+    
+  }
+  .wrapPendingClient {
+    padding: 0 10px 0 10px;
+  }
+  .dividerPendingClient {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .listItemDividerPendingClient {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

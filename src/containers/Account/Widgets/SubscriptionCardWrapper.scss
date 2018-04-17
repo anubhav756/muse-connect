@@ -1,0 +1,11 @@
+@import '../../Subscription/Subscription.scss';
+
+.containerSubscriptionAccount {
+  @extend .containerSubscription;
+  padding: 0px;
+}
+
+.headingSubAccount {
+  @extend .headingSubOnboard;
+  margin-top: 28px;
+}

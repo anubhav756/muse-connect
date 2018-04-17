@@ -1,0 +1,29 @@
+@import '../../styles/variables/colors.scss';
+
+.Title {
+  color: $darkGrey;
+  font-family: 'proxima_novasemibold';
+  font-size: 14px;
+  margin-top: 34px;
+  letter-spacing: 1px;
+}
+
+.UserName {
+  font-size: 20px;
+  font-family: 'proxima_novasemibold';
+  color: $darkGrey;
+  margin-top: 15px;
+}
+
+.Details {
+  font-size: 12px;
+  color: $mediumGrey;
+  margin-top: 4px;
+}
+
+.hyperLink {
+  color: $teal;
+  text-decoration:none;
+  cursor: pointer;
+  outline: none;
+}

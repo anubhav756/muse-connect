@@ -1,0 +1,367 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> <CancelModal /> handles no 1`] = `
+<CancelModal>
+  <Dialog
+    actions={
+      Array [
+        <RaisedButton
+          buttonStyle={
+              Object {
+                  "borderRadius": "10px",
+                }
+          }
+          disabled={false}
+          fullWidth={false}
+          label="Yes"
+          labelPosition="after"
+          onClick={[Function]}
+          overlayStyle={
+              Object {
+                  "borderRadius": "10px",
+                }
+          }
+          primary={true}
+          secondary={false}
+          style={
+              Object {
+                  "borderRadius": "10px",
+                  "marginRight": "10px",
+                }
+          }
+      />,
+        <RaisedButton
+          buttonStyle={
+              Object {
+                  "borderRadius": "10px",
+                }
+          }
+          disabled={false}
+          fullWidth={false}
+          keyboardFocused={true}
+          label="No"
+          labelPosition="after"
+          onClick={[Function]}
+          overlayStyle={
+              Object {
+                  "borderRadius": "10px",
+                }
+          }
+          primary={true}
+          secondary={false}
+          style={
+              Object {
+                  "borderRadius": "10px",
+                }
+          }
+      />,
+      ]
+    }
+    autoDetectWindowHeight={true}
+    autoScrollBodyContent={false}
+    modal={false}
+    onRequestClose={[Function]}
+    open={false}
+    overlayStyle={
+      Object {
+        "backgroundColor": "rgba(255,255,255,0.8)",
+      }
+    }
+    repositionOnUpdate={true}
+    style={
+      Object {
+        "zIndex": 10001,
+      }
+    }
+  >
+    <RenderToLayer
+      open={true}
+      render={[Function]}
+      useLayerForClickAway={false}
+    />
+  </Dialog>
+</CancelModal>
+`;
+
+exports[`<Modal /> <CancelModal /> handles yes 1`] = `
+<CancelModal>
+  <Dialog
+    actions={
+      Array [
+        <RaisedButton
+          buttonStyle={
+              Object {
+                  "borderRadius": "10px",
+                }
+          }
+          disabled={false}
+          fullWidth={false}
+          label="Yes"
+          labelPosition="after"
+          onClick={[Function]}
+          overlayStyle={
+              Object {
+                  "borderRadius": "10px",
+                }
+          }
+          primary={true}
+          secondary={false}
+          style={
+              Object {
+                  "borderRadius": "10px",
+                  "marginRight": "10px",
+                }
+          }
+      />,
+        <RaisedButton
+          buttonStyle={
+              Object {
+                  "borderRadius": "10px",
+                }
+          }
+          disabled={false}
+          fullWidth={false}
+          keyboardFocused={true}
+          label="No"
+          labelPosition="after"
+          onClick={[Function]}
+          overlayStyle={
+              Object {
+                  "borderRadius": "10px",
+                }
+          }
+          primary={true}
+          secondary={false}
+          style={
+              Object {
+                  "borderRadius": "10px",
+                }
+          }
+      />,
+      ]
+    }
+    autoDetectWindowHeight={true}
+    autoScrollBodyContent={false}
+    modal={false}
+    onRequestClose={[Function]}
+    open={false}
+    overlayStyle={
+      Object {
+        "backgroundColor": "rgba(255,255,255,0.8)",
+      }
+    }
+    repositionOnUpdate={true}
+    style={
+      Object {
+        "zIndex": 10001,
+      }
+    }
+  >
+    <RenderToLayer
+      open={true}
+      render={[Function]}
+      useLayerForClickAway={false}
+    />
+  </Dialog>
+</CancelModal>
+`;
+
+exports[`<Modal /> <CancelModal /> renders correctly 1`] = `
+<CancelModal
+  open={true}
+  title="test modal"
+  toggleModal={[Function]}
+>
+  <Dialog
+    actions={
+      Array [
+        <RaisedButton
+          buttonStyle={
+              Object {
+                  "borderRadius": "10px",
+                }
+          }
+          disabled={false}
+          fullWidth={false}
+          label="Yes"
+          labelPosition="after"
+          onClick={[Function]}
+          overlayStyle={
+              Object {
+                  "borderRadius": "10px",
+                }
+          }
+          primary={true}
+          secondary={false}
+          style={
+              Object {
+                  "borderRadius": "10px",
+                  "marginRight": "10px",
+                }
+          }
+      />,
+        <RaisedButton
+          buttonStyle={
+              Object {
+                  "borderRadius": "10px",
+                }
+          }
+          disabled={false}
+          fullWidth={false}
+          keyboardFocused={true}
+          label="No"
+          labelPosition="after"
+          onClick={[Function]}
+          overlayStyle={
+              Object {
+                  "borderRadius": "10px",
+                }
+          }
+          primary={true}
+          secondary={false}
+          style={
+              Object {
+                  "borderRadius": "10px",
+                }
+          }
+      />,
+      ]
+    }
+    autoDetectWindowHeight={true}
+    autoScrollBodyContent={false}
+    modal={false}
+    onRequestClose={[Function]}
+    open={false}
+    overlayStyle={
+      Object {
+        "backgroundColor": "rgba(255,255,255,0.8)",
+      }
+    }
+    repositionOnUpdate={true}
+    style={
+      Object {
+        "zIndex": 10001,
+      }
+    }
+  >
+    <RenderToLayer
+      open={true}
+      render={[Function]}
+      useLayerForClickAway={false}
+    />
+  </Dialog>
+</CancelModal>
+`;
+
+exports[`<Modal /> <Modal /> component 1`] = `
+<Modal
+  actions={null}
+  autoScrollBodyContent={true}
+  childrenClassName=""
+  childrenStyle={Object {}}
+  containerStyle={Object {}}
+  contentClassName=""
+  iconName="x-icon"
+  iconStyle={Object {}}
+  open={true}
+  showCross={true}
+  style={null}
+  subTitle={null}
+  subTitleStyle={
+    Object {
+      "color": undefined,
+      "fontFamily": "proxima_novaregular",
+      "fontSize": "18px",
+    }
+  }
+  title="test modal"
+  titleStyle={Object {}}
+  toggleModal={[Function]}
+>
+  <Dialog
+    actions={null}
+    autoDetectWindowHeight={true}
+    autoScrollBodyContent={true}
+    bodyClassName="scrollbarModal "
+    bodyStyle={
+      Object {
+        "marginRight": 16,
+        "paddingLeft": 42,
+        "paddingRight": 26,
+      }
+    }
+    contentClassName=""
+    contentStyle={null}
+    modal={false}
+    onRequestClose={[Function]}
+    open={true}
+    overlayStyle={
+      Object {
+        "backgroundColor": "rgba(255,255,255,0.8)",
+      }
+    }
+    repositionOnUpdate={true}
+    style={
+      Object {
+        "zIndex": 10001,
+      }
+    }
+    title={
+      <div
+        style={
+          Object {
+            "marginRight": "0px",
+          }
+        }
+      >
+        test modal
+        <IconButton
+          disableTouchRipple={false}
+          disabled={false}
+          iconStyle={
+            Object {
+              "height": 16,
+              "width": 16,
+            }
+          }
+          onClick={[Function]}
+          style={
+            Object {
+              "position": "absolute",
+              "right": 12,
+              "top": 12,
+            }
+          }
+          tooltipPosition="bottom-center"
+          touch={false}
+        >
+          <Icon
+            name="x-icon"
+            style={
+              Object {
+                "height": 16,
+                "width": 16,
+              }
+            }
+          />
+        </IconButton>
+      </div>
+    }
+    titleStyle={
+      Object {
+        "color": undefined,
+        "fontFamily": "proxima_novabold",
+        "fontSize": "20px",
+        "paddingLeft": "42px",
+        "paddingRight": "48px",
+      }
+    }
+  >
+    <RenderToLayer
+      open={true}
+      render={[Function]}
+      useLayerForClickAway={false}
+    />
+  </Dialog>
+</Modal>
+`;

@@ -1,0 +1,19 @@
+@import '../../styles/variables/breakpoints.scss';
+
+.accountWrapper {
+  margin-left: -8px;
+  margin-right: -8px;
+  position: relative;
+}
+
+.ContentOutsideSidebarAccount {
+    min-height: calc(100vh - 64px);
+    margin-left: 270px;
+    padding-top: 13;
+}
+
+@media only screen and (max-width: $break-point-sm) {
+  .ContentOutsideSidebarAccount {
+    margin-left: 0px;
+  }
+}

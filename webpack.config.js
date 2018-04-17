@@ -1,0 +1,73 @@
+'use strict'
+const webpack = require('webpack');
+const path = require('path');
+let loaders = require('./webpack.loaders');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const DashboardPlugin = require('webpack-dashboard/plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+
+const HOST = process.env.HOST || '127.0.0.1'
+const PORT = process.env.PORT || '8888'
+
+const styleLoaders = [
+  {
+    test: /\.css$/,
+    loader: 'style-loader!css-loader?modules',
+    include: /flexboxgrid/
+  },
+  {
+    test: /\.scss$/,
+    loaders: ['style-loader', 'css-loader?importLoaders=1', 'postcss-loader', 'sass-loader'],
+    exclude: ['node_modules', '/flexboxgrid/']
+  },
+]
+
+loaders = loaders.concat(styleLoaders)
+module.exports = {
+  entry: [
+    'babel-polyfill',
+    'react-hot-loader/patch',
+    './src/index.jsx', // your app's entry point
+  ],
+  devtool: process.env.WEBPACK_DEVTOOL || 'eval-source-map',
+  output: {
+    publicPath: '/',
+    path: path.join(__dirname, 'src/public'),
+    filename: 'bundle.js'
+  },
+  resolve: {
+    extensions: ['.js', '.jsx']
+  },
+  module: {
+    loaders
+  },
+  devServer: {
+    contentBase: './src/public',
+    // do not print bundle build stats
+    noInfo: true,
+    // enable HMR
+    hot: true,
+    // embed the webpack-dev-server runtime into the bundle
+    inline: true,
+    // serve index.html in place of 404 responses to allow HTML5 history
+    historyApiFallback: true,
+    port: PORT,
+    host: HOST
+  },
+  plugins: [
+    new webpack.NoEmitOnErrorsPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
+    new ExtractTextPlugin({
+      filename: 'style.css',
+      allChunks: true
+    }),
+    new DashboardPlugin(),
+    new HtmlWebpackPlugin({
+      template: './src/template.html',
+      files: {
+        css: ['style.css'],
+        js: ['bundle.js'],
+      }
+    }),
+  ]
+};

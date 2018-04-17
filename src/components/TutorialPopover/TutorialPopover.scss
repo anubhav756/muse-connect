@@ -1,0 +1,14 @@
+@import '../../styles/variables/colors.scss';
+
+.titleTutorialPopover {
+  display: inline-block;
+  margin-top: 5px;
+  font-family: proxima_novasemibold;
+  letter-spacing: .8px;
+}
+
+.textTutorialPopover {
+  margin-top: 20px;
+  font-size: 12px;
+  color: $mediumGrey;
+}

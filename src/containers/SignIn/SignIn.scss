@@ -1,0 +1,21 @@
+@import '../../layout/Default/CommonStyle.scss';
+@import '../../libs/auth/auth.scss';
+
+.helpLinkSignIn {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.sideImageSignIn {
+  @extend .sideImage;
+  background-image: url("/images/signin.jpg");
+  min-height: 100vh;
+  @media only screen and (max-width: $break-point-sm) {
+    min-height: 50vh;
+    background-position: top center;
+  }
+  @media only screen and (max-width: $break-point-xs) {
+    display: none;
+  }
+}

@@ -1,0 +1,1952 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClientNoteItem /> calls onClick of FlatButton 1`] = `
+<ClientNoteItem
+  content="Test content"
+  createdAt="2018-02-27T09:51:42.073Z"
+  deleteNote={[Function]}
+  disabled={false}
+  id="1"
+  title="Test Title"
+  wd={Object {}}
+>
+  <Paper
+    circle={false}
+    rounded={true}
+    style={
+      Object {
+        "background": "white",
+        "padding": 20,
+      }
+    }
+    transitionEnabled={true}
+    zDepth={1}
+  >
+    <div
+      style={
+        Object {
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "background": "white",
+          "backgroundColor": "#ffffff",
+          "borderRadius": 2,
+          "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                 0 1px 4px rgba(0, 0, 0, 0.12)",
+          "boxSizing": "border-box",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "Roboto, sans-serif",
+          "muiPrepared": true,
+          "padding": 20,
+          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+        }
+      }
+    >
+      <div
+        className="dateClientNoteItem"
+      >
+        Feb 27, 2018
+      </div>
+      <div
+        className="containerNoteItem"
+      >
+        <div
+          className="headerClientNoteItem"
+        >
+          Test Title
+        </div>
+        <div
+          className="buttonContainerNoteItem"
+        >
+          <AddEditNote
+            component={
+              <FlatButton
+                disabled={false}
+                fullWidth={false}
+                labelPosition="after"
+                labelStyle={Object {}}
+                onKeyboardFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onTouchStart={[Function]}
+                primary={false}
+                secondary={false}
+                style={
+                  Object {
+                    "color": undefined,
+                    "fontFamily": "proxima_novasemibold",
+                    "fontSize": 14,
+                    "minWidth": 88,
+                  }
+                }
+              >
+                <ImageEdit
+                  style={
+                    Object {
+                      "fill": undefined,
+                      "height": 20,
+                      "marginBottom": -5,
+                      "marginRight": 6,
+                    }
+                  }
+                />
+                Edit
+              </FlatButton>
+            }
+            content="Test content"
+            createdAt="2018-02-27T09:51:42.073Z"
+            deleteNote={[Function]}
+            disabled={false}
+            editNote={true}
+            id="1"
+            title="Test Title"
+            wd={Object {}}
+          >
+            <div
+              style={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              <div
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                role="button"
+                tabIndex="0"
+              >
+                <FlatButton
+                  disabled={false}
+                  fullWidth={false}
+                  labelPosition="after"
+                  labelStyle={Object {}}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onTouchStart={[Function]}
+                  primary={false}
+                  secondary={false}
+                  style={
+                    Object {
+                      "color": undefined,
+                      "fontFamily": "proxima_novasemibold",
+                      "fontSize": 14,
+                      "minWidth": 88,
+                    }
+                  }
+                >
+                  <EnhancedButton
+                    containerElement="button"
+                    disabled={false}
+                    focusRippleColor="#999999"
+                    focusRippleOpacity={0.3}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onKeyboardFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(0, 0, 0, 0)",
+                        "borderRadius": 2,
+                        "color": undefined,
+                        "fontFamily": "proxima_novasemibold",
+                        "fontSize": 14,
+                        "height": 36,
+                        "lineHeight": "36px",
+                        "margin": 0,
+                        "minWidth": 88,
+                        "overflow": "hidden",
+                        "padding": 0,
+                        "textAlign": "center",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "userSelect": "none",
+                      }
+                    }
+                    tabIndex={0}
+                    touchRippleColor="#999999"
+                    touchRippleOpacity={0.3}
+                    type="button"
+                  >
+                    <button
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      onTouchStart={[Function]}
+                      style={
+                        Object {
+                          "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "border": 10,
+                          "borderRadius": 2,
+                          "boxSizing": "border-box",
+                          "color": undefined,
+                          "cursor": "pointer",
+                          "display": "inline-block",
+                          "fontFamily": "proxima_novasemibold",
+                          "fontSize": 14,
+                          "fontWeight": "inherit",
+                          "height": 36,
+                          "lineHeight": "36px",
+                          "margin": 0,
+                          "minWidth": 88,
+                          "muiPrepared": true,
+                          "outline": "none",
+                          "overflow": "hidden",
+                          "padding": 0,
+                          "position": "relative",
+                          "textAlign": "center",
+                          "textDecoration": "none",
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                          "userSelect": "none",
+                          "verticalAlign": null,
+                        }
+                      }
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <TouchRipple
+                        abortOnScroll={true}
+                        centerRipple={undefined}
+                        color="#999999"
+                        key="touchRipple"
+                        opacity={0.3}
+                      >
+                        <div
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchStart={[Function]}
+                        >
+                          <ImageEdit
+                            style={
+                              Object {
+                                "fill": undefined,
+                                "height": 20,
+                                "marginBottom": -5,
+                                "marginRight": 6,
+                              }
+                            }
+                          >
+                            <ImageEdit
+                              style={
+                                Object {
+                                  "fill": undefined,
+                                  "height": 20,
+                                  "marginBottom": -5,
+                                  "marginRight": 6,
+                                }
+                              }
+                            >
+                              <SvgIcon
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                style={
+                                  Object {
+                                    "fill": undefined,
+                                    "height": 20,
+                                    "marginBottom": -5,
+                                    "marginRight": 6,
+                                  }
+                                }
+                                viewBox="0 0 24 24"
+                              >
+                                <svg
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  style={
+                                    Object {
+                                      "color": "rgba(0, 0, 0, 0.87)",
+                                      "display": "inline-block",
+                                      "fill": undefined,
+                                      "height": 20,
+                                      "marginBottom": -5,
+                                      "marginRight": 6,
+                                      "muiPrepared": true,
+                                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      "userSelect": "none",
+                                      "width": 24,
+                                    }
+                                  }
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                                  />
+                                </svg>
+                              </SvgIcon>
+                            </ImageEdit>
+                          </ImageEdit>
+                          Edit
+                        </div>
+                      </TouchRipple>
+                    </button>
+                  </EnhancedButton>
+                </FlatButton>
+              </div>
+              <div>
+                <undefined />
+              </div>
+            </div>
+          </AddEditNote>
+          <FlatButton
+            disabled={false}
+            fullWidth={false}
+            labelPosition="after"
+            labelStyle={Object {}}
+            onClick={[Function]}
+            onKeyboardFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onTouchStart={[Function]}
+            primary={false}
+            secondary={false}
+            style={
+              Object {
+                "color": undefined,
+                "fontFamily": "proxima_novasemibold",
+                "fontSize": 14,
+                "minWidth": 88,
+              }
+            }
+          >
+            <EnhancedButton
+              containerElement="button"
+              disabled={false}
+              focusRippleColor="#999999"
+              focusRippleOpacity={0.3}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onKeyboardFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "borderRadius": 2,
+                  "color": undefined,
+                  "fontFamily": "proxima_novasemibold",
+                  "fontSize": 14,
+                  "height": 36,
+                  "lineHeight": "36px",
+                  "margin": 0,
+                  "minWidth": 88,
+                  "overflow": "hidden",
+                  "padding": 0,
+                  "textAlign": "center",
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "userSelect": "none",
+                }
+              }
+              tabIndex={0}
+              touchRippleColor="#999999"
+              touchRippleOpacity={0.3}
+              type="button"
+            >
+              <button
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "border": 10,
+                    "borderRadius": 2,
+                    "boxSizing": "border-box",
+                    "color": undefined,
+                    "cursor": "pointer",
+                    "display": "inline-block",
+                    "fontFamily": "proxima_novasemibold",
+                    "fontSize": 14,
+                    "fontWeight": "inherit",
+                    "height": 36,
+                    "lineHeight": "36px",
+                    "margin": 0,
+                    "minWidth": 88,
+                    "muiPrepared": true,
+                    "outline": "none",
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "relative",
+                    "textAlign": "center",
+                    "textDecoration": "none",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "userSelect": "none",
+                    "verticalAlign": null,
+                  }
+                }
+                tabIndex={0}
+                type="button"
+              >
+                <TouchRipple
+                  abortOnScroll={true}
+                  centerRipple={undefined}
+                  color="#999999"
+                  key="touchRipple"
+                  opacity={0.3}
+                >
+                  <div
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                  >
+                    <ActionDelete
+                      style={
+                        Object {
+                          "fill": undefined,
+                          "height": 20,
+                          "marginBottom": -5,
+                          "marginRight": 6,
+                        }
+                      }
+                    >
+                      <ActionDelete
+                        style={
+                          Object {
+                            "fill": undefined,
+                            "height": 20,
+                            "marginBottom": -5,
+                            "marginRight": 6,
+                          }
+                        }
+                      >
+                        <SvgIcon
+                          onMouseEnter={[Function]}
+                          onMouseLeave={[Function]}
+                          style={
+                            Object {
+                              "fill": undefined,
+                              "height": 20,
+                              "marginBottom": -5,
+                              "marginRight": 6,
+                            }
+                          }
+                          viewBox="0 0 24 24"
+                        >
+                          <svg
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            style={
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "display": "inline-block",
+                                "fill": undefined,
+                                "height": 20,
+                                "marginBottom": -5,
+                                "marginRight": 6,
+                                "muiPrepared": true,
+                                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                "userSelect": "none",
+                                "width": 24,
+                              }
+                            }
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                            />
+                          </svg>
+                        </SvgIcon>
+                      </ActionDelete>
+                    </ActionDelete>
+                    Delete
+                  </div>
+                </TouchRipple>
+              </button>
+            </EnhancedButton>
+          </FlatButton>
+        </div>
+        <div
+          className="bodyClientNoteItem"
+        >
+          Test content
+        </div>
+        <a
+          className="hyperLink"
+          onClick={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          View more
+        </a>
+      </div>
+    </div>
+  </Paper>
+</ClientNoteItem>
+`;
+
+exports[`<ClientNoteItem /> calls onClick of FlatButton, When alert throws error 1`] = `
+<ClientNoteItem
+  content="Test content"
+  createdAt="2018-02-27T09:51:42.073Z"
+  disabled={false}
+  id="1"
+  title="Test Title"
+  wd={Object {}}
+>
+  <Paper
+    circle={false}
+    rounded={true}
+    style={
+      Object {
+        "background": "white",
+        "padding": 20,
+      }
+    }
+    transitionEnabled={true}
+    zDepth={1}
+  >
+    <div
+      style={
+        Object {
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "background": "white",
+          "backgroundColor": "#ffffff",
+          "borderRadius": 2,
+          "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                 0 1px 4px rgba(0, 0, 0, 0.12)",
+          "boxSizing": "border-box",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "Roboto, sans-serif",
+          "muiPrepared": true,
+          "padding": 20,
+          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+        }
+      }
+    >
+      <div
+        className="dateClientNoteItem"
+      >
+        Feb 27, 2018
+      </div>
+      <div
+        className="containerNoteItem"
+      >
+        <div
+          className="headerClientNoteItem"
+        >
+          Test Title
+        </div>
+        <div
+          className="buttonContainerNoteItem"
+        >
+          <AddEditNote
+            component={
+              <FlatButton
+                disabled={false}
+                fullWidth={false}
+                labelPosition="after"
+                labelStyle={Object {}}
+                onKeyboardFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onTouchStart={[Function]}
+                primary={false}
+                secondary={false}
+                style={
+                  Object {
+                    "color": undefined,
+                    "fontFamily": "proxima_novasemibold",
+                    "fontSize": 14,
+                    "minWidth": 88,
+                  }
+                }
+              >
+                <ImageEdit
+                  style={
+                    Object {
+                      "fill": undefined,
+                      "height": 20,
+                      "marginBottom": -5,
+                      "marginRight": 6,
+                    }
+                  }
+                />
+                Edit
+              </FlatButton>
+            }
+            content="Test content"
+            createdAt="2018-02-27T09:51:42.073Z"
+            disabled={false}
+            editNote={true}
+            id="1"
+            title="Test Title"
+            wd={Object {}}
+          >
+            <div
+              style={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              <div
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                role="button"
+                tabIndex="0"
+              >
+                <FlatButton
+                  disabled={false}
+                  fullWidth={false}
+                  labelPosition="after"
+                  labelStyle={Object {}}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onTouchStart={[Function]}
+                  primary={false}
+                  secondary={false}
+                  style={
+                    Object {
+                      "color": undefined,
+                      "fontFamily": "proxima_novasemibold",
+                      "fontSize": 14,
+                      "minWidth": 88,
+                    }
+                  }
+                >
+                  <EnhancedButton
+                    containerElement="button"
+                    disabled={false}
+                    focusRippleColor="#999999"
+                    focusRippleOpacity={0.3}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onKeyboardFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(0, 0, 0, 0)",
+                        "borderRadius": 2,
+                        "color": undefined,
+                        "fontFamily": "proxima_novasemibold",
+                        "fontSize": 14,
+                        "height": 36,
+                        "lineHeight": "36px",
+                        "margin": 0,
+                        "minWidth": 88,
+                        "overflow": "hidden",
+                        "padding": 0,
+                        "textAlign": "center",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "userSelect": "none",
+                      }
+                    }
+                    tabIndex={0}
+                    touchRippleColor="#999999"
+                    touchRippleOpacity={0.3}
+                    type="button"
+                  >
+                    <button
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      onTouchStart={[Function]}
+                      style={
+                        Object {
+                          "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "border": 10,
+                          "borderRadius": 2,
+                          "boxSizing": "border-box",
+                          "color": undefined,
+                          "cursor": "pointer",
+                          "display": "inline-block",
+                          "fontFamily": "proxima_novasemibold",
+                          "fontSize": 14,
+                          "fontWeight": "inherit",
+                          "height": 36,
+                          "lineHeight": "36px",
+                          "margin": 0,
+                          "minWidth": 88,
+                          "muiPrepared": true,
+                          "outline": "none",
+                          "overflow": "hidden",
+                          "padding": 0,
+                          "position": "relative",
+                          "textAlign": "center",
+                          "textDecoration": "none",
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                          "userSelect": "none",
+                          "verticalAlign": null,
+                        }
+                      }
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <TouchRipple
+                        abortOnScroll={true}
+                        centerRipple={undefined}
+                        color="#999999"
+                        key="touchRipple"
+                        opacity={0.3}
+                      >
+                        <div
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchStart={[Function]}
+                        >
+                          <ImageEdit
+                            style={
+                              Object {
+                                "fill": undefined,
+                                "height": 20,
+                                "marginBottom": -5,
+                                "marginRight": 6,
+                              }
+                            }
+                          >
+                            <ImageEdit
+                              style={
+                                Object {
+                                  "fill": undefined,
+                                  "height": 20,
+                                  "marginBottom": -5,
+                                  "marginRight": 6,
+                                }
+                              }
+                            >
+                              <SvgIcon
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                style={
+                                  Object {
+                                    "fill": undefined,
+                                    "height": 20,
+                                    "marginBottom": -5,
+                                    "marginRight": 6,
+                                  }
+                                }
+                                viewBox="0 0 24 24"
+                              >
+                                <svg
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  style={
+                                    Object {
+                                      "color": "rgba(0, 0, 0, 0.87)",
+                                      "display": "inline-block",
+                                      "fill": undefined,
+                                      "height": 20,
+                                      "marginBottom": -5,
+                                      "marginRight": 6,
+                                      "muiPrepared": true,
+                                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      "userSelect": "none",
+                                      "width": 24,
+                                    }
+                                  }
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                                  />
+                                </svg>
+                              </SvgIcon>
+                            </ImageEdit>
+                          </ImageEdit>
+                          Edit
+                        </div>
+                      </TouchRipple>
+                    </button>
+                  </EnhancedButton>
+                </FlatButton>
+              </div>
+              <div>
+                <undefined />
+              </div>
+            </div>
+          </AddEditNote>
+          <FlatButton
+            disabled={false}
+            fullWidth={false}
+            labelPosition="after"
+            labelStyle={Object {}}
+            onClick={[Function]}
+            onKeyboardFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onTouchStart={[Function]}
+            primary={false}
+            secondary={false}
+            style={
+              Object {
+                "color": undefined,
+                "fontFamily": "proxima_novasemibold",
+                "fontSize": 14,
+                "minWidth": 88,
+              }
+            }
+          >
+            <EnhancedButton
+              containerElement="button"
+              disabled={false}
+              focusRippleColor="#999999"
+              focusRippleOpacity={0.3}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onKeyboardFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "borderRadius": 2,
+                  "color": undefined,
+                  "fontFamily": "proxima_novasemibold",
+                  "fontSize": 14,
+                  "height": 36,
+                  "lineHeight": "36px",
+                  "margin": 0,
+                  "minWidth": 88,
+                  "overflow": "hidden",
+                  "padding": 0,
+                  "textAlign": "center",
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "userSelect": "none",
+                }
+              }
+              tabIndex={0}
+              touchRippleColor="#999999"
+              touchRippleOpacity={0.3}
+              type="button"
+            >
+              <button
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "border": 10,
+                    "borderRadius": 2,
+                    "boxSizing": "border-box",
+                    "color": undefined,
+                    "cursor": "pointer",
+                    "display": "inline-block",
+                    "fontFamily": "proxima_novasemibold",
+                    "fontSize": 14,
+                    "fontWeight": "inherit",
+                    "height": 36,
+                    "lineHeight": "36px",
+                    "margin": 0,
+                    "minWidth": 88,
+                    "muiPrepared": true,
+                    "outline": "none",
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "relative",
+                    "textAlign": "center",
+                    "textDecoration": "none",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "userSelect": "none",
+                    "verticalAlign": null,
+                  }
+                }
+                tabIndex={0}
+                type="button"
+              >
+                <TouchRipple
+                  abortOnScroll={true}
+                  centerRipple={undefined}
+                  color="#999999"
+                  key="touchRipple"
+                  opacity={0.3}
+                >
+                  <div
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                  >
+                    <ActionDelete
+                      style={
+                        Object {
+                          "fill": undefined,
+                          "height": 20,
+                          "marginBottom": -5,
+                          "marginRight": 6,
+                        }
+                      }
+                    >
+                      <ActionDelete
+                        style={
+                          Object {
+                            "fill": undefined,
+                            "height": 20,
+                            "marginBottom": -5,
+                            "marginRight": 6,
+                          }
+                        }
+                      >
+                        <SvgIcon
+                          onMouseEnter={[Function]}
+                          onMouseLeave={[Function]}
+                          style={
+                            Object {
+                              "fill": undefined,
+                              "height": 20,
+                              "marginBottom": -5,
+                              "marginRight": 6,
+                            }
+                          }
+                          viewBox="0 0 24 24"
+                        >
+                          <svg
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            style={
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "display": "inline-block",
+                                "fill": undefined,
+                                "height": 20,
+                                "marginBottom": -5,
+                                "marginRight": 6,
+                                "muiPrepared": true,
+                                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                "userSelect": "none",
+                                "width": 24,
+                              }
+                            }
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                            />
+                          </svg>
+                        </SvgIcon>
+                      </ActionDelete>
+                    </ActionDelete>
+                    Delete
+                  </div>
+                </TouchRipple>
+              </button>
+            </EnhancedButton>
+          </FlatButton>
+        </div>
+        <div
+          className="bodyClientNoteItem"
+        >
+          Test content
+        </div>
+        <a
+          className="hyperLink"
+          onClick={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          View more
+        </a>
+      </div>
+    </div>
+  </Paper>
+</ClientNoteItem>
+`;
+
+exports[`<ClientNoteItem /> renders correctly 1`] = `
+<ClientNoteItem
+  content="Test content"
+  createdAt="2018-02-27T09:51:42.073Z"
+  disabled={true}
+  id="1"
+  title="Test Title"
+  wd={Object {}}
+>
+  <Paper
+    circle={false}
+    rounded={true}
+    style={
+      Object {
+        "background": "white",
+        "padding": 20,
+      }
+    }
+    transitionEnabled={true}
+    zDepth={1}
+  >
+    <div
+      style={
+        Object {
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "background": "white",
+          "backgroundColor": "#ffffff",
+          "borderRadius": 2,
+          "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                 0 1px 4px rgba(0, 0, 0, 0.12)",
+          "boxSizing": "border-box",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "Roboto, sans-serif",
+          "muiPrepared": true,
+          "padding": 20,
+          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+        }
+      }
+    >
+      <div
+        className="dateClientNoteItem"
+      >
+        Feb 27, 2018
+      </div>
+      <div
+        className="containerNoteItem"
+      >
+        <div
+          className="headerClientNoteItem"
+        >
+          Test Title
+        </div>
+        <div
+          className="buttonContainerNoteItem"
+        >
+          <AddEditNote
+            component={
+              <FlatButton
+                disabled={true}
+                fullWidth={false}
+                labelPosition="after"
+                labelStyle={Object {}}
+                onKeyboardFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onTouchStart={[Function]}
+                primary={false}
+                secondary={false}
+                style={
+                  Object {
+                    "color": undefined,
+                    "fontFamily": "proxima_novasemibold",
+                    "fontSize": 14,
+                    "minWidth": 88,
+                  }
+                }
+              >
+                <ImageEdit
+                  style={
+                    Object {
+                      "fill": undefined,
+                      "height": 20,
+                      "marginBottom": -5,
+                      "marginRight": 6,
+                    }
+                  }
+                />
+                Edit
+              </FlatButton>
+            }
+            content="Test content"
+            createdAt="2018-02-27T09:51:42.073Z"
+            disabled={true}
+            editNote={true}
+            id="1"
+            title="Test Title"
+            wd={Object {}}
+          >
+            <div
+              style={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              <div
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                role="button"
+                tabIndex="0"
+              >
+                <FlatButton
+                  disabled={true}
+                  fullWidth={false}
+                  labelPosition="after"
+                  labelStyle={Object {}}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onTouchStart={[Function]}
+                  primary={false}
+                  secondary={false}
+                  style={
+                    Object {
+                      "color": undefined,
+                      "fontFamily": "proxima_novasemibold",
+                      "fontSize": 14,
+                      "minWidth": 88,
+                    }
+                  }
+                >
+                  <EnhancedButton
+                    containerElement="button"
+                    disabled={true}
+                    focusRippleColor="#999999"
+                    focusRippleOpacity={0.3}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onKeyboardFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(0, 0, 0, 0)",
+                        "borderRadius": 2,
+                        "color": undefined,
+                        "fontFamily": "proxima_novasemibold",
+                        "fontSize": 14,
+                        "height": 36,
+                        "lineHeight": "36px",
+                        "margin": 0,
+                        "minWidth": 88,
+                        "overflow": "hidden",
+                        "padding": 0,
+                        "textAlign": "center",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "userSelect": "none",
+                      }
+                    }
+                    tabIndex={0}
+                    touchRippleColor="#999999"
+                    touchRippleOpacity={0.3}
+                    type="button"
+                  >
+                    <button
+                      disabled={true}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      onTouchStart={[Function]}
+                      style={
+                        Object {
+                          "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "border": 10,
+                          "borderRadius": 2,
+                          "boxSizing": "border-box",
+                          "color": undefined,
+                          "cursor": "default",
+                          "display": "inline-block",
+                          "fontFamily": "proxima_novasemibold",
+                          "fontSize": 14,
+                          "fontWeight": "inherit",
+                          "height": 36,
+                          "lineHeight": "36px",
+                          "margin": 0,
+                          "minWidth": 88,
+                          "muiPrepared": true,
+                          "outline": "none",
+                          "overflow": "hidden",
+                          "padding": 0,
+                          "position": "relative",
+                          "textAlign": "center",
+                          "textDecoration": "none",
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                          "userSelect": "none",
+                          "verticalAlign": null,
+                        }
+                      }
+                      tabIndex={-1}
+                      type="button"
+                    >
+                      <ImageEdit
+                        style={
+                          Object {
+                            "fill": undefined,
+                            "height": 20,
+                            "marginBottom": -5,
+                            "marginRight": 6,
+                          }
+                        }
+                      >
+                        <ImageEdit
+                          style={
+                            Object {
+                              "fill": undefined,
+                              "height": 20,
+                              "marginBottom": -5,
+                              "marginRight": 6,
+                            }
+                          }
+                        >
+                          <SvgIcon
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            style={
+                              Object {
+                                "fill": undefined,
+                                "height": 20,
+                                "marginBottom": -5,
+                                "marginRight": 6,
+                              }
+                            }
+                            viewBox="0 0 24 24"
+                          >
+                            <svg
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              style={
+                                Object {
+                                  "color": "rgba(0, 0, 0, 0.87)",
+                                  "display": "inline-block",
+                                  "fill": undefined,
+                                  "height": 20,
+                                  "marginBottom": -5,
+                                  "marginRight": 6,
+                                  "muiPrepared": true,
+                                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  "userSelect": "none",
+                                  "width": 24,
+                                }
+                              }
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                              />
+                            </svg>
+                          </SvgIcon>
+                        </ImageEdit>
+                      </ImageEdit>
+                      Edit
+                    </button>
+                  </EnhancedButton>
+                </FlatButton>
+              </div>
+              <div>
+                <undefined />
+              </div>
+            </div>
+          </AddEditNote>
+          <FlatButton
+            disabled={true}
+            fullWidth={false}
+            labelPosition="after"
+            labelStyle={Object {}}
+            onClick={[Function]}
+            onKeyboardFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onTouchStart={[Function]}
+            primary={false}
+            secondary={false}
+            style={
+              Object {
+                "color": undefined,
+                "fontFamily": "proxima_novasemibold",
+                "fontSize": 14,
+                "minWidth": 88,
+              }
+            }
+          >
+            <EnhancedButton
+              containerElement="button"
+              disabled={true}
+              focusRippleColor="#999999"
+              focusRippleOpacity={0.3}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onKeyboardFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "borderRadius": 2,
+                  "color": undefined,
+                  "fontFamily": "proxima_novasemibold",
+                  "fontSize": 14,
+                  "height": 36,
+                  "lineHeight": "36px",
+                  "margin": 0,
+                  "minWidth": 88,
+                  "overflow": "hidden",
+                  "padding": 0,
+                  "textAlign": "center",
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "userSelect": "none",
+                }
+              }
+              tabIndex={0}
+              touchRippleColor="#999999"
+              touchRippleOpacity={0.3}
+              type="button"
+            >
+              <button
+                disabled={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "border": 10,
+                    "borderRadius": 2,
+                    "boxSizing": "border-box",
+                    "color": undefined,
+                    "cursor": "default",
+                    "display": "inline-block",
+                    "fontFamily": "proxima_novasemibold",
+                    "fontSize": 14,
+                    "fontWeight": "inherit",
+                    "height": 36,
+                    "lineHeight": "36px",
+                    "margin": 0,
+                    "minWidth": 88,
+                    "muiPrepared": true,
+                    "outline": "none",
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "relative",
+                    "textAlign": "center",
+                    "textDecoration": "none",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "userSelect": "none",
+                    "verticalAlign": null,
+                  }
+                }
+                tabIndex={-1}
+                type="button"
+              >
+                <ActionDelete
+                  style={
+                    Object {
+                      "fill": undefined,
+                      "height": 20,
+                      "marginBottom": -5,
+                      "marginRight": 6,
+                    }
+                  }
+                >
+                  <ActionDelete
+                    style={
+                      Object {
+                        "fill": undefined,
+                        "height": 20,
+                        "marginBottom": -5,
+                        "marginRight": 6,
+                      }
+                    }
+                  >
+                    <SvgIcon
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      style={
+                        Object {
+                          "fill": undefined,
+                          "height": 20,
+                          "marginBottom": -5,
+                          "marginRight": 6,
+                        }
+                      }
+                      viewBox="0 0 24 24"
+                    >
+                      <svg
+                        onMouseEnter={[Function]}
+                        onMouseLeave={[Function]}
+                        style={
+                          Object {
+                            "color": "rgba(0, 0, 0, 0.87)",
+                            "display": "inline-block",
+                            "fill": undefined,
+                            "height": 20,
+                            "marginBottom": -5,
+                            "marginRight": 6,
+                            "muiPrepared": true,
+                            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                            "userSelect": "none",
+                            "width": 24,
+                          }
+                        }
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                        />
+                      </svg>
+                    </SvgIcon>
+                  </ActionDelete>
+                </ActionDelete>
+                Delete
+              </button>
+            </EnhancedButton>
+          </FlatButton>
+        </div>
+        <div
+          className="bodyClientNoteItem"
+        >
+          Test content
+        </div>
+        <a
+          className="hyperLink"
+          onClick={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          View more
+        </a>
+      </div>
+    </div>
+  </Paper>
+</ClientNoteItem>
+`;
+
+exports[`<ClientNoteItem /> renders correctly for mobile devices 1`] = `
+<ClientNoteItem
+  content="Test content"
+  createdAt="2018-02-27T09:51:42.073Z"
+  disabled={false}
+  id="1"
+  title="Test Title"
+  wd={
+    Object {
+      "innerWidth": 320,
+    }
+  }
+>
+  <Paper
+    circle={false}
+    rounded={true}
+    style={
+      Object {
+        "background": "white",
+        "padding": 12,
+      }
+    }
+    transitionEnabled={true}
+    zDepth={1}
+  >
+    <div
+      style={
+        Object {
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "background": "white",
+          "backgroundColor": "#ffffff",
+          "borderRadius": 2,
+          "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                 0 1px 4px rgba(0, 0, 0, 0.12)",
+          "boxSizing": "border-box",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "Roboto, sans-serif",
+          "muiPrepared": true,
+          "padding": 12,
+          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+        }
+      }
+    >
+      <div
+        className="dateClientNoteItem"
+      >
+        2018-02-27
+      </div>
+      <div
+        className="containerNoteItem"
+      >
+        <div
+          className="headerClientNoteItem"
+        >
+          Test Title
+        </div>
+        <div
+          className="buttonContainerNoteItem"
+        >
+          <AddEditNote
+            component={
+              <FlatButton
+                disabled={false}
+                fullWidth={false}
+                labelPosition="after"
+                labelStyle={Object {}}
+                onKeyboardFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onTouchStart={[Function]}
+                primary={false}
+                secondary={false}
+                style={
+                  Object {
+                    "color": undefined,
+                    "fontFamily": "proxima_novasemibold",
+                    "fontSize": 14,
+                    "minWidth": 40,
+                  }
+                }
+              >
+                <ImageEdit
+                  style={
+                    Object {
+                      "fill": undefined,
+                      "height": 20,
+                      "marginBottom": -5,
+                      "marginRight": 6,
+                    }
+                  }
+                />
+              </FlatButton>
+            }
+            content="Test content"
+            createdAt="2018-02-27T09:51:42.073Z"
+            disabled={false}
+            editNote={true}
+            id="1"
+            title="Test Title"
+            wd={
+              Object {
+                "innerWidth": 320,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              <div
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                role="button"
+                tabIndex="0"
+              >
+                <FlatButton
+                  disabled={false}
+                  fullWidth={false}
+                  labelPosition="after"
+                  labelStyle={Object {}}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onTouchStart={[Function]}
+                  primary={false}
+                  secondary={false}
+                  style={
+                    Object {
+                      "color": undefined,
+                      "fontFamily": "proxima_novasemibold",
+                      "fontSize": 14,
+                      "minWidth": 40,
+                    }
+                  }
+                >
+                  <EnhancedButton
+                    containerElement="button"
+                    disabled={false}
+                    focusRippleColor="#999999"
+                    focusRippleOpacity={0.3}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onKeyboardFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(0, 0, 0, 0)",
+                        "borderRadius": 2,
+                        "color": undefined,
+                        "fontFamily": "proxima_novasemibold",
+                        "fontSize": 14,
+                        "height": 36,
+                        "lineHeight": "36px",
+                        "margin": 0,
+                        "minWidth": 40,
+                        "overflow": "hidden",
+                        "padding": 0,
+                        "textAlign": "center",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "userSelect": "none",
+                      }
+                    }
+                    tabIndex={0}
+                    touchRippleColor="#999999"
+                    touchRippleOpacity={0.3}
+                    type="button"
+                  >
+                    <button
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      onTouchStart={[Function]}
+                      style={
+                        Object {
+                          "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "border": 10,
+                          "borderRadius": 2,
+                          "boxSizing": "border-box",
+                          "color": undefined,
+                          "cursor": "pointer",
+                          "display": "inline-block",
+                          "fontFamily": "proxima_novasemibold",
+                          "fontSize": 14,
+                          "fontWeight": "inherit",
+                          "height": 36,
+                          "lineHeight": "36px",
+                          "margin": 0,
+                          "minWidth": 40,
+                          "muiPrepared": true,
+                          "outline": "none",
+                          "overflow": "hidden",
+                          "padding": 0,
+                          "position": "relative",
+                          "textAlign": "center",
+                          "textDecoration": "none",
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                          "userSelect": "none",
+                          "verticalAlign": null,
+                        }
+                      }
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <TouchRipple
+                        abortOnScroll={true}
+                        centerRipple={undefined}
+                        color="#999999"
+                        key="touchRipple"
+                        opacity={0.3}
+                      >
+                        <div
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchStart={[Function]}
+                        >
+                          <ImageEdit
+                            style={
+                              Object {
+                                "fill": undefined,
+                                "height": 20,
+                                "marginBottom": -5,
+                                "marginRight": 6,
+                              }
+                            }
+                          >
+                            <ImageEdit
+                              style={
+                                Object {
+                                  "fill": undefined,
+                                  "height": 20,
+                                  "marginBottom": -5,
+                                  "marginRight": 6,
+                                }
+                              }
+                            >
+                              <SvgIcon
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                style={
+                                  Object {
+                                    "fill": undefined,
+                                    "height": 20,
+                                    "marginBottom": -5,
+                                    "marginRight": 6,
+                                  }
+                                }
+                                viewBox="0 0 24 24"
+                              >
+                                <svg
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  style={
+                                    Object {
+                                      "color": "rgba(0, 0, 0, 0.87)",
+                                      "display": "inline-block",
+                                      "fill": undefined,
+                                      "height": 20,
+                                      "marginBottom": -5,
+                                      "marginRight": 6,
+                                      "muiPrepared": true,
+                                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      "userSelect": "none",
+                                      "width": 24,
+                                    }
+                                  }
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                                  />
+                                </svg>
+                              </SvgIcon>
+                            </ImageEdit>
+                          </ImageEdit>
+                        </div>
+                      </TouchRipple>
+                    </button>
+                  </EnhancedButton>
+                </FlatButton>
+              </div>
+              <div>
+                <undefined />
+              </div>
+            </div>
+          </AddEditNote>
+          <FlatButton
+            disabled={false}
+            fullWidth={false}
+            labelPosition="after"
+            labelStyle={Object {}}
+            onClick={[Function]}
+            onKeyboardFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onTouchStart={[Function]}
+            primary={false}
+            secondary={false}
+            style={
+              Object {
+                "color": undefined,
+                "fontFamily": "proxima_novasemibold",
+                "fontSize": 14,
+                "minWidth": 40,
+              }
+            }
+          >
+            <EnhancedButton
+              containerElement="button"
+              disabled={false}
+              focusRippleColor="#999999"
+              focusRippleOpacity={0.3}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onKeyboardFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "borderRadius": 2,
+                  "color": undefined,
+                  "fontFamily": "proxima_novasemibold",
+                  "fontSize": 14,
+                  "height": 36,
+                  "lineHeight": "36px",
+                  "margin": 0,
+                  "minWidth": 40,
+                  "overflow": "hidden",
+                  "padding": 0,
+                  "textAlign": "center",
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "userSelect": "none",
+                }
+              }
+              tabIndex={0}
+              touchRippleColor="#999999"
+              touchRippleOpacity={0.3}
+              type="button"
+            >
+              <button
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "border": 10,
+                    "borderRadius": 2,
+                    "boxSizing": "border-box",
+                    "color": undefined,
+                    "cursor": "pointer",
+                    "display": "inline-block",
+                    "fontFamily": "proxima_novasemibold",
+                    "fontSize": 14,
+                    "fontWeight": "inherit",
+                    "height": 36,
+                    "lineHeight": "36px",
+                    "margin": 0,
+                    "minWidth": 40,
+                    "muiPrepared": true,
+                    "outline": "none",
+                    "overflow": "hidden",
+                    "padding": 0,
+                    "position": "relative",
+                    "textAlign": "center",
+                    "textDecoration": "none",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "userSelect": "none",
+                    "verticalAlign": null,
+                  }
+                }
+                tabIndex={0}
+                type="button"
+              >
+                <TouchRipple
+                  abortOnScroll={true}
+                  centerRipple={undefined}
+                  color="#999999"
+                  key="touchRipple"
+                  opacity={0.3}
+                >
+                  <div
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                  >
+                    <ActionDelete
+                      style={
+                        Object {
+                          "fill": undefined,
+                          "height": 20,
+                          "marginBottom": -5,
+                          "marginRight": 6,
+                        }
+                      }
+                    >
+                      <ActionDelete
+                        style={
+                          Object {
+                            "fill": undefined,
+                            "height": 20,
+                            "marginBottom": -5,
+                            "marginRight": 6,
+                          }
+                        }
+                      >
+                        <SvgIcon
+                          onMouseEnter={[Function]}
+                          onMouseLeave={[Function]}
+                          style={
+                            Object {
+                              "fill": undefined,
+                              "height": 20,
+                              "marginBottom": -5,
+                              "marginRight": 6,
+                            }
+                          }
+                          viewBox="0 0 24 24"
+                        >
+                          <svg
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            style={
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "display": "inline-block",
+                                "fill": undefined,
+                                "height": 20,
+                                "marginBottom": -5,
+                                "marginRight": 6,
+                                "muiPrepared": true,
+                                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                "userSelect": "none",
+                                "width": 24,
+                              }
+                            }
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                            />
+                          </svg>
+                        </SvgIcon>
+                      </ActionDelete>
+                    </ActionDelete>
+                  </div>
+                </TouchRipple>
+              </button>
+            </EnhancedButton>
+          </FlatButton>
+        </div>
+        <div
+          className="bodyClientNoteItem"
+        >
+          Test content
+        </div>
+        <a
+          className="hyperLink"
+          onClick={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          View more
+        </a>
+      </div>
+    </div>
+  </Paper>
+</ClientNoteItem>
+`;

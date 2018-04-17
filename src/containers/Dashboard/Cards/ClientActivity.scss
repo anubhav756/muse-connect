@@ -1,0 +1,27 @@
+@import './Style.scss';
+
+.clientActivityDashboard {
+  padding: 30px;
+  position: relative;
+}
+
+.dividerClientActivityDashboard {
+  margin-bottom: 20px;
+}
+
+.tutorialPopoverClientActivity {
+  position: absolute;
+  bottom: 15%;
+  right: 10px;
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .clientActivityDashboard {
+    padding: 10px;
+  }
+
+  .dividerClientActivityDashboard {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

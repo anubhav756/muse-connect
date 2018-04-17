@@ -1,0 +1,43 @@
+@import './Style.scss';
+@import '../../../styles/variables/breakpoints.scss';
+
+.containterActiveClients {
+  padding: 20px;
+  position: relative;
+}
+
+.titleActiveClients {
+  font-size: 18px;
+}
+
+.detailsActiveClients {
+  padding: 25px;
+  text-align:center;
+}
+
+.detailItemActiveClients {
+  margin-left: 10px;
+}
+
+.emptyDetailsActiveClients {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .detailsActiveClients {
+    padding: 25px 5px;
+  }
+
+  .containterActiveClients {
+    padding: 10px;
+  }
+
+  .emptyDetailsActiveClients {
+    font-size: 14px;
+  }
+
+  .detailItemActiveClients {
+    margin-left: 8px;
+  }
+}

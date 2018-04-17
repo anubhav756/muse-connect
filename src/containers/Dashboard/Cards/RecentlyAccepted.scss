@@ -1,0 +1,34 @@
+@import './Style.scss';
+
+.wrapRecentAcceptedDashboard {
+  background-color: white !important;
+  min-height: 431px;
+}
+
+.containerRecentAcceptedDashboard {
+  padding: 30px 30px 0px 30px;
+}
+
+.listItemWrapRecentAcceptedDashboard { 
+  cursor: pointer;
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .wrapRecentAcceptedDashboard {
+    min-height: 405px;
+  }
+
+  .containerRecentAcceptedDashboard {
+    padding: 10px 10px 0px 10px;
+  }
+
+  .dividerRecentAcceptedDashboard {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .listItemRecentAcceptedDashboard {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,30 @@
+#auth {
+	margin-top: 40px;
+}
+
+#auth > div {
+  z-index: 0;
+}
+
+.auth0-lock.auth0-lock .auth0-lock-header-bg {
+    background: #28b5a2 !important;
+}
+
+.auth0-lock-name {
+    display: none;
+}
+
+.auth0-lock-header-welcome {
+    max-width: 150px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+img.auth0-lock-header-logo {
+    max-width: 100%;
+    height: 70px !important;
+}
+
+.auth0-lock-center {
+  overflow: visible !important;  
+}

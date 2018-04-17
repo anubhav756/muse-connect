@@ -1,0 +1,90 @@
+@import '../../styles/variables/colors.scss';
+@import '../../styles/variables/breakpoints.scss';
+
+.containerInvoice {
+    margin: 20px;
+}
+.headContainerInvoice {
+    text-align: center;
+}
+.linkInvoice {
+    color: $teal;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.logoContainerInvoice {
+    display: inline-block;
+    margin: 0px 10px;
+    @media only screen and (max-width: $break-point-xs) {
+        display: block;
+        margin: 10px 0px;
+    }
+}
+.tableInvoice {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+}
+.tableInvoice thead {
+    border: 1px solid black;
+    background: $teal;
+    color: white;
+    text-align: left;
+}
+.tableInvoice td, th {
+    padding: 10px;
+    vertical-align: top;
+}
+.borderTableInvoice {
+    @extend .tableInvoice;
+    border: 0px;
+}
+.borderTableInvoice .cellBorderTableInvoice {
+    border: 1px solid black;
+}
+.superscriptInvoice {
+    display: inline-block;
+}
+.superscriptInvoice sup {
+    font-size: 8px;
+}
+.printFooterInvoice {
+    font-style: italic;
+}
+.amountContainerTableInvoice {
+    text-align: right;
+}
+.amountTableInvoice {
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+}
+.amountLabelTableInvoice {
+    @extend .amountTableInvoice;
+    width: auto;
+}
+.amountValueTableInvoice {
+    @extend .amountTableInvoice;
+    width: 50%;
+}
+
+@media only print {
+    .noPrintInvoice {
+        display: none;
+    }
+    .printFooterInvoice {
+        position: absolute;
+        bottom: 40px;
+        left: 25px;
+    }
+    .tableInvoice thead {
+        -webkit-print-color-adjust: exact; 
+    }
+}
+
+@page {
+    size: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}

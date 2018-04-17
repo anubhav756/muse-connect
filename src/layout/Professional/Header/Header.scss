@@ -1,0 +1,73 @@
+@import '../../../styles/variables/colors.scss';
+@import '../../../styles/variables/breakpoints.scss';
+
+.containerHeaderProfessional {
+  background-color: $teal;
+  box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+  z-index: 1100;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.titleHeader {
+  height: 46px;
+  cursor: pointer;
+  margin-left: -60px;
+  @media only screen and (max-width: $break-point-xs) {
+    margin-left: -10px;
+  }
+}
+
+.userNameHeader {
+  font-family: 'proxima_novasemibold';
+  font-size: 14px;
+  color: $lightestGrey;
+  margin-right: 20px;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  max-width: 128px;
+  @media only screen and (max-width: $break-point-sm) {
+    display: none;
+  }
+}
+.nameContainerHeader {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.searchBarHeader > div {
+  width: calc(100vw - 623px);
+  max-width: 577px;
+}
+
+.searchBarWrapHeader {
+  position: absolute;
+  left: 277px;
+  top: 12px;
+}
+
+@media only screen and (max-width: $break-point-sm) {
+  .searchBarWrapHeader {
+    left: 250px;
+  }
+  .searchBarHeader > div {
+    width: calc(100vw - 520px);
+  }
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .searchBarWrapHeader {
+    display: none;
+  }
+}
+
+@media print {
+  .museconnectPrintHeader {
+    display: none;
+  }
+}

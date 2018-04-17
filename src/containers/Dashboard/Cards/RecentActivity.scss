@@ -1,0 +1,20 @@
+@import './Style.scss';
+
+.containerRecentActivityDashboard {
+  padding: 30px;
+}
+
+.listItemWrapClientActivityDashboard {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .containerRecentActivityDashboard {
+    padding: 10px;
+  }
+
+  .dividerRecentActivityDashboard {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

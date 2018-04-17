@@ -1,0 +1,51 @@
+@import '../../layout/Professional/CommonStyle.scss';
+@import '../../styles/variables/breakpoints.scss';
+
+.titleFieldWrapAddEditNoteModal {
+  border: solid 1px $mediumGrey;
+  border-radius: 3px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+.contentFieldWrapAddEditNoteModal {
+  border: solid 1px $mediumGrey;
+  border-radius: 3px;
+  padding: 0px 10px;
+  margin-top: 20px;
+}
+
+.desclaimerAddEditNoteModal {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.remChWrapAddEditNoteModal {
+   margin-top: 10px;
+   display: inline-block;
+}
+
+.remChTxtAddEditNoteModal {
+  color: $teal;
+}
+
+.actionButtonAddEditNoteModal {
+  float: right;
+}
+
+.footerWrapAddEditNoteModal {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: $break-point-xs) {
+  .remChWrapAddEditNoteModal {
+    display: block;
+    font-size: 14px;
+  }
+  .actionButtonAddEditNoteModal {
+    margin-top: 10px;
+  }
+  .footerWrapAddEditNoteModal {
+    margin-top: 0px;
+  }
+}

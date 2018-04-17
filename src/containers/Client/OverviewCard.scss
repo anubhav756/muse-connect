@@ -1,0 +1,67 @@
+@import './CommonStyle.scss';
+
+.DetailClient {
+    text-align: center;
+    color: $mediumGrey;
+    font-size: 14px;
+}
+
+.LargeNumberClient {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'proxima_novalight';
+}
+
+.LargeNumberTealClient {
+    @extend .LargeNumberClient;
+    color: $teal;
+}
+
+.LargeNumberCyanClient {
+    @extend .LargeNumberClient;
+    color: $cyan;
+}
+
+.containerOverviewClient {
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  background: white;
+  display: table;
+  width: 100%;
+}
+
+.leftItemOverviewClient {
+  display: table-cell;
+  width: 42%;
+  padding: 30px;
+}
+
+.rightItemOverviewClient {
+  display: table-cell;
+  width: 100%;
+  padding: 30px;
+  background: $lightestGrey
+}
+
+@media only screen and (max-width: $break-point-sm) {
+  .containerOverviewClient {
+    box-shadow: none;
+    display: block;
+    background: none;
+  }
+
+  .leftItemOverviewClient {
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+    width: 100%;
+    display: block;
+    background: white;
+    box-sizing: border-box;
+  }
+
+  .rightItemOverviewClient {
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+    margin-top: 30px;
+    display: block;
+    background: white;
+    box-sizing: border-box;
+  }
+}

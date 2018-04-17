@@ -1,0 +1,23 @@
+@import '../../styles/variables/colors.scss';
+@import '../../styles/variables/breakpoints.scss';
+
+.buttonContainerClientNotes {
+  position: relative;
+}
+.headerContainerClientNotes {
+  margin-top: 10px;
+}
+.headerClientNotes {
+  color: $mediumGrey;
+  font-family: proxima_novasemibold;
+  font-size: 14px;
+  width: 140px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+@media screen and (max-width: $break-point-xs) {
+  .headerClientNotes {
+    width: 64px;
+  }
+}

@@ -1,0 +1,247 @@
+.sliderWrapCarousel {
+	min-height: 223px;
+}
+
+.slick-list {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	&:focus {
+		outline: 0;
+	}
+	&.dragging {
+		cursor: pointer;
+		cursor: hand;
+	}
+}
+.slick-slider {
+	position: relative;
+	display: block;
+	//Instead of the line below you could use @include box-sizing($bs)
+	box-sizing: border-box;
+	//Instead of the line below you could use @include user-select($select)
+	user-select: none;
+	touch-action: pan-y;
+	.slick-list {
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate3d(0,0,0);
+	}
+	.slick-track {
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate3d(0,0,0);
+	}
+}
+.slick-track {
+	position: relative;
+	display: block;
+	top: 0;
+	left: 0;
+	&:after {
+		display: table;
+		content: '';
+		clear: both;
+	}
+	&:before {
+		display: table;
+		content: '';
+	}
+}
+.slick-loading {
+	.slick-slide {
+		visibility: hidden;
+	}
+	.slick-track {
+		visibility: hidden;
+	}
+}
+.slick-slide {
+	display: none;
+	float: left;
+	height: 100%;
+	min-height: 1px;
+	img {
+		display: block;
+	}
+	&.slick-loading img {
+		display: none;
+	}
+	&.dragging img {
+		pointer-events: none;
+	}
+}
+[dir=rtl] .slick-slide {
+	float: right;
+}
+.slick-initialized .slick-slide {
+	display: block;
+}
+.slick-vertical .slick-slide {
+	display: block;
+	height: auto;
+	border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+	display: none;
+}
+
+//colors
+$white: #fff;
+$black: #000;
+
+//fonts
+$font_0: slick;
+
+%extend_1 {
+	position: absolute;
+	display: block;
+	padding: 0;
+}
+
+//original selectors
+//.slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover
+%extend_2 {
+	color: transparent;
+	outline: 0;
+	background: 0 0;
+}
+
+//original selectors
+//.slick-next:before, .slick-prev:before
+%extend_3 {
+	font-size: 20px;
+	line-height: 1;
+	opacity: .75;
+	color: $white;
+}
+
+.slick-dots {
+	@extend %extend_1;
+	bottom: -25px;
+	width: 100%;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+	li {
+		position: relative;
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		margin: 0 5px;
+		padding: 0;
+		cursor: pointer;
+		button {
+			font-size: 0;
+			line-height: 0;
+			display: block;
+			width: 20px;
+			height: 20px;
+			padding: 5px;
+			cursor: pointer;
+			color: transparent;
+			border: 0;
+			outline: 0;
+			background: 0 0;
+			&:before {
+				font-family: $font_0;
+				font-size: 6px;
+				line-height: 20px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 20px;
+				height: 20px;
+				content: 'â€¢';
+				text-align: center;
+				opacity: .25;
+				color: $black;
+			}
+			&:focus {
+				outline: 0;
+				&:before {
+					opacity: 1;
+				}
+			}
+			&:hover {
+				outline: 0;
+				&:before {
+					opacity: 1;
+				}
+			}
+		}
+		&.slick-active button:before {
+			opacity: .75;
+			color: $black;
+		}
+	}
+}
+.slick-next {
+	@extend %extend_1;
+	right: -25px;
+	&:before {
+		font-family: $font_0;
+		@extend %extend_3;
+		content: 'â†’';
+	}
+	&:focus {
+		@extend %extend_2;
+		&:before {
+			opacity: 1;
+		}
+	}
+	&:hover {
+		@extend %extend_2;
+		&:before {
+			opacity: 1;
+		}
+	}
+	&.slick-disabled:before {
+		opacity: .25;
+	}
+}
+.slick-prev {
+	@extend %extend_1;
+	left: -25px;
+	&:before {
+		font-family: $font_0;
+		@extend %extend_3;
+		content: 'â†';
+	}
+	&:focus {
+		@extend %extend_2;
+		&:before {
+			opacity: 1;
+		}
+	}
+	&:hover {
+		@extend %extend_2;
+		&:before {
+			opacity: 1;
+		}
+	}
+	&.slick-disabled:before {
+		opacity: .25;
+	}
+}
+
+[dir=rtl] {
+	.slick-prev {
+		right: -25px;
+		left: auto;
+		&:before {
+			content: 'â†’';
+		}
+	}
+	.slick-next {
+		right: auto;
+		left: -25px;
+		&:before {
+			content: 'â†';
+		}
+	}
+}
+
+.slick-dotted.slick-slider {
+	margin-bottom: 30px;
+}

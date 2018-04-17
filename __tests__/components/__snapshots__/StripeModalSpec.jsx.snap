@@ -1,0 +1,921 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StripeModal /> enabled only prop checked correctly 1`] = `
+<Connect(StripeModal)
+  button={<div />}
+  callback={[Function]}
+  saveToken={[Function]}
+  stripeKey="test_stripeKey"
+  user={
+    Object {
+      "email": "test@email.com",
+    }
+  }
+>
+  <StripeModal
+    amount={0}
+    button={<div />}
+    callback={[Function]}
+    checkoutURL=""
+    currency="USD"
+    disabled={false}
+    frequency={null}
+    planID={null}
+    promoID={null}
+    purID={null}
+    saveToken={[Function]}
+    stripeKey="test_stripeKey"
+    title="Muse"
+    trialDays={0}
+    usePromo={[Function]}
+    user={
+      Object {
+        "email": "test@email.com",
+      }
+    }
+  >
+    <ReactStripeCheckout
+      ComponentClass="span"
+      amount={0}
+      className="StripeCheckout"
+      closed={[Function]}
+      currency="USD"
+      description="Muse"
+      desktopShowModal={false}
+      email="test@email.com"
+      image="https://www.choosemuse.com/wp-content/uploads/2014/10/muse_logo_noTag1.png"
+      label="Pay With Card"
+      locale="auto"
+      name="Muse"
+      opened={undefined}
+      panelLabel="Pay"
+      reconfigureOnUpdate={false}
+      stripeKey="test_stripeKey"
+      token={[Function]}
+      triggerEvent="onClick"
+    >
+      <span
+        onClick={[Function]}
+      >
+        <div
+          disabled={false}
+        />
+      </span>
+    </ReactStripeCheckout>
+  </StripeModal>
+</Connect(StripeModal)>
+`;
+
+exports[`<StripeModal /> gets checkoutURL with promoID correctly 1`] = `
+<Connect(StripeModal)
+  amount={100}
+  button={<div />}
+  callback={[Function]}
+  promoID="test_promoID"
+  saveToken={[Function]}
+  stripeKey="test_stripeKey"
+  user={
+    Object {
+      "email": "test@email.com",
+    }
+  }
+>
+  <StripeModal
+    amount={100}
+    button={<div />}
+    callback={[Function]}
+    checkoutURL=""
+    currency="USD"
+    disabled={false}
+    frequency={null}
+    planID={null}
+    promoID="test_promoID"
+    purID={null}
+    saveToken={[Function]}
+    stripeKey="test_stripeKey"
+    title="Muse"
+    trialDays={0}
+    usePromo={[Function]}
+    user={
+      Object {
+        "email": "test@email.com",
+      }
+    }
+  >
+    <div
+      onClick={[Function]}
+    >
+      <div
+        disabled={false}
+      />
+    </div>
+  </StripeModal>
+</Connect(StripeModal)>
+`;
+
+exports[`<StripeModal /> gets checkoutURL with promoID correctly 2`] = `
+<Connect(StripeModal)
+  amount={100}
+  button={<div />}
+  callback={[Function]}
+  promoID="test_promoID"
+  saveToken={[Function]}
+  stripeKey="test_stripeKey"
+  user={
+    Object {
+      "email": "test@email.com",
+    }
+  }
+>
+  <StripeModal
+    amount={100}
+    button={<div />}
+    callback={[Function]}
+    checkoutURL=""
+    currency="USD"
+    disabled={false}
+    frequency={null}
+    planID={null}
+    promoID="test_promoID"
+    purID={null}
+    saveToken={[Function]}
+    stripeKey="test_stripeKey"
+    title="Muse"
+    trialDays={0}
+    usePromo={[Function]}
+    user={
+      Object {
+        "email": "test@email.com",
+      }
+    }
+  >
+    <div
+      onClick={[Function]}
+    >
+      <div
+        disabled={false}
+      />
+    </div>
+  </StripeModal>
+</Connect(StripeModal)>
+`;
+
+exports[`<StripeModal /> renders correctly 1`] = `
+<Connect(StripeModal)
+  amount={100}
+  button={<div />}
+  callback={[Function]}
+  saveToken={[Function]}
+  stripeKey="test_stripeKey"
+  user={
+    Object {
+      "email": "test@email.com",
+    }
+  }
+>
+  <StripeModal
+    amount={100}
+    button={<div />}
+    callback={[Function]}
+    checkoutURL=""
+    currency="USD"
+    disabled={false}
+    frequency={null}
+    planID={null}
+    promoID={null}
+    purID={null}
+    saveToken={[Function]}
+    stripeKey="test_stripeKey"
+    title="Muse"
+    trialDays={0}
+    usePromo={[Function]}
+    user={
+      Object {
+        "email": "test@email.com",
+      }
+    }
+  >
+    <ReactStripeCheckout
+      ComponentClass="span"
+      amount={10000}
+      className="StripeCheckout"
+      closed={[Function]}
+      currency="USD"
+      description="Muse"
+      desktopShowModal={false}
+      email="test@email.com"
+      image="https://www.choosemuse.com/wp-content/uploads/2014/10/muse_logo_noTag1.png"
+      label="Pay With Card"
+      locale="auto"
+      name="Muse"
+      opened={undefined}
+      panelLabel="Pay"
+      reconfigureOnUpdate={false}
+      stripeKey="test_stripeKey"
+      token={[Function]}
+      triggerEvent="onClick"
+    >
+      <span
+        onClick={[Function]}
+      >
+        <div
+          disabled={false}
+        />
+      </span>
+    </ReactStripeCheckout>
+  </StripeModal>
+</Connect(StripeModal)>
+`;
+
+exports[`<StripeModal /> renders correctly when disabled 1`] = `
+<Connect(StripeModal)
+  amount={100}
+  button={<div />}
+  callback={[Function]}
+  disabled={true}
+  saveToken={[Function]}
+  stripeKey="test_stripeKey"
+  user={
+    Object {
+      "email": "test@email.com",
+    }
+  }
+>
+  <StripeModal
+    amount={100}
+    button={<div />}
+    callback={[Function]}
+    checkoutURL=""
+    currency="USD"
+    disabled={true}
+    frequency={null}
+    planID={null}
+    promoID={null}
+    purID={null}
+    saveToken={[Function]}
+    stripeKey="test_stripeKey"
+    title="Muse"
+    trialDays={0}
+    usePromo={[Function]}
+    user={
+      Object {
+        "email": "test@email.com",
+      }
+    }
+  >
+    <div
+      disabled={true}
+    />
+  </StripeModal>
+</Connect(StripeModal)>
+`;
+
+exports[`<StripeModal /> renders correctly with promoID 1`] = `
+<Connect(StripeModal)
+  amount={100}
+  button={<div />}
+  callback={[Function]}
+  promoID="test_promoID"
+  saveToken={[Function]}
+  stripeKey="test_stripeKey"
+  user={
+    Object {
+      "email": "test@email.com",
+    }
+  }
+>
+  <StripeModal
+    amount={100}
+    button={<div />}
+    callback={[Function]}
+    checkoutURL=""
+    currency="USD"
+    disabled={false}
+    frequency={null}
+    planID={null}
+    promoID="test_promoID"
+    purID={null}
+    saveToken={[Function]}
+    stripeKey="test_stripeKey"
+    title="Muse"
+    trialDays={0}
+    usePromo={[Function]}
+    user={
+      Object {
+        "email": "test@email.com",
+      }
+    }
+  >
+    <div
+      onClick={[Function]}
+    >
+      <div
+        disabled={false}
+      />
+    </div>
+  </StripeModal>
+</Connect(StripeModal)>
+`;
+
+exports[`<StripeModal /> stripeCheckout onClose after onToken invokes callback correctly 1`] = `
+<Connect(StripeModal)
+  amount={100}
+  button={<div />}
+  callback={[Function]}
+  saveToken={[Function]}
+  stripeKey="test_stripeKey"
+  user={
+    Object {
+      "email": "test@email.com",
+    }
+  }
+>
+  <StripeModal
+    amount={100}
+    button={<div />}
+    callback={[Function]}
+    checkoutURL=""
+    currency="USD"
+    disabled={false}
+    frequency={null}
+    planID={null}
+    promoID={null}
+    purID={null}
+    saveToken={[Function]}
+    stripeKey="test_stripeKey"
+    title="Muse"
+    trialDays={0}
+    usePromo={[Function]}
+    user={
+      Object {
+        "email": "test@email.com",
+      }
+    }
+  >
+    <ReactStripeCheckout
+      ComponentClass="span"
+      amount={10000}
+      className="StripeCheckout"
+      closed={[Function]}
+      currency="USD"
+      description="Muse"
+      desktopShowModal={false}
+      email="test@email.com"
+      image="https://www.choosemuse.com/wp-content/uploads/2014/10/muse_logo_noTag1.png"
+      label="Pay With Card"
+      locale="auto"
+      name="Muse"
+      opened={undefined}
+      panelLabel="Pay"
+      reconfigureOnUpdate={false}
+      stripeKey="test_stripeKey"
+      token={[Function]}
+      triggerEvent="onClick"
+    >
+      <span
+        onClick={[Function]}
+      >
+        <div
+          disabled={false}
+        />
+      </span>
+    </ReactStripeCheckout>
+  </StripeModal>
+</Connect(StripeModal)>
+`;
+
+exports[`<StripeModal /> stripeCheckout onClose after onToken invokes callback correctly 2`] = `
+<Connect(StripeModal)
+  amount={100}
+  button={<div />}
+  callback={[Function]}
+  saveToken={[Function]}
+  stripeKey="test_stripeKey"
+  user={
+    Object {
+      "email": "test@email.com",
+    }
+  }
+>
+  <StripeModal
+    amount={100}
+    button={<div />}
+    callback={[Function]}
+    checkoutURL=""
+    currency="USD"
+    disabled={false}
+    frequency={null}
+    planID={null}
+    promoID={null}
+    purID={null}
+    saveToken={[Function]}
+    stripeKey="test_stripeKey"
+    title="Muse"
+    trialDays={0}
+    usePromo={[Function]}
+    user={
+      Object {
+        "email": "test@email.com",
+      }
+    }
+  >
+    <ReactStripeCheckout
+      ComponentClass="span"
+      amount={10000}
+      className="StripeCheckout"
+      closed={[Function]}
+      currency="USD"
+      description="Muse"
+      desktopShowModal={false}
+      email="test@email.com"
+      image="https://www.choosemuse.com/wp-content/uploads/2014/10/muse_logo_noTag1.png"
+      label="Pay With Card"
+      locale="auto"
+      name="Muse"
+      opened={undefined}
+      panelLabel="Pay"
+      reconfigureOnUpdate={false}
+      stripeKey="test_stripeKey"
+      token={[Function]}
+      triggerEvent="onClick"
+    >
+      <span
+        onClick={[Function]}
+      >
+        <div
+          disabled={false}
+        />
+      </span>
+    </ReactStripeCheckout>
+  </StripeModal>
+</Connect(StripeModal)>
+`;
+
+exports[`<StripeModal /> stripeCheckout onClose after onToken invokes callback correctly 3`] = `
+<Connect(StripeModal)
+  amount={100}
+  button={<div />}
+  callback={[Function]}
+  saveToken={[Function]}
+  stripeKey="test_stripeKey"
+  user={
+    Object {
+      "email": "test@email.com",
+    }
+  }
+>
+  <StripeModal
+    amount={100}
+    button={<div />}
+    callback={[Function]}
+    checkoutURL=""
+    currency="USD"
+    disabled={false}
+    frequency={null}
+    planID={null}
+    promoID={null}
+    purID={null}
+    saveToken={[Function]}
+    stripeKey="test_stripeKey"
+    title="Muse"
+    trialDays={0}
+    usePromo={[Function]}
+    user={
+      Object {
+        "email": "test@email.com",
+      }
+    }
+  >
+    <ReactStripeCheckout
+      ComponentClass="span"
+      amount={10000}
+      className="StripeCheckout"
+      closed={[Function]}
+      currency="USD"
+      description="Muse"
+      desktopShowModal={false}
+      email="test@email.com"
+      image="https://www.choosemuse.com/wp-content/uploads/2014/10/muse_logo_noTag1.png"
+      label="Pay With Card"
+      locale="auto"
+      name="Muse"
+      opened={undefined}
+      panelLabel="Pay"
+      reconfigureOnUpdate={false}
+      stripeKey="test_stripeKey"
+      token={[Function]}
+      triggerEvent="onClick"
+    >
+      <span
+        onClick={[Function]}
+      >
+        <div
+          disabled={false}
+        />
+      </span>
+    </ReactStripeCheckout>
+  </StripeModal>
+</Connect(StripeModal)>
+`;
+
+exports[`<StripeModal /> stripeCheckout onClose method closes correctly 1`] = `
+<Connect(StripeModal)
+  amount={100}
+  button={<div />}
+  callback={[Function]}
+  saveToken={[Function]}
+  stripeKey="test_stripeKey"
+  user={
+    Object {
+      "email": "test@email.com",
+    }
+  }
+>
+  <StripeModal
+    amount={100}
+    button={<div />}
+    callback={[Function]}
+    checkoutURL=""
+    currency="USD"
+    disabled={false}
+    frequency={null}
+    planID={null}
+    promoID={null}
+    purID={null}
+    saveToken={[Function]}
+    stripeKey="test_stripeKey"
+    title="Muse"
+    trialDays={0}
+    usePromo={[Function]}
+    user={
+      Object {
+        "email": "test@email.com",
+      }
+    }
+  >
+    <ReactStripeCheckout
+      ComponentClass="span"
+      amount={10000}
+      className="StripeCheckout"
+      closed={[Function]}
+      currency="USD"
+      description="Muse"
+      desktopShowModal={false}
+      email="test@email.com"
+      image="https://www.choosemuse.com/wp-content/uploads/2014/10/muse_logo_noTag1.png"
+      label="Pay With Card"
+      locale="auto"
+      name="Muse"
+      opened={undefined}
+      panelLabel="Pay"
+      reconfigureOnUpdate={false}
+      stripeKey="test_stripeKey"
+      token={[Function]}
+      triggerEvent="onClick"
+    >
+      <span
+        onClick={[Function]}
+      >
+        <div
+          disabled={false}
+        />
+      </span>
+    </ReactStripeCheckout>
+  </StripeModal>
+</Connect(StripeModal)>
+`;
+
+exports[`<StripeModal /> stripeCheckout onClose method closes correctly 2`] = `
+<Connect(StripeModal)
+  amount={100}
+  button={<div />}
+  callback={[Function]}
+  saveToken={[Function]}
+  stripeKey="test_stripeKey"
+  user={
+    Object {
+      "email": "test@email.com",
+    }
+  }
+>
+  <StripeModal
+    amount={100}
+    button={<div />}
+    callback={[Function]}
+    checkoutURL=""
+    currency="USD"
+    disabled={false}
+    frequency={null}
+    planID={null}
+    promoID={null}
+    purID={null}
+    saveToken={[Function]}
+    stripeKey="test_stripeKey"
+    title="Muse"
+    trialDays={0}
+    usePromo={[Function]}
+    user={
+      Object {
+        "email": "test@email.com",
+      }
+    }
+  >
+    <ReactStripeCheckout
+      ComponentClass="span"
+      amount={10000}
+      className="StripeCheckout"
+      closed={[Function]}
+      currency="USD"
+      description="Muse"
+      desktopShowModal={false}
+      email="test@email.com"
+      image="https://www.choosemuse.com/wp-content/uploads/2014/10/muse_logo_noTag1.png"
+      label="Pay With Card"
+      locale="auto"
+      name="Muse"
+      opened={undefined}
+      panelLabel="Pay"
+      reconfigureOnUpdate={false}
+      stripeKey="test_stripeKey"
+      token={[Function]}
+      triggerEvent="onClick"
+    >
+      <span
+        onClick={[Function]}
+      >
+        <div
+          disabled={false}
+        />
+      </span>
+    </ReactStripeCheckout>
+  </StripeModal>
+</Connect(StripeModal)>
+`;
+
+exports[`<StripeModal /> stripeCheckout onClose method without token invokes callback with true 1`] = `
+<Connect(StripeModal)
+  amount={100}
+  button={<div />}
+  callback={[Function]}
+  saveToken={[Function]}
+  stripeKey="test_stripeKey"
+  user={
+    Object {
+      "email": "test@email.com",
+    }
+  }
+>
+  <StripeModal
+    amount={100}
+    button={<div />}
+    callback={[Function]}
+    checkoutURL=""
+    currency="USD"
+    disabled={false}
+    frequency={null}
+    planID={null}
+    promoID={null}
+    purID={null}
+    saveToken={[Function]}
+    stripeKey="test_stripeKey"
+    title="Muse"
+    trialDays={0}
+    usePromo={[Function]}
+    user={
+      Object {
+        "email": "test@email.com",
+      }
+    }
+  >
+    <ReactStripeCheckout
+      ComponentClass="span"
+      amount={10000}
+      className="StripeCheckout"
+      closed={[Function]}
+      currency="USD"
+      description="Muse"
+      desktopShowModal={false}
+      email="test@email.com"
+      image="https://www.choosemuse.com/wp-content/uploads/2014/10/muse_logo_noTag1.png"
+      label="Pay With Card"
+      locale="auto"
+      name="Muse"
+      opened={undefined}
+      panelLabel="Pay"
+      reconfigureOnUpdate={false}
+      stripeKey="test_stripeKey"
+      token={[Function]}
+      triggerEvent="onClick"
+    >
+      <span
+        onClick={[Function]}
+      >
+        <div
+          disabled={false}
+        />
+      </span>
+    </ReactStripeCheckout>
+  </StripeModal>
+</Connect(StripeModal)>
+`;
+
+exports[`<StripeModal /> stripeCheckout onClose method without token invokes callback with true 2`] = `
+<Connect(StripeModal)
+  amount={100}
+  button={<div />}
+  callback={[Function]}
+  saveToken={[Function]}
+  stripeKey="test_stripeKey"
+  user={
+    Object {
+      "email": "test@email.com",
+    }
+  }
+>
+  <StripeModal
+    amount={100}
+    button={<div />}
+    callback={[Function]}
+    checkoutURL=""
+    currency="USD"
+    disabled={false}
+    frequency={null}
+    planID={null}
+    promoID={null}
+    purID={null}
+    saveToken={[Function]}
+    stripeKey="test_stripeKey"
+    title="Muse"
+    trialDays={0}
+    usePromo={[Function]}
+    user={
+      Object {
+        "email": "test@email.com",
+      }
+    }
+  >
+    <ReactStripeCheckout
+      ComponentClass="span"
+      amount={10000}
+      className="StripeCheckout"
+      closed={[Function]}
+      currency="USD"
+      description="Muse"
+      desktopShowModal={false}
+      email="test@email.com"
+      image="https://www.choosemuse.com/wp-content/uploads/2014/10/muse_logo_noTag1.png"
+      label="Pay With Card"
+      locale="auto"
+      name="Muse"
+      opened={undefined}
+      panelLabel="Pay"
+      reconfigureOnUpdate={false}
+      stripeKey="test_stripeKey"
+      token={[Function]}
+      triggerEvent="onClick"
+    >
+      <span
+        onClick={[Function]}
+      >
+        <div
+          disabled={false}
+        />
+      </span>
+    </ReactStripeCheckout>
+  </StripeModal>
+</Connect(StripeModal)>
+`;
+
+exports[`<StripeModal /> stripeCheckout onToken method saves token correctly 1`] = `
+<Connect(StripeModal)
+  amount={100}
+  button={<div />}
+  callback={[Function]}
+  saveToken={[Function]}
+  stripeKey="test_stripeKey"
+  user={
+    Object {
+      "email": "test@email.com",
+    }
+  }
+>
+  <StripeModal
+    amount={100}
+    button={<div />}
+    callback={[Function]}
+    checkoutURL=""
+    currency="USD"
+    disabled={false}
+    frequency={null}
+    planID={null}
+    promoID={null}
+    purID={null}
+    saveToken={[Function]}
+    stripeKey="test_stripeKey"
+    title="Muse"
+    trialDays={0}
+    usePromo={[Function]}
+    user={
+      Object {
+        "email": "test@email.com",
+      }
+    }
+  >
+    <ReactStripeCheckout
+      ComponentClass="span"
+      amount={10000}
+      className="StripeCheckout"
+      closed={[Function]}
+      currency="USD"
+      description="Muse"
+      desktopShowModal={false}
+      email="test@email.com"
+      image="https://www.choosemuse.com/wp-content/uploads/2014/10/muse_logo_noTag1.png"
+      label="Pay With Card"
+      locale="auto"
+      name="Muse"
+      opened={undefined}
+      panelLabel="Pay"
+      reconfigureOnUpdate={false}
+      stripeKey="test_stripeKey"
+      token={[Function]}
+      triggerEvent="onClick"
+    >
+      <span
+        onClick={[Function]}
+      >
+        <div
+          disabled={false}
+        />
+      </span>
+    </ReactStripeCheckout>
+  </StripeModal>
+</Connect(StripeModal)>
+`;
+
+exports[`<StripeModal /> stripeCheckout onToken method saves token correctly 2`] = `
+<Connect(StripeModal)
+  amount={100}
+  button={<div />}
+  callback={[Function]}
+  saveToken={[Function]}
+  stripeKey="test_stripeKey"
+  user={
+    Object {
+      "email": "test@email.com",
+    }
+  }
+>
+  <StripeModal
+    amount={100}
+    button={<div />}
+    callback={[Function]}
+    checkoutURL=""
+    currency="USD"
+    disabled={false}
+    frequency={null}
+    planID={null}
+    promoID={null}
+    purID={null}
+    saveToken={[Function]}
+    stripeKey="test_stripeKey"
+    title="Muse"
+    trialDays={0}
+    usePromo={[Function]}
+    user={
+      Object {
+        "email": "test@email.com",
+      }
+    }
+  >
+    <ReactStripeCheckout
+      ComponentClass="span"
+      amount={10000}
+      className="StripeCheckout"
+      closed={[Function]}
+      currency="USD"
+      description="Muse"
+      desktopShowModal={false}
+      email="test@email.com"
+      image="https://www.choosemuse.com/wp-content/uploads/2014/10/muse_logo_noTag1.png"
+      label="Pay With Card"
+      locale="auto"
+      name="Muse"
+      opened={undefined}
+      panelLabel="Pay"
+      reconfigureOnUpdate={false}
+      stripeKey="test_stripeKey"
+      token={[Function]}
+      triggerEvent="onClick"
+    >
+      <span
+        onClick={[Function]}
+      >
+        <div
+          disabled={false}
+        />
+      </span>
+    </ReactStripeCheckout>
+  </StripeModal>
+</Connect(StripeModal)>
+`;

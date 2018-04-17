@@ -1,0 +1,13 @@
+@import '../../styles/variables/colors.scss';
+
+.textSmallClientActionButton {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  color: $darkGrey;
+}
+
+.textSmallLightClientActionButton {
+  @extend .textSmallClientActionButton;
+  color: $mediumGrey
+}
